@@ -1,0 +1,212 @@
+[
+    {
+        "nama_negeri": "PERLIS",
+        "keputusan": [
+            {
+                "kod_parlimen": "P001",
+                "jumlah_pengundi": 100,
+                "jumlah_undian": 50,
+                "peratusan_undian": 0.5,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P002",
+                "jumlah_pengundi": 100,
+                "jumlah_undian": 50,
+                "peratusan_undian": 0.5,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P003",
+                "jumlah_pengundi": 100,
+                "jumlah_undian": 50,
+                "peratusan_undian": 0.5,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            }
+        ]
+    },
+    {
+        "nama_negeri": "KEDAH",
+        "keputusan": [
+            {
+                "kod_parlimen": "P004",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P005",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P006",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P007",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P008",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P009",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P010",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P011",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P012",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P013",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P014",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P015",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P016",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P017",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            },
+            {
+                "kod_parlimen": "P018",
+                "jumlah_pengundi": 0,
+                "jumlah_undian": 0,
+                "peratusan_undian": 0.0,
+                "pemenang_parti": "",
+                "pemenang_calon": ""
+            }
+        ]
+    },
+    {
+        "nama_negeri": "PULAU PINANG",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "PERAK",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "KELANTAN",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "SELANGOR",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "PAHANG",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "TERENGGANU",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "KUALA LUMPUR",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "PUTRAJAYA",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "NEGERI SEMBILAN",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "MELAKA",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "JOHOR",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "SABAH",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "SARAWAK",
+        "keputusan": []
+    },
+    {
+        "nama_negeri": "LABUAN",
+        "keputusan": []
+    }
+]

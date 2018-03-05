@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parlimen Malaysia</title>
+
+        <style>
+            path {
+                stroke: white;
+                stroke-width: 1px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="chart"></div>
+
+        <script src="../lib/jquery-3.3.1.min.js"></script>
+        <script src="../lib/d3.min.js"></script>
+        <script src="../lib/d3-hexbin.min.js"></script>
+        <script>
+            // init data
+            var color = [
+                "teal", "black", "red", "green", "blue",
+                "yellow", "cyan", "magenta", "silver", "lime",
+                "maroon", "olive", "purple", "aqua", "gray", 
+                "navy"
+            ];
+            
+            d3.json("json/senarai-parlimen.json", function(data) {
+                var negeriList = [];
+                var senaraiParlimen = [],
+                    parlimenList = [];
+                var coorParlimen = [];
+
+                data.forEach(element => {
+                    negeriList.push(element.nama_negeri);
+                    senaraiParlimen.push(element.senarai_parlimen);
+                });
+
+                senaraiParlimen.forEach(element => {
+                    for(var x=0 ; x<element.length ; x++) {
+                        parlimenList.push(element[x].kod_parlimen);
+                        coorParlimen.push(element[x].koordinat);
+                    }
+                });
+
+                // init svg
+                var setting = {
+                    width: 960,
+                    height: 500,
+                    padding: 100,
+                    radius: 10
+                }
+                var svg = d3.select("#chart").append("svg")
+                    .attr("width", setting.width)
+                    .attr("height", setting.height);
+                var hexbin = d3.hexbin()
+                    .radius(setting.radius);
+                    
+                for(var x=0 ; x<negeriList.length ; x++)
+                    svg.append("g")
+                        .attr("id", negeriList[x]);
+            });
+            
+            var parlimenList = [
+                [ // perlis
+                    "padang-besar",
+                    "kangar",
+                    "arau"
+                ], [ // kedah
+                    "langkawi",
+                    "jerlun",
+                    "kubang-pasu",
+                    "padang-terap",
+                    "pokok-sena",
+                    "alor-setar",
+                    "kuala-kedah",
+                    "pendang",
+                    "jerai",
+                    "sik",
+                    "merbok",
+                    "sungai-petani",
+                    "baling",
+                    "padang-serai",
+                    "kulim"
+                ], [ // pulau pinang
+                    "kepala-batas",
+                    "tasek-gelugor",
+                    "bagan",
+                    "permatang-pauh",
+                    "bukit-mertajam",
+                    "batu-kawan",
+                    "nibong-tebal",
+                    "bukit-bendera",
+                    "tanjong",
+                    "jelutong",
+                    "bukit-gelugor",
+                    "bayan-baru",
+                    "balik-pulau"
+                ], [ // perak
+                    "gerik",
+                    "lenggong",
+                    "larut",
+                    "parit-buntar",
+                    "bagan-serai",
+                    "bukit-gantang",
+                    "taiping",
+                    "padang-rengas",
+                    "sungai-siput",
+                    "tambun",
+                    "ipoh-timur",
+                    "ipoh-barat",
+                    "batu-gajah",
+                    "kuala-kangsar",
+                    "beruas",
+                    "parit",
+                    "kampar",
+                    "gopeng",
+                    "tapah",
+                    "pasir-salak",
+                    "lumut",
+                    "bagan-datuk",
+                    "telok-intan",
+                    "tanjong-malim"
+                ], [ // kelantan,
+                    "tumpat",
+                    "penkalan-chepa",
+                    "kota-bharu",
+                    "pasir-mas",
+                    "rantau-panjang",
+                    "kubang-kerian",
+                    "bachok",
+                    "ketereh",
+                    "tanah-merah",
+                    "pasir-puteh",
+                    "machang",
+                    "jeli",
+                    "kuala-krai",
+                    "gua-musang"
+                ], [ // selangor
+                    "sabak-bernam",
+                    "sungai-besar",
+                    "hulu-selangor",
+                    "tanjong-karang",
+                    "kuala-selangor",
+                    "selayang",
+                    "gombak",
+                    "ampang",
+                    "pandan",
+                    "hulu-langat",
+                    "serdang",
+                    "puchong",
+                    "kelana-jaya",
+                    "petaling-jaya-selatan",
+                    "petaling-jaya-utara",
+                    "subang",
+                    "shah-alam",
+                    "kapar",
+                    "klang",
+                    "kota-raja",
+                    "kuala-langat",
+                    "sepang"
+                ], [ // pahang
+                    "cameron-highlands",
+                    "lipis",
+                    "raub",
+                    "jerantut",
+                    "indera-mahkota",
+                    "kuantan",
+                    "paya-besar",
+                    "pekan",
+                    "maran",
+                    "kuala-krau",
+                    "temerloh",
+                    "bentong",
+                    "bera",
+                    "rompin"
+                ], [ // terengganu
+                    "besut",
+                    "setiu",
+                    "kuala-nerus",
+                    "kuala-terengganu",
+                    "marang",
+                    "hulu-terengganu",
+                    "dungun",
+                    "kemaman"
+                ], [ // kuala lumpur
+                    "kepong",
+                    "batu",
+                    "wangsa-maju",
+                    "segambut",
+                    "setiawangsa",
+                    "titiwangsa",
+                    "bukit-bintang",
+                    "lembah-pantai",
+                    "seputeh",
+                    "cheras",
+                    "bandar-tun-razak"
+                ], [ // putrajaya
+                    "putrajaya"
+                ], [ // negeri sembilan
+                    "jempol",
+                    "seremban",
+                    "kuala-pilah",
+                    "rasah",
+                    "rembau",
+                    "telok-kemang",
+                    "tampin"
+                ], [ // melaka
+                    "masjid-tanah",
+                    "alor-gajah",
+                    "tangga-batu",
+                    "bukit-katil",
+                    "kota-melaka",
+                    "jasin"
+                ], [ // johor
+                    "segamat",
+                    "sekijang",
+                    "labis",
+                    "pagoh",
+                    "ledang",
+                    "muar",
+                    "bakri",
+                    "parit-sulong",
+                    "ayer-hitam",
+                    "sri-gading",
+                    "batu-pahat",
+                    "simpang-renggam",
+                    "kluang",
+                    "sembrong",
+                    "mersing",
+                    "tengara",
+                    "kota-tinggi",
+                    "pengerang",
+                    "tebrau",
+                    "pasir-gudang",
+                    "johor-bahru",
+                    "pulai",
+                    "gelang-patah",
+                    "kulai",
+                    "pontian",
+                    "tanjong-piai"
+                ], [ // sabah
+                    "kudat",
+                    "kota-marudu",
+                    "kota-belud",
+                    "tuaran",
+                    "sepanggar",
+                    "kota-kinabalu",
+                    "putatan",
+                    "penampang",
+                    "papar",
+                    "kimanis",
+                    "beaufort",
+                    "sipitang",
+                    "ranau",
+                    "keningau",
+                    "tenom",
+                    "pensiangan",
+                    "beluran",
+                    "libaran",
+                    "batu-sapi",
+                    "sandakan",
+                    "kinabatangan",
+                    "silam",
+                    "semporna",
+                    "tawau",
+                    "kalabakan"
+                ], [ // sarawak
+                    "mas-gading",
+                    "santubong",
+                    "petrajaya",
+                    "bandar-kuching",
+                    "stampin",
+                    "kota-samarahan",
+                    "mambong",
+                    "serian",
+                    "batang-sadong",
+                    "batang-lupar",
+                    "sri-aman",
+                    "lubok-antu",
+                    "betong",
+                    "saratok",
+                    "tanjong-manis",
+                    "igan",
+                    "sarikei",
+                    "julau",
+                    "kanowit",
+                    "lanang",
+                    "sibu",
+                    "mukah",
+                    "selangau",
+                    "kapit",
+                    "hulu-rajang",
+                    "bintulu",
+                    "sibuti",
+                    "miri",
+                    "baram",
+                    "limbang",
+                    "lawas"
+                ], [ // labuan
+                    "labuan"
+                ]    
+            ];
+            var coorParlimen = [
+                [ // perlis
+                    [50, 20], // padang besar
+                    [50, 30], // kangar
+                    [40, 30], // arau
+                ], [ // kedah 
+                    [10, 50], // langkawi
+                    [40, 60], // jerlun
+                    [50, 50], // kubang pasu
+                    [60, 50], // padang terap
+                    [50, 60], // pokok sena
+                    [60, 70], // alor setar
+                    [50, 70], // kuala kedah
+                    [30, 70], // pendang
+                    [60, 90], // jerai
+                    [70, 60], // sik
+                    [80, 90], // merbok
+                    [70, 90], // sungai petani
+                    [80, 80], // baling
+                    [80, 100], // padang serai
+                    [60, 100], // kulim
+                ], [ // pulau pinang
+                    [40, 90], // kepala batas
+                    [50, 100], // tasek gelugor
+                    [20, 90], // bagan
+                    [30, 100], // permatang pauh
+                    [10, 100], // bukit mertajam
+                    [20, 120], // batu kawan
+                    [30, 120], // nibong tebal
+                    // pulau
+                    [-30, 90], // bukit bendera
+                    [-30, 110], // tanjong
+                    [-40, 110], // jelutong
+                    [-30, 120], // bukit gelugor
+                    [-50, 90], // bayan baru
+                    [-50, 120], // balik pulau
+                ], [ // perak
+                    [100, 90], // gerik
+                    [90, 110], // lenggong
+                    [90, 130], // larut
+                    [80, 150], // parit buntar
+                    [90, 160], // bagan serai
+                    [60, 140], // bukit gantang
+                    [110, 160], // taiping
+                    [100, 150], // padang rengas
+                    [80, 140], // sungai siput
+                    [50, 140], // tambun
+                    [100, 120], // ipoh timur
+                    [70, 120], // ipoh barat
+                    [120, 110], // batu gajah
+                    [100, 180], // kuala kangsar
+                    [120, 180], // beruas
+                    [70, 150], // parit
+                    [70, 160], // kampar
+                    [60, 160], // gopeng
+                    [80, 120], // tapah
+                    [60, 150], // pasir salak
+                    [30, 160], // lumut
+                    [40, 150], // bagan datuk
+                    [60, 120], // telok intan
+                    [40, 160], // tanjong malim
+                ], [ // kelantan
+                    [130, 110], // tumpat
+                    [140, 90], // penkalan chepa
+                    [140, 110], // kota bharu
+                    [140, 80], // pasir mas
+                    [130, 120], // rantau panjang
+                    [150, 120], // kubang kerian
+                    [120, 120], // bachok
+                    [130, 80], // ketereh
+                    [160, 110], // tanah merah
+                    [160, 90], // pasir puteh
+                    [120, 90], // machang
+                    [130, 130], // jeli
+                    [120, 150], // kuala krai
+                    [110, 130], // gua musang
+                ], [ // selangor
+                    [40, 180], // sabak bernam
+                    [50, 180], // sungai besar
+                    [70, 180], // hulu selangor
+                    [30, 190], // tanjong karang
+                    [40, 190], // kuala selangor
+                    [40, 210], // selayang
+                    [30, 220], // gombak
+                    [40, 220], // ampang
+                    [30, 240], // pandan
+                    [80, 180], // hulu langat
+                    [60, 260], // serdang
+                    [90, 260], // puchong
+                    [20, 210], // kelana jaya
+                    [30, 260], // petaling jaya selatan
+                    [40, 260], // petaling jaya utara
+                    [90, 190], // subang
+                    [110, 190], // shah alam
+                    [110, 220], // kapar
+                    [100, 210], // klang
+                    [40, 270], // kota raja
+                    [100, 240], // kuala langat
+                    [70, 260], // sepang
+                ], [ // pahang
+                    [130, 170], // cameron highlands
+                    [140, 180], // lipis
+                    [160, 190], // raub
+                    [130, 190], // jerantut
+                    [130, 210], // indera mahkota
+                    [120, 210], // kuantan
+                    [130, 220], // paya besar
+                    [140, 190], // pekan
+                    [130, 250], // maran
+                    [150, 210], // kuala krau
+                    [130, 240], // temerloh
+                    [120, 240], // bentong
+                    [140, 250], // bera
+                    [140, 220], // rompin
+                ], [ // terengganu
+                    [130, 150], // besut
+                    [140, 130], // setiu
+                    [160, 130], // kuala nerus
+                    [150, 150], // kuala terengganu
+                    [170, 150], // marang
+                    [140, 160], // hulu terengganu
+                    [160, 160], // dungun
+                    [160, 180], // kemaman
+                ], [ // kuala lumpur
+                    [60, 190], // kepong
+                    [70, 190], // batu
+                    [50, 210], // wangsa maju
+                    [70, 210], // segambut
+                    [80, 210], // setiawangsa
+                    [60, 230], // titiwangsa
+                    [70, 230], // bukit bintang
+                    [90, 230], // lembah pantai
+                    [50, 240], // seputeh
+                    [70, 240], // cheras
+                    [90, 240], // bandar tun razak
+                ], [ // putrajaya
+                    [50, 270], // putrajaya
+                ], [ // negeri sembilan
+                    [70, 270], // jempol
+                    [80, 270], // seremban
+                    [100, 280], // kuala pilah
+                    [80, 280], // rasah
+                    [60, 280], // rembau
+                    [70, 300], // telok kemang
+                    [90, 300], // tampin
+                ], [ // melaka
+                    [80, 320], // masjid tanah
+                    [100, 320], // alor gajah
+                    [90, 330], // tangga batu
+                    [100, 330], // bukit katil
+                    [110, 340], // kota melaka
+                    [100, 340], // jasin
+                ], [ // johor
+                    [110, 260], // segamat
+                    [100, 270], // sekijang
+                    [120, 270], // labis
+                    [140, 270], // pagoh
+                    [90, 280], // ledang
+                    [110, 280], // bakri
+                    [130, 280], // muar
+                    [100, 300], // parit sulong
+                    [120, 300], // ayer hitam
+                    [140, 300], // sri gading
+                    [160, 330], // batu pahat
+                    [110, 310], // simpang renggam
+                    [130, 310], // kluang
+                    [150, 310], // sembrong
+                    [120, 330], // mersing
+                    [130, 330], // tengara
+                    [130, 340], // kota tinggi
+                    [150, 340], // pengerang
+                    [160, 340], // tebrau
+                    [170, 340], // pasir gudang
+                    [120, 360], // johor bahru
+                    [140, 360], // pulai
+                    [160, 360], // gelang patah
+                    [180, 360], // kulai
+                    [150, 370], // pontian
+                    [190, 370], // tanjong piai
+                ], [ // sabah
+                    [420, 280], // kudat
+                    [440, 280], // kota marudu
+                    [460, 280], // kota belud
+                    [470, 280], // tuaran
+                    [490, 280], // sepanggar
+                    [510, 280], // kota kinabalu
+                    [430, 270], // putatan
+                    [450, 270], // penampang
+                    [460, 270], // papar
+                    [480, 270], // kimanis
+                    [500, 270], // beaufort
+                    [400, 260], // sipitang
+                    [420, 260], // ranau
+                    [440, 260], // keningau
+                    [460, 260], // tenom
+                    [470, 260], // pensiangan
+                    [490, 260], // beluran
+                    [510, 260], // libaran
+                    [520, 260], // batu sapi
+                    [430, 240], // sandakan
+                    [450, 240], // kinabatangan
+                    [460, 240], // silam
+                    [480, 240], // semporna
+                    [440, 220], // tawau
+                    [470, 220], // kalabakan
+                ], [ // sarawak
+                    [260, 280], // mas gading
+                    [320, 280], // santubong
+                    [330, 280], // petrajaya
+                    [350, 280], // bandar kuching
+                    [370, 280], // stampin
+                    [390, 280], // kota samarahan
+                    [400, 280], // mambong
+                    [280, 300], // serian
+                    [290, 300], // batang sadong
+                    [310, 300], // batang lupar
+                    [330, 300], // sri aman
+                    [340, 300], // lubok antu
+                    [360, 300], // betong
+                    [380, 300], // saratok
+                    [390, 300], // tanjong manis
+                    [280, 310], // igan
+                    [300, 310], // sarikei
+                    [320, 310], // julau
+                    [330, 310], // kanowit
+                    [350, 310], // lanang
+                    [370, 310], // sibu
+                    [310, 330], // mukah
+                    [330, 330], // selangau
+                    [410, 270], // kapit
+                    [330, 270], // hulu rajang
+                    [340, 270], // bintulu
+                    [360, 270], // sibuti
+                    [390, 270], // miri
+                    [380, 270], // baram
+                    [390, 260], // limbang
+                    [340, 260], // lawas
+                ], [ // labuan
+                    [400, 220], // labuan
+                ]
+            ];
+        </script>
+    </body>
+</html>
