@@ -1,7 +1,7 @@
 [
     {
         "nama_negeri": "PERLIS",
-        "senarai_parlimen": [
+        "parlimen": [
             {
                 "kod_parlimen": "P001",
                 "nama_parlimen": "PADANG BESAR",
@@ -30,7 +30,7 @@
     },
     {
         "nama_negeri": "KEDAH",
-        "senarai_parlimen": [
+        "parlimen": [
             {
                 "kod_parlimen": "P004",
                 "nama_parlimen": "LANGKAWI",
@@ -155,7 +155,7 @@
     },
     {
         "nama_negeri": "PULAU PINANG",
-        "senarai_parlimen": [
+        "parlimen": [
             {
                 "kod_parlimen": "P041",
                 "nama_parlimen": "KEPALA BATAS",
@@ -264,194 +264,194 @@
     },
     {
         "nama_negeri": "PERAK",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "gerik",
+                "kod_parlimen": "P054",
+                "nama_parlimen": "GERIK",
                 "koordinat": {
                     "x": 100,
                     "y": 90
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "lenggong",
+                "kod_parlimen": "P055",
+                "nama_parlimen": "LENGGONG",
                 "koordinat": {
                     "x": 90,
                     "y": 110
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "larut",
+                "kod_parlimen": "P056",
+                "nama_parlimen": "LARUT",
                 "koordinat": {
                     "x": 90,
                     "y": 130
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "parit buntar",
+                "kod_parlimen": "P057",
+                "nama_parlimen": "PARIT BUNTAR",
                 "koordinat": {
                     "x": 80,
                     "y": 150
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "bagan serai",
+                "kod_parlimen": "P058",
+                "nama_parlimen": "BAGAN SERAI",
                 "koordinat": {
                     "x": 90,
                     "y": 160
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "bukit gantang",
+                "kod_parlimen": "P059",
+                "nama_parlimen": "BUKIT GANTANG",
                 "koordinat": {
                     "x": 60,
                     "y": 140
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "taiping",
+                "kod_parlimen": "P060",
+                "nama_parlimen": "TAIPING",
                 "koordinat": {
                     "x": 110,
                     "y": 160
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "padang rengas",
+                "kod_parlimen": "P061",
+                "nama_parlimen": "PADANG RENGAS",
                 "koordinat": {
                     "x": 100,
                     "y": 150
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "sungai siput",
+                "kod_parlimen": "P062",
+                "nama_parlimen": "SUNGAI SIPUT",
                 "koordinat": {
                     "x": 80,
                     "y": 140
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "tambun",
+                "kod_parlimen": "P063",
+                "nama_parlimen": "TAMBUN",
                 "koordinat": {
                     "x": 50,
                     "y": 140
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "ipoh timur",
+                "kod_parlimen": "P064",
+                "nama_parlimen": "IPOH TIMUR",
                 "koordinat": {
                     "x": 100,
                     "y": 120
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "ipoh barat",
+                "kod_parlimen": "P065",
+                "nama_parlimen": "IPOH BARAT",
                 "koordinat": {
                     "x": 70,
                     "y": 120
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "batu gajah",
+                "kod_parlimen": "P066",
+                "nama_parlimen": "BATU GAJAH",
                 "koordinat": {
                     "x": 120,
                     "y": 110
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "kuala kangsar",
+                "kod_parlimen": "P067",
+                "nama_parlimen": "KUALA KANGSAR",
                 "koordinat": {
                     "x": 100,
                     "y": 180
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "beruas",
+                "kod_parlimen": "P068",
+                "nama_parlimen": "BERUAS",
                 "koordinat": {
                     "x": 120,
                     "y": 180
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "parit",
+                "kod_parlimen": "P069",
+                "nama_parlimen": "PARIT",
                 "koordinat": {
                     "x": 70,
                     "y": 150
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "kampar",
+                "kod_parlimen": "P070",
+                "nama_parlimen": "KAMPAR",
                 "koordinat": {
                     "x": 70,
                     "y": 160
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "gopeng",
+                "kod_parlimen": "P071",
+                "nama_parlimen": "GOPENG",
                 "koordinat": {
                     "x": 60,
                     "y": 160
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "tapah",
+                "kod_parlimen": "P072",
+                "nama_parlimen": "TAPAH",
                 "koordinat": {
                     "x": 80,
                     "y": 120
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "pasir salak",
+                "kod_parlimen": "P073",
+                "nama_parlimen": "PASIR SALAK",
                 "koordinat": {
                     "x": 60,
                     "y": 150
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "lumut",
+                "kod_parlimen": "P074",
+                "nama_parlimen": "LUMUT",
                 "koordinat": {
                     "x": 30,
                     "y": 160
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "bagan datuk",
+                "kod_parlimen": "P075",
+                "nama_parlimen": "BAGAN DATUK",
                 "koordinat": {
                     "x": 40,
                     "y": 150
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "telok intan",
+                "kod_parlimen": "P076",
+                "nama_parlimen": "TELOK INTAN",
                 "koordinat": {
                     "x": 60,
                     "y": 120
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "tanjong malim",
+                "kod_parlimen": "P077",
+                "nama_parlimen": "TANJONG MALIM",
                 "koordinat": {
                     "x": 40,
                     "y": 160
@@ -461,9 +461,9 @@
     },
     {
         "nama_negeri": "KELANTAN",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P019",
                 "nama_parlimen": "TUMPAT",
                 "koordinat": {
                     "x": 130,
@@ -471,7 +471,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P020",
                 "nama_parlimen": "PENKALAN CHEPA",
                 "koordinat": {
                     "x": 140,
@@ -479,7 +479,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P021",
                 "nama_parlimen": "KOTA BHARU",
                 "koordinat": {
                     "x": 140,
@@ -487,7 +487,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P022",
                 "nama_parlimen": "PASIR MAS",
                 "koordinat": {
                     "x": 140,
@@ -495,7 +495,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P023",
                 "nama_parlimen": "RANTAU PANJANG",
                 "koordinat": {
                     "x": 130,
@@ -503,7 +503,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P024",
                 "nama_parlimen": "KUBANG KERIAN",
                 "koordinat": {
                     "x": 150,
@@ -511,7 +511,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P025",
                 "nama_parlimen": "BACHOK",
                 "koordinat": {
                     "x": 120,
@@ -519,7 +519,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P026",
                 "nama_parlimen": "KETEREH",
                 "koordinat": {
                     "x": 130,
@@ -527,7 +527,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P027",
                 "nama_parlimen": "TANAH MERAH",
                 "koordinat": {
                     "x": 160,
@@ -535,7 +535,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P028",
                 "nama_parlimen": "PASIR PUTEH",
                 "koordinat": {
                     "x": 160,
@@ -543,7 +543,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P029",
                 "nama_parlimen": "MACHANG",
                 "koordinat": {
                     "x": 120,
@@ -551,7 +551,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P030",
                 "nama_parlimen": "JELI",
                 "koordinat": {
                     "x": 130,
@@ -559,7 +559,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P031",
                 "nama_parlimen": "KUALA KRAI",
                 "koordinat": {
                     "x": 120,
@@ -567,7 +567,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P032",
                 "nama_parlimen": "GUA MUSANG",
                 "koordinat": {
                     "x": 110,
@@ -578,9 +578,9 @@
     },
     {
         "nama_negeri": "SELANGOR",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P092",
                 "nama_parlimen": "SABAK BERNAM",
                 "koordinat": {
                     "x": 40,
@@ -588,7 +588,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P093",
                 "nama_parlimen": "SUNGAI BESAR",
                 "koordinat": {
                     "x": 50,
@@ -596,7 +596,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P094",
                 "nama_parlimen": "HULU SELANGOR",
                 "koordinat": {
                     "x": 70,
@@ -604,7 +604,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P095",
                 "nama_parlimen": "TANJONG KARANG",
                 "koordinat": {
                     "x": 30,
@@ -612,7 +612,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P096",
                 "nama_parlimen": "KUALA SELANGOR",
                 "koordinat": {
                     "x": 40,
@@ -620,7 +620,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P097",
                 "nama_parlimen": "SELAYANG",
                 "koordinat": {
                     "x": 40,
@@ -628,7 +628,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P098",
                 "nama_parlimen": "GOMBAK",
                 "koordinat": {
                     "x": 30,
@@ -636,7 +636,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P099",
                 "nama_parlimen": "AMPANG",
                 "koordinat": {
                     "x": 40,
@@ -644,7 +644,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P100",
                 "nama_parlimen": "PANDAN",
                 "koordinat": {
                     "x": 30,
@@ -652,7 +652,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P101",
                 "nama_parlimen": "HULU LANGAT",
                 "koordinat": {
                     "x": 80,
@@ -660,7 +660,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P102",
                 "nama_parlimen": "SERDANG",
                 "koordinat": {
                     "x": 60,
@@ -668,7 +668,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P103",
                 "nama_parlimen": "PUCHONG",
                 "koordinat": {
                     "x": 90,
@@ -676,7 +676,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P104",
                 "nama_parlimen": "KELANA JAYA",
                 "koordinat": {
                     "x": 20,
@@ -684,7 +684,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P105",
                 "nama_parlimen": "PETALING JAYA SELATAN",
                 "koordinat": {
                     "x": 30,
@@ -692,7 +692,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P106",
                 "nama_parlimen": "PETALING JAYA UTARA",
                 "koordinat": {
                     "x": 40,
@@ -700,7 +700,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P107",
                 "nama_parlimen": "SUBANG",
                 "koordinat": {
                     "x": 90,
@@ -708,7 +708,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P108",
                 "nama_parlimen": "SHAH ALAM",
                 "koordinat": {
                     "x": 110,
@@ -716,7 +716,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P109",
                 "nama_parlimen": "KAPAR",
                 "koordinat": {
                     "x": 110,
@@ -724,7 +724,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P110",
                 "nama_parlimen": "KLANG",
                 "koordinat": {
                     "x": 100,
@@ -732,7 +732,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P111",
                 "nama_parlimen": "KOTA RAJA",
                 "koordinat": {
                     "x": 40,
@@ -740,7 +740,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P112",
                 "nama_parlimen": "KUALA LANGAT",
                 "koordinat": {
                     "x": 100,
@@ -748,7 +748,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P113",
                 "nama_parlimen": "SEPANG",
                 "koordinat": {
                     "x": 70,
@@ -759,9 +759,9 @@
     },
     {
         "nama_negeri": "PAHANG",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P078",
                 "nama_parlimen": "CAMERON HIGHLANDS",
                 "koordinat": {
                     "x": 130,
@@ -769,7 +769,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P079",
                 "nama_parlimen": "LIPIS",
                 "koordinat": {
                     "x": 140,
@@ -777,7 +777,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P080",
                 "nama_parlimen": "RAUB",
                 "koordinat": {
                     "x": 160,
@@ -785,7 +785,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P081",
                 "nama_parlimen": "JERANTUT",
                 "koordinat": {
                     "x": 130,
@@ -793,7 +793,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P082",
                 "nama_parlimen": "INDERA MAHKOTA",
                 "koordinat": {
                     "x": 130,
@@ -801,7 +801,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P083",
                 "nama_parlimen": "KUANTAN",
                 "koordinat": {
                     "x": 120,
@@ -809,7 +809,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P084",
                 "nama_parlimen": "PAYA BESAR",
                 "koordinat": {
                     "x": 130,
@@ -817,7 +817,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P085",
                 "nama_parlimen": "PEKAN",
                 "koordinat": {
                     "x": 140,
@@ -825,7 +825,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P086",
                 "nama_parlimen": "MARAN",
                 "koordinat": {
                     "x": 130,
@@ -833,7 +833,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P087",
                 "nama_parlimen": "KUALA KRAU",
                 "koordinat": {
                     "x": 150,
@@ -841,7 +841,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P088",
                 "nama_parlimen": "TEMERLOH",
                 "koordinat": {
                     "x": 130,
@@ -849,7 +849,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P089",
                 "nama_parlimen": "BENTONG",
                 "koordinat": {
                     "x": 120,
@@ -857,7 +857,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P090",
                 "nama_parlimen": "BERA",
                 "koordinat": {
                     "x": 140,
@@ -865,7 +865,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P091",
                 "nama_parlimen": "ROMPIN",
                 "koordinat": {
                     "x": 140,
@@ -876,9 +876,9 @@
     },
     {
         "nama_negeri": "TERENGGANU",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P033",
                 "nama_parlimen": "BESUT",
                 "koordinat": {
                     "x": 130,
@@ -886,7 +886,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P034",
                 "nama_parlimen": "SETIU",
                 "koordinat": {
                     "x": 140,
@@ -894,7 +894,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P035",
                 "nama_parlimen": "KUALA NERUS",
                 "koordinat": {
                     "x": 160,
@@ -902,7 +902,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P036",
                 "nama_parlimen": "KUALA TERENGGANU",
                 "koordinat": {
                     "x": 150,
@@ -910,7 +910,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P037",
                 "nama_parlimen": "MARANG",
                 "koordinat": {
                     "x": 170,
@@ -918,7 +918,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P038",
                 "nama_parlimen": "HULU TERENGGANU",
                 "koordinat": {
                     "x": 140,
@@ -926,7 +926,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P039",
                 "nama_parlimen": "DUNGUN",
                 "koordinat": {
                     "x": 160,
@@ -934,7 +934,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P040",
                 "nama_parlimen": "KEMAMAN",
                 "koordinat": {
                     "x": 160,
@@ -945,9 +945,9 @@
     },
     {
         "nama_negeri": "KUALA LUMPUR",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P114",
                 "nama_parlimen": "KEPONG",
                 "koordinat": {
                     "x": 60,
@@ -955,7 +955,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P115",
                 "nama_parlimen": "BATU",
                 "koordinat": {
                     "x": 70,
@@ -963,7 +963,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P116",
                 "nama_parlimen": "WANGSA MAJU",
                 "koordinat": {
                     "x": 50,
@@ -971,7 +971,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P117",
                 "nama_parlimen": "SEGAMBUT",
                 "koordinat": {
                     "x": 70,
@@ -979,7 +979,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P118",
                 "nama_parlimen": "SETIAWANGSA",
                 "koordinat": {
                     "x": 80,
@@ -987,7 +987,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P119",
                 "nama_parlimen": "TITIWANGSA",
                 "koordinat": {
                     "x": 60,
@@ -995,7 +995,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P120",
                 "nama_parlimen": "BUKIT BINTANG",
                 "koordinat": {
                     "x": 70,
@@ -1003,7 +1003,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P121",
                 "nama_parlimen": "LEMBAH PANTAI",
                 "koordinat": {
                     "x": 90,
@@ -1011,7 +1011,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P122",
                 "nama_parlimen": "SEPUTEH",
                 "koordinat": {
                     "x": 50,
@@ -1019,7 +1019,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P123",
                 "nama_parlimen": "CHERAS",
                 "koordinat": {
                     "x": 70,
@@ -1027,7 +1027,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P124",
                 "nama_parlimen": "BANDAR TUN RAZAK",
                 "koordinat": {
                     "x": 90,
@@ -1038,7 +1038,7 @@
     },
     {
         "nama_negeri": "PUTRAJAYA",
-        "senarai_parlimen": [
+        "parlimen": [
             {
                 "kod_parlimen": "P125",
                 "nama_parlimen": "PUTRAJAYA",
@@ -1051,9 +1051,9 @@
     },
     {
         "nama_negeri": "NEGERI SEMBILAN",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P127",
                 "nama_parlimen": "JEMPOL",
                 "koordinat": {
                     "x": 70,
@@ -1061,7 +1061,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P128",
                 "nama_parlimen": "SEREMBAN",
                 "koordinat": {
                     "x": 80,
@@ -1069,7 +1069,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P129",
                 "nama_parlimen": "KUALA PILAH",
                 "koordinat": {
                     "x": 100,
@@ -1077,7 +1077,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P130",
                 "nama_parlimen": "RASAH",
                 "koordinat": {
                     "x": 80,
@@ -1085,7 +1085,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P131",
                 "nama_parlimen": "REMBAU",
                 "koordinat": {
                     "x": 60,
@@ -1093,7 +1093,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P132",
                 "nama_parlimen": "TELOK KEMANG",
                 "koordinat": {
                     "x": 70,
@@ -1101,7 +1101,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P133",
                 "nama_parlimen": "TAMPIN",
                 "koordinat": {
                     "x": 90,
@@ -1112,9 +1112,9 @@
     },
     {
         "nama_negeri": "MELAKA",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P134",
                 "nama_parlimen": "MASJID TANAH",
                 "koordinat": {
                     "x": 80,
@@ -1122,7 +1122,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P135",
                 "nama_parlimen": "ALOR GAJAH",
                 "koordinat": {
                     "x": 100,
@@ -1130,7 +1130,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P136",
                 "nama_parlimen": "TANGGA BATU",
                 "koordinat": {
                     "x": 90,
@@ -1138,7 +1138,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P137",
                 "nama_parlimen": "BUKIT KATIL",
                 "koordinat": {
                     "x": 100,
@@ -1146,7 +1146,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P138",
                 "nama_parlimen": "KOTA MELAKA",
                 "koordinat": {
                     "x": 110,
@@ -1154,7 +1154,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P139",
                 "nama_parlimen": "JASIN",
                 "koordinat": {
                     "x": 100,
@@ -1165,9 +1165,9 @@
     },
     {
         "nama_negeri": "JOHOR",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P140",
                 "nama_parlimen": "SEGAMAT",
                 "koordinat": {
                     "x": 110,
@@ -1175,7 +1175,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P141",
                 "nama_parlimen": "SEKIJANG",
                 "koordinat": {
                     "x": 100,
@@ -1183,7 +1183,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P142",
                 "nama_parlimen": "LABIS",
                 "koordinat": {
                     "x": 120,
@@ -1191,7 +1191,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P143",
                 "nama_parlimen": "PAGOH",
                 "koordinat": {
                     "x": 140,
@@ -1199,7 +1199,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P144",
                 "nama_parlimen": "LEDANG",
                 "koordinat": {
                     "x": 90,
@@ -1207,7 +1207,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P145",
                 "nama_parlimen": "BAKRI",
                 "koordinat": {
                     "x": 110,
@@ -1215,7 +1215,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P146",
                 "nama_parlimen": "MUAR",
                 "koordinat": {
                     "x": 130,
@@ -1223,7 +1223,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P147",
                 "nama_parlimen": "PARIT SULONG",
                 "koordinat": {
                     "x": 100,
@@ -1231,7 +1231,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P148",
                 "nama_parlimen": "AYER HITAM",
                 "koordinat": {
                     "x": 120,
@@ -1239,7 +1239,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P149",
                 "nama_parlimen": "SRI GADING",
                 "koordinat": {
                     "x": 140,
@@ -1247,7 +1247,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P150",
                 "nama_parlimen": "BATU PAHAT",
                 "koordinat": {
                     "x": 160,
@@ -1255,7 +1255,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P151",
                 "nama_parlimen": "SIMPANG RENGGAM",
                 "koordinat": {
                     "x": 110,
@@ -1263,7 +1263,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P152",
                 "nama_parlimen": "KLUANG",
                 "koordinat": {
                     "x": 130,
@@ -1271,7 +1271,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P153",
                 "nama_parlimen": "SEMBRONG",
                 "koordinat": {
                     "x": 150,
@@ -1279,7 +1279,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P154",
                 "nama_parlimen": "MERSING",
                 "koordinat": {
                     "x": 120,
@@ -1287,7 +1287,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P155",
                 "nama_parlimen": "TENGARA",
                 "koordinat": {
                     "x": 130,
@@ -1295,7 +1295,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P156",
                 "nama_parlimen": "KOTA TINGGI",
                 "koordinat": {
                     "x": 130,
@@ -1303,7 +1303,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P157",
                 "nama_parlimen": "PENGERANG",
                 "koordinat": {
                     "x": 150,
@@ -1311,7 +1311,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P158",
                 "nama_parlimen": "TEBRAU",
                 "koordinat": {
                     "x": 160,
@@ -1319,7 +1319,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P159",
                 "nama_parlimen": "PASIR GUDANG",
                 "koordinat": {
                     "x": 170,
@@ -1327,7 +1327,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P160",
                 "nama_parlimen": "JOHOR BAHRU",
                 "koordinat": {
                     "x": 120,
@@ -1335,7 +1335,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P161",
                 "nama_parlimen": "PULAI",
                 "koordinat": {
                     "x": 140,
@@ -1343,7 +1343,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P162",
                 "nama_parlimen": "GELANG PATAH",
                 "koordinat": {
                     "x": 160,
@@ -1351,7 +1351,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P163",
                 "nama_parlimen": "KULAI",
                 "koordinat": {
                     "x": 180,
@@ -1359,7 +1359,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P164",
                 "nama_parlimen": "PONTIAN",
                 "koordinat": {
                     "x": 150,
@@ -1367,7 +1367,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P165",
                 "nama_parlimen": "TANJONG PIAI",
                 "koordinat": {
                     "x": 190,
@@ -1378,9 +1378,9 @@
     },
     {
         "nama_negeri": "SABAH",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P167",
                 "nama_parlimen": "KUDAT",
                 "koordinat": {
                     "x": 420,
@@ -1388,7 +1388,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P168",
                 "nama_parlimen": "KOTA MARUDU",
                 "koordinat": {
                     "x": 440,
@@ -1396,7 +1396,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P169",
                 "nama_parlimen": "KOTA BELUD",
                 "koordinat": {
                     "x": 460,
@@ -1404,7 +1404,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P170",
                 "nama_parlimen": "TUARAN",
                 "koordinat": {
                     "x": 470,
@@ -1412,7 +1412,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P171",
                 "nama_parlimen": "SEPANGGAR",
                 "koordinat": {
                     "x": 490,
@@ -1420,7 +1420,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P172",
                 "nama_parlimen": "KOTA KINABALU",
                 "koordinat": {
                     "x": 510,
@@ -1428,7 +1428,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P173",
                 "nama_parlimen": "PUTATAN",
                 "koordinat": {
                     "x": 430,
@@ -1436,7 +1436,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P174",
                 "nama_parlimen": "PENAMPANG",
                 "koordinat": {
                     "x": 450,
@@ -1444,7 +1444,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P175",
                 "nama_parlimen": "PAPAR",
                 "koordinat": {
                     "x": 460,
@@ -1452,7 +1452,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P176",
                 "nama_parlimen": "KIMANIS",
                 "koordinat": {
                     "x": 480,
@@ -1460,7 +1460,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P177",
                 "nama_parlimen": "BEAUFORT",
                 "koordinat": {
                     "x": 500,
@@ -1468,7 +1468,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P178",
                 "nama_parlimen": "SIPITANG",
                 "koordinat": {
                     "x": 400,
@@ -1476,7 +1476,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P179",
                 "nama_parlimen": "RANAU",
                 "koordinat": {
                     "x": 420,
@@ -1484,7 +1484,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P180",
                 "nama_parlimen": "KENINGAU",
                 "koordinat": {
                     "x": 440,
@@ -1492,7 +1492,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P181",
                 "nama_parlimen": "TENOM",
                 "koordinat": {
                     "x": 460,
@@ -1500,7 +1500,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P182",
                 "nama_parlimen": "PENSIANGAN",
                 "koordinat": {
                     "x": 470,
@@ -1508,7 +1508,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P183",
                 "nama_parlimen": "BELURAN",
                 "koordinat": {
                     "x": 490,
@@ -1516,7 +1516,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P184",
                 "nama_parlimen": "LIBARAN",
                 "koordinat": {
                     "x": 510,
@@ -1524,7 +1524,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P185",
                 "nama_parlimen": "BATU SAPI",
                 "koordinat": {
                     "x": 520,
@@ -1532,7 +1532,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P186",
                 "nama_parlimen": "SANDAKAN",
                 "koordinat": {
                     "x": 430,
@@ -1540,7 +1540,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P187",
                 "nama_parlimen": "KINABATANGAN",
                 "koordinat": {
                     "x": 450,
@@ -1548,7 +1548,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P188",
                 "nama_parlimen": "SILAM",
                 "koordinat": {
                     "x": 460,
@@ -1556,7 +1556,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P189",
                 "nama_parlimen": "SEMPORNA",
                 "koordinat": {
                     "x": 480,
@@ -1564,7 +1564,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P190",
                 "nama_parlimen": "TAWAU",
                 "koordinat": {
                     "x": 440,
@@ -1572,7 +1572,7 @@
                 }
             },
             {
-                "kod_parlimen": "",
+                "kod_parlimen": "P191",
                 "nama_parlimen": "KALABAKAN",
                 "koordinat": {
                     "x": 470,
@@ -1583,250 +1583,250 @@
     },
     {
         "nama_negeri": "SARAWAK",
-        "senarai_parlimen": [
+        "parlimen": [
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "mas gading",
+                "kod_parlimen": "P192",
+                "nama_parlimen": "MAS GADING",
                 "koordinat": {
                     "x": 260,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "santubong",
+                "kod_parlimen": "P193",
+                "nama_parlimen": "SANTUBONG",
                 "koordinat": {
                     "x": 320,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "petrajaya",
+                "kod_parlimen": "P194",
+                "nama_parlimen": "PETRAJAYA",
                 "koordinat": {
                     "x": 330,
                     "y": 288
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "bandar kuching",
+                "kod_parlimen": "P195",
+                "nama_parlimen": "BANDAR KUCHING",
                 "koordinat": {
                     "x": 350,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "stampin",
+                "kod_parlimen": "P196",
+                "nama_parlimen": "STAMPIN",
                 "koordinat": {
                     "x": 370,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "kota samarahan",
+                "kod_parlimen": "P197",
+                "nama_parlimen": "KOTA SAMARAHAN",
                 "koordinat": {
                     "x": 390,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "mambong",
+                "kod_parlimen": "P198",
+                "nama_parlimen": "MAMBONG",
                 "koordinat": {
                     "x": 400,
                     "y": 280
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "serian",
+                "kod_parlimen": "P199",
+                "nama_parlimen": "SERIAN",
                 "koordinat": {
                     "x": 280,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "batang sadong",
+                "kod_parlimen": "P200",
+                "nama_parlimen": "BATANG SADONG",
                 "koordinat": {
                     "x": 290,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "batang lupar",
+                "kod_parlimen": "P201",
+                "nama_parlimen": "BATANG LUPAR",
                 "koordinat": {
                     "x": 310,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "sri aman",
+                "kod_parlimen": "P202",
+                "nama_parlimen": "SRI AMAN",
                 "koordinat": {
                     "x": 330,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "lubok antu",
+                "kod_parlimen": "P203",
+                "nama_parlimen": "LUBOK ANTU",
                 "koordinat": {
                     "x": 340,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "betong",
+                "kod_parlimen": "P204",
+                "nama_parlimen": "BETONG",
                 "koordinat": {
                     "x": 360,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "saratok",
+                "kod_parlimen": "P205",
+                "nama_parlimen": "SARATOK",
                 "koordinat": {
                     "x": 380,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "tanjong manis",
+                "kod_parlimen": "P206",
+                "nama_parlimen": "TANJONG MANIS",
                 "koordinat": {
                     "x": 390,
                     "y": 300
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "igan",
+                "kod_parlimen": "P207",
+                "nama_parlimen": "IGAN",
                 "koordinat": {
                     "x": 280,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "sarikei",
+                "kod_parlimen": "P208",
+                "nama_parlimen": "SARIKEI",
                 "koordinat": {
                     "x": 300,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "julau",
+                "kod_parlimen": "P209",
+                "nama_parlimen": "JULAU",
                 "koordinat": {
                     "x": 320,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "kanowit",
+                "kod_parlimen": "P210",
+                "nama_parlimen": "KANOWIT",
                 "koordinat": {
                     "x": 330,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "lanang",
+                "kod_parlimen": "P211",
+                "nama_parlimen": "LANANG",
                 "koordinat": {
                     "x": 350,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "sibu",
+                "kod_parlimen": "P212",
+                "nama_parlimen": "SIBU",
                 "koordinat": {
                     "x": 370,
                     "y": 310
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "mukah",
+                "kod_parlimen": "P213",
+                "nama_parlimen": "MUKAH",
                 "koordinat": {
                     "x": 310,
                     "y": 330
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "selangau",
+                "kod_parlimen": "P214",
+                "nama_parlimen": "SELANGAU",
                 "koordinat": {
                     "x": 330,
                     "y": 330
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "kapit",
+                "kod_parlimen": "P215",
+                "nama_parlimen": "KAPIT",
                 "koordinat": {
                     "x": 410,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "hulu rajang",
+                "kod_parlimen": "P216",
+                "nama_parlimen": "HULU RAJANG",
                 "koordinat": {
                     "x": 330,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "bintulu",
+                "kod_parlimen": "P217",
+                "nama_parlimen": "BINTULU",
                 "koordinat": {
                     "x": 340,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "sibuti",
+                "kod_parlimen": "P218",
+                "nama_parlimen": "SIBUTI",
                 "koordinat": {
                     "x": 360,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "miri",
+                "kod_parlimen": "P219",
+                "nama_parlimen": "MIRI",
                 "koordinat": {
                     "x": 390,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "baram",
+                "kod_parlimen": "P220",
+                "nama_parlimen": "BARAM",
                 "koordinat": {
                     "x": 380,
                     "y": 270
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "limbang",
+                "kod_parlimen": "P221",
+                "nama_parlimen": "LIMBANG",
                 "koordinat": {
                     "x": 390,
                     "y": 260
                 }
             },
             {
-                "kod_parlimen": "",
-                "nama_parlimen": "lawas",
+                "kod_parlimen": "P222",
+                "nama_parlimen": "LAWAS",
                 "koordinat": {
                     "x": 340,
                     "y": 260
@@ -1836,7 +1836,7 @@
     },
     {
         "nama_negeri": "LABUAN",
-        "senarai_parlimen": [
+        "parlimen": [
             {
                 "kod_parlimen": "P166",
                 "nama_parlimen": "LABUAN",

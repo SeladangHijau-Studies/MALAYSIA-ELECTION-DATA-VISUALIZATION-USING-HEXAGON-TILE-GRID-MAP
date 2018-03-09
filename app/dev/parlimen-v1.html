@@ -25,43 +25,24 @@
                 "maroon", "olive", "purple", "aqua", "gray", 
                 "navy"
             ];
-            
-            d3.json("json/senarai-parlimen.json", function(data) {
-                var negeriList = [];
-                var senaraiParlimen = [],
-                    parlimenList = [];
-                var coorParlimen = [];
-
-                data.forEach(element => {
-                    negeriList.push(element.nama_negeri);
-                    senaraiParlimen.push(element.senarai_parlimen);
-                });
-
-                senaraiParlimen.forEach(element => {
-                    for(var x=0 ; x<element.length ; x++) {
-                        parlimenList.push(element[x].kod_parlimen);
-                        coorParlimen.push(element[x].koordinat);
-                    }
-                });
-
-                // init svg
-                var setting = {
-                    width: 960,
-                    height: 500,
-                    padding: 100,
-                    radius: 10
-                }
-                var svg = d3.select("#chart").append("svg")
-                    .attr("width", setting.width)
-                    .attr("height", setting.height);
-                var hexbin = d3.hexbin()
-                    .radius(setting.radius);
-                    
-                for(var x=0 ; x<negeriList.length ; x++)
-                    svg.append("g")
-                        .attr("id", negeriList[x]);
-            });
-            
+            var negeriList = [
+                "perlis",
+                "kedah",
+                "pulau-pinang",
+                "perak",
+                "kelantan",
+                "selangor",
+                "pahang",
+                "terengganu",
+                "kuala-lumpur",
+                "putrajaya",
+                "negeri-sembilan",
+                "melaka",
+                "johor",
+                "sabah",
+                "sarawak",
+                "labuan"
+            ]
             var parlimenList = [
                 [ // perlis
                     "padang-besar",
@@ -543,6 +524,38 @@
                     [400, 220], // labuan
                 ]
             ];
+            
+            // init svg
+            var width = 960,
+                height = 500,
+                padding = 100,
+                radius = 10;
+            var svg = d3.select("#chart").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+            var hexbin = d3.hexbin()
+                .radius(radius)
+                .extent([0, 0], [width, height]);
+
+            console.log(coorParlimen);
+
+            for(var x=0 ; x<coorParlimen.length ; x++) {
+                svg.append("g")
+                    .attr("id", negeriList[x])
+                    .selectAll(".parlimen")
+                    .data(hexbin(coorParlimen[x]))
+                    .enter().append("path")
+                        .attr("class", "parlimen")
+                        .attr("id", function(d, i) {
+                            return parlimenList[x][i];
+                        })
+                        .attr("fill", color[x])
+                        .attr("d", function(d) {
+                            return "M" + (d.x + padding) + "," + (d.y + padding) + hexbin.hexagon();
+                        })
+                        .on("mouseover", function(data, i) {})
+                        .on("mouseout", function(d, i) {});
+            }
         </script>
     </body>
 </html>
