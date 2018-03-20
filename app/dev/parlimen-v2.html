@@ -11,6 +11,9 @@
             
             div.tooltip {
                 opacity: .95;
+                z-index: 10;
+                position: absolute;
+                visibility: hidden;
 
                 padding: 5px;
 
@@ -20,16 +23,19 @@
                 border-radius: 5px;
                 border-width: 2px;
                 border-style: solid;
-                border-color: chartreuse;
+                border-color: black;
 
                 background-color: blueviolet;
             }
-            #tooltip-arrow {
-                width: 0;
-                height: 0;
-                border-top: 10px solid transparent;
-                border-right: 20px solid red;
-                border-bottom: 10px solid transparent;
+            div.tooltip::after {
+                content: " ";
+                position: absolute;
+                top: 30%;
+                right: 100%;
+                margin-top: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: transparent black transparent transparent;
             }
          </style>
     </head>
@@ -57,15 +63,11 @@
                     .attr("height", setting.height);
                 var hexbin = d3.hexbin()
                     .radius(setting.hexagon_radius);
-                var tooltip = d3.select("body")
-                    .append("div")
-                        .attr("class", "tooltip")
-                        .style("position", "absolute")
-                        .style("z-index", "10")
-                        .style("visibility", "hidden");
+                var tooltip = d3.select("body").append("div")
+                    .attr("class", "tooltip");
 
                 // initialize data in senarai-parlimen.json
-                d3.json("json/senarai-parlimen.json", function(senaraiParlimen) {
+                d3.json("json/parlimen.json", function(senaraiParlimen) {
                     var koordinatParlimenList = [];
 
                     //process
@@ -84,7 +86,7 @@
                         koordinatParlimenList.push(tempKoordinat);
                     }
 
-                    d3.json("json/keputusan-pilihanraya.json", function(dataPilihanraya) {
+                    d3.json("json/pilihanraya.json", function(dataPilihanraya) {
                         // output
                         svg.selectAll("g")
                             .data(senaraiParlimen)
@@ -116,9 +118,10 @@
                                         return tooltip.style("visibility", "visible");
                                     })
                                     .on("mousemove", function() {
+                                        console.log(setting);
                                         return tooltip
-                                            .style("top", (event.pageY-10)+"px")
-                                            .style("left", (event.pageX+10)+"px");
+                                            .style("top", (event.pageY - setting.tooltip.top) + "px")
+                                            .style("left", (event.pageX + setting.tooltip.left) + "px");
                                     })
                                     .on("mouseout", function() {
                                         return tooltip.style("visibility", "hidden");

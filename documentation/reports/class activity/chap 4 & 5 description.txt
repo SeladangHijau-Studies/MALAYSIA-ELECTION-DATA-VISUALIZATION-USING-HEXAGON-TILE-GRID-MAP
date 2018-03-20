@@ -1,0 +1,8 @@
+CHAPTER 4
+- discuss on the objective (outcome of the objectives)
+- how you complete the objectives
+- describe the system flows
+- how you develop the project
+- how you test the system
+
+CHAPTER 5
