@@ -1,0 +1,562 @@
+State/Country,Year, Unemployed ('000) 
+Johor,2016,58.5
+Kedah,2016,26.6
+Kelantan,2016,24.9
+Malaysia,2016,504.1
+Melaka,2016,3.5
+Negeri Sembilan,2016,12.8
+Pahang,2016,18.3
+Perak,2016,34.8
+Perlis,2016,3.0
+Pulau Pinang,2016,18.1
+Sabah,2016,103.3
+Sarawak,2016,41.9
+Selangor,2016,107.4
+Terengganu,2016,18.6
+W.P Labuan,2016,3.4
+W.P. Kuala Lumpur,2016,28.2
+W.P.Putrajaya,2016,0.7
+Johor,2015,50.6
+Kedah,2015,23.7
+Kelantan,2015,24.1
+Malaysia,2015,450.3
+Melaka,2015,4.1
+Negeri Sembilan,2015,14.9
+Pahang,2015,20.6
+Perak,2015,32.5
+Perlis,2015,3.0
+Pulau Pinang,2015,14.0
+Sabah,2015,92.3
+Sarawak,2015,43.5
+Selangor,2015,77.9
+Terengganu,2015,17.5
+W.P Labuan,2015,2.1
+W.P. Kuala Lumpur,2015,29.1
+W.P.Putrajaya,2015,0.4
+Johor,2014,41.4
+Kedah,2014,24.3
+Kelantan,2014,21.0
+Malaysia,2014,411.1
+Melaka,2014,3.4
+Negeri Sembilan,2014,14.4
+Pahang,2014,18.9
+Perak,2014,33.1
+Perlis,2014,3.3
+Pulau Pinang,2014,13.3
+Sabah,2014,90.6
+Sarawak,2014,39.2
+Selangor,2014,62.4
+Terengganu,2014,17.9
+W.P Labuan,2014,2.2
+W.P. Kuala Lumpur,2014,25.0
+W.P.Putrajaya,2014,0.5
+Johor,2013,45.4
+Kedah,2013,20.5
+Kelantan,2013,17.1
+Malaysia,2013,435.1
+Melaka,2013,2.7
+Negeri Sembilan,2013,14.7
+Pahang,2013,19.1
+Perak,2013,37.3
+Perlis,2013,3.6
+Pulau Pinang,2013,14.2
+Sabah,2013,95.7
+Sarawak,2013,45.7
+Selangor,2013,72.9
+Terengganu,2013,14.4
+W.P Labuan,2013,1.7
+W.P. Kuala Lumpur,2013,29.5
+W.P.Putrajaya,2013,0.5
+Johor,2012,47.9
+Kedah,2012,23.4
+Kelantan,2012,13.6
+Malaysia,2012,401.2
+Melaka,2012,1.8
+Negeri Sembilan,2012,13.6
+Pahang,2012,17.8
+Perak,2012,28.3
+Perlis,2012,3.5
+Pulau Pinang,2012,16.0
+Sabah,2012,90.5
+Sarawak,2012,41.0
+Selangor,2012,66.6
+Terengganu,2012,12.2
+W.P Labuan,2012,1.9
+W.P. Kuala Lumpur,2012,22.5
+W.P.Putrajaya,2012,0.6
+Johor,2011,38.0
+Kedah,2011,26.6
+Kelantan,2011,10.8
+Malaysia,2011,389.2
+Melaka,2011,2.5
+Negeri Sembilan,2011,13.0
+Pahang,2011,16.2
+Perak,2011,24.9
+Perlis,2011,3.4
+Pulau Pinang,2011,14.7
+Sabah,2011,88.1
+Sarawak,2011,45.3
+Selangor,2011,65.5
+Terengganu,2011,12.9
+W.P Labuan,2011,1.7
+W.P. Kuala Lumpur,2011,25.1
+W.P.Putrajaya,2011,0.5
+Johor,2010,34.7
+Kedah,2010,21.2
+Kelantan,2010,13.1
+Malaysia,2010,404.4
+Melaka,2010,3.5
+Negeri Sembilan,2010,12.9
+Pahang,2010,17.5
+Perak,2010,27.3
+Perlis,2010,2.8
+Pulau Pinang,2010,16.7
+Sabah,2010,82.1
+Sarawak,2010,48.1
+Selangor,2010,83.2
+Terengganu,2010,14.1
+W.P Labuan,2010,2.4
+W.P. Kuala Lumpur,2010,24.9
+W.P.Putrajaya,2010,
+Johor,2009,43.7
+Kedah,2009,31.1
+Kelantan,2009,12.6
+Malaysia,2009,418.0
+Melaka,2009,6.9
+Negeri Sembilan,2009,15.7
+Pahang,2009,18.6
+Perak,2009,32.2
+Perlis,2009,2.8
+Pulau Pinang,2009,17.3
+Sabah,2009,74.6
+Sarawak,2009,46.8
+Selangor,2009,78.0
+Terengganu,2009,15.3
+W.P Labuan,2009,2.1
+W.P. Kuala Lumpur,2009,20.2
+W.P.Putrajaya,2009,
+Johor,2008,29.3
+Kedah,2008,27.0
+Kelantan,2008,14.5
+Malaysia,2008,368.5
+Melaka,2008,3.2
+Negeri Sembilan,2008,12.2
+Pahang,2008,15.8
+Perak,2008,33.6
+Perlis,2008,2.5
+Pulau Pinang,2008,13.4
+Sabah,2008,63.8
+Sarawak,2008,51.3
+Selangor,2008,67.8
+Terengganu,2008,13.2
+W.P Labuan,2008,1.9
+W.P. Kuala Lumpur,2008,18.8
+W.P.Putrajaya,2008,
+Johor,2007,26.9
+Kedah,2007,22.7
+Kelantan,2007,13.2
+Malaysia,2007,351.4
+Melaka,2007,6.1
+Negeri Sembilan,2007,14.2
+Pahang,2007,18.3
+Perak,2007,25.7
+Perlis,2007,2.5
+Pulau Pinang,2007,14.0
+Sabah,2007,69.2
+Sarawak,2007,43.4
+Selangor,2007,63.8
+Terengganu,2007,9.7
+W.P Labuan,2007,1.5
+W.P. Kuala Lumpur,2007,20.3
+W.P.Putrajaya,2007,
+Johor,2006,27.6
+Kedah,2006,25.6
+Kelantan,2006,11.4
+Malaysia,2006,353.6
+Melaka,2006,3.5
+Negeri Sembilan,2006,15.7
+Pahang,2006,13.9
+Perak,2006,29.6
+Perlis,2006,2.4
+Pulau Pinang,2006,11.2
+Sabah,2006,70.3
+Sarawak,2006,39.7
+Selangor,2006,66.8
+Terengganu,2006,13.1
+W.P Labuan,2006,3.2
+W.P. Kuala Lumpur,2006,19.5
+W.P.Putrajaya,2006,
+Johor,2005,42.9
+Kedah,2005,25.1
+Kelantan,2005,15.4
+Malaysia,2005,368.1
+Melaka,2005,3.4
+Negeri Sembilan,2005,13.9
+Pahang,2005,18.0
+Perak,2005,27.6
+Perlis,2005,2.2
+Pulau Pinang,2005,13.4
+Sabah,2005,75.1
+Sarawak,2005,39.4
+Selangor,2005,62.9
+Terengganu,2005,11.1
+W.P Labuan,2005,1.6
+W.P. Kuala Lumpur,2005,16.1
+W.P.Putrajaya,2005,
+Johor,2004,46.2
+Kedah,2004,25.8
+Kelantan,2004,18.5
+Malaysia,2004,366.6
+Melaka,2004,4.4
+Negeri Sembilan,2004,13.2
+Pahang,2004,17.8
+Perak,2004,27.3
+Perlis,2004,2.5
+Pulau Pinang,2004,11.7
+Sabah,2004,75.2
+Sarawak,2004,36.6
+Selangor,2004,54.7
+Terengganu,2004,11.1
+W.P Labuan,2004,1.7
+W.P. Kuala Lumpur,2004,19.9
+W.P.Putrajaya,2004,
+Johor,2003,46.2
+Kedah,2003,22.4
+Kelantan,2003,15.9
+Malaysia,2003,369.8
+Melaka,2003,7.8
+Negeri Sembilan,2003,12.3
+Pahang,2003,17.2
+Perak,2003,36.8
+Perlis,2003,3.5
+Pulau Pinang,2003,12.0
+Sabah,2003,61.4
+Sarawak,2003,36.5
+Selangor,2003,61.0
+Terengganu,2003,10.2
+W.P Labuan,2003,1.5
+W.P. Kuala Lumpur,2003,25.2
+W.P.Putrajaya,2003,
+Johor,2002,36.7
+Kedah,2002,21.4
+Kelantan,2002,17.0
+Malaysia,2002,343.5
+Melaka,2002,6.9
+Negeri Sembilan,2002,12.4
+Pahang,2002,12.1
+Perak,2002,32.3
+Perlis,2002,1.8
+Pulau Pinang,2002,14.2
+Sabah,2002,64.4
+Sarawak,2002,38.1
+Selangor,2002,53.3
+Terengganu,2002,9.2
+W.P Labuan,2002,1.1
+W.P. Kuala Lumpur,2002,22.7
+W.P.Putrajaya,2002,
+Johor,2001,43.1
+Kedah,2001,26.4
+Kelantan,2001,13.7
+Malaysia,2001,342.4
+Melaka,2001,4.9
+Negeri Sembilan,2001,11.5
+Pahang,2001,13.9
+Perak,2001,30.6
+Perlis,2001,3.0
+Pulau Pinang,2001,18.3
+Sabah,2001,69.0
+Sarawak,2001,40.6
+Selangor,2001,37.8
+Terengganu,2001,8.4
+W.P Labuan,2001,1.5
+W.P. Kuala Lumpur,2001,19.5
+W.P.Putrajaya,2001,
+Johor,2000,27.0
+Kedah,2000,18.7
+Kelantan,2000,11.5
+Malaysia,2000,286.9
+Melaka,2000,3.4
+Negeri Sembilan,2000,12.2
+Pahang,2000,12.3
+Perak,2000,27.2
+Perlis,2000,2.2
+Pulau Pinang,2000,13.1
+Sabah,2000,57.8
+Sarawak,2000,39.5
+Selangor,2000,33.8
+Terengganu,2000,9.4
+W.P Labuan,2000,1.3
+W.P. Kuala Lumpur,2000,17.6
+W.P.Putrajaya,2000,
+Johor,1999,31.4
+Kedah,1999,22.7
+Kelantan,1999,14.3
+Malaysia,1999,313.7
+Melaka,1999,4.7
+Negeri Sembilan,1999,11.0
+Pahang,1999,11.8
+Perak,1999,30.9
+Perlis,1999,2.7
+Pulau Pinang,1999,14.5
+Sabah,1999,65.4
+Sarawak,1999,41.9
+Selangor,1999,27.9
+Terengganu,1999,12.2
+W.P Labuan,1999,1.7
+W.P. Kuala Lumpur,1999,20.7
+W.P.Putrajaya,1999,
+Johor,1998,17.3
+Kedah,1998,19.8
+Kelantan,1998,18.3
+Malaysia,1998,284.0
+Melaka,1998,6.2
+Negeri Sembilan,1998,11.3
+Pahang,1998,9.9
+Perak,1998,27.8
+Perlis,1998,3.2
+Pulau Pinang,1998,14.1
+Sabah,1998,55.4
+Sarawak,1998,43.8
+Selangor,1998,26.6
+Terengganu,1998,12.1
+W.P Labuan,1998,0.9
+W.P. Kuala Lumpur,1998,17.2
+W.P.Putrajaya,1998,
+Johor,1997,18.6
+Kedah,1997,15.3
+Kelantan,1997,15.6
+Malaysia,1997,214.9
+Melaka,1997,4.4
+Negeri Sembilan,1997,8.1
+Pahang,1997,12.2
+Perak,1997,16.4
+Perlis,1997,1.7
+Pulau Pinang,1997,6.0
+Sabah,1997,48.5
+Sarawak,1997,33.4
+Selangor,1997,13.2
+Terengganu,1997,10.6
+W.P Labuan,1997,1.2
+W.P. Kuala Lumpur,1997,9.7
+W.P.Putrajaya,1997,
+Johor,1996,21.7
+Kedah,1996,13.8
+Kelantan,1996,15.3
+Malaysia,1996,216.8
+Melaka,1996,3.7
+Negeri Sembilan,1996,8.2
+Pahang,1996,10.9
+Perak,1996,23.8
+Perlis,1996,1.4
+Pulau Pinang,1996,3.0
+Sabah,1996,39.8
+Sarawak,1996,37.9
+Selangor,1996,12.1
+Terengganu,1996,10.1
+W.P Labuan,1996,2.0
+W.P. Kuala Lumpur,1996,13.0
+W.P.Putrajaya,1996,
+Johor,1995,23.6
+Kedah,1995,10.6
+Kelantan,1995,15.0
+Malaysia,1995,248.1
+Melaka,1995,5.1
+Negeri Sembilan,1995,9.4
+Pahang,1995,13.7
+Perak,1995,25.6
+Perlis,1995,1.0
+Pulau Pinang,1995,6.9
+Sabah,1995,42.0
+Sarawak,1995,39.5
+Selangor,1995,27.1
+Terengganu,1995,16.9
+W.P Labuan,1995,1.5
+W.P. Kuala Lumpur,1995,10.1
+W.P.Putrajaya,1995,
+Johor,1993,28.7
+Kedah,1993,17.8
+Kelantan,1993,19.3
+Malaysia,1993,316.8
+Melaka,1993,7.1
+Negeri Sembilan,1993,8.3
+Pahang,1993,14.6
+Perak,1993,29.8
+Perlis,1993,1.0
+Pulau Pinang,1993,12.1
+Sabah,1993,51.3
+Sarawak,1993,56.4
+Selangor,1993,29.9
+Terengganu,1993,21.3
+W.P Labuan,1993,1.1
+W.P. Kuala Lumpur,1993,18.1
+W.P.Putrajaya,1993,
+Johor,1992,21.1
+Kedah,1992,19.0
+Kelantan,1992,21.6
+Malaysia,1992,271.2
+Melaka,1992,7.1
+Negeri Sembilan,1992,8.5
+Pahang,1992,11.9
+Perak,1992,26.8
+Perlis,1992,1.9
+Pulau Pinang,1992,8.8
+Sabah,1992,32.7
+Sarawak,1992,59.8
+Selangor,1992,23.2
+Terengganu,1992,14.8
+W.P Labuan,1992,0.5
+W.P. Kuala Lumpur,1992,13.7
+W.P.Putrajaya,1992,
+Johor,1990,35.1
+Kedah,1990,21.6
+Kelantan,1990,13.1
+Malaysia,1990,315.2
+Melaka,1990,7.8
+Negeri Sembilan,1990,8.5
+Pahang,1990,13.7
+Perak,1990,28.6
+Perlis,1990,2.5
+Pulau Pinang,1990,13.1
+Sabah,1990,43.0
+Sarawak,1990,76.5
+Selangor,1990,20.6
+Terengganu,1990,16.9
+W.P Labuan,1990,0.9
+W.P. Kuala Lumpur,1990,13.2
+W.P.Putrajaya,1990,
+Johor,1989,39.5
+Kedah,1989,26.8
+Kelantan,1989,24.5
+Malaysia,1989,388.5
+Melaka,1989,11.9
+Negeri Sembilan,1989,11.8
+Pahang,1989,14.7
+Perak,1989,39.7
+Perlis,1989,4.5
+Pulau Pinang,1989,17.6
+Sabah,1989,35.2
+Sarawak,1989,72.8
+Selangor,1989,36.5
+Terengganu,1989,32.2
+W.P Labuan,1989,1.3
+W.P. Kuala Lumpur,1989,19.6
+W.P.Putrajaya,1989,
+Johor,1988,45.1
+Kedah,1988,36.9
+Kelantan,1988,30.5
+Malaysia,1988,479.8
+Melaka,1988,15.5
+Negeri Sembilan,1988,14.5
+Pahang,1988,23.4
+Perak,1988,58.3
+Perlis,1988,5.4
+Pulau Pinang,1988,28.9
+Sabah,1988,37.9
+Sarawak,1988,73.2
+Selangor,1988,55.9
+Terengganu,1988,23.8
+W.P Labuan,1988,1.5
+W.P. Kuala Lumpur,1988,29.2
+W.P.Putrajaya,1988,
+Johor,1987,49.1
+Kedah,1987,36.4
+Kelantan,1987,24.5
+Malaysia,1987,472.9
+Melaka,1987,15.4
+Negeri Sembilan,1987,18.3
+Pahang,1987,18.2
+Perak,1987,58.3
+Perlis,1987,4.3
+Pulau Pinang,1987,28.0
+Sabah,1987,42.2
+Sarawak,1987,70.1
+Selangor,1987,51.6
+Terengganu,1987,27.6
+W.P Labuan,1987,1.3
+W.P. Kuala Lumpur,1987,27.6
+W.P.Putrajaya,1987,
+Johor,1986,50.8
+Kedah,1986,37.1
+Kelantan,1986,24.9
+Malaysia,1986,461.9
+Melaka,1986,17.9
+Negeri Sembilan,1986,16.0
+Pahang,1986,16.2
+Perak,1986,64.2
+Perlis,1986,5.0
+Pulau Pinang,1986,35.8
+Sabah,1986,36.1
+Sarawak,1986,60.4
+Selangor,1986,46.7
+Terengganu,1986,23.0
+W.P Labuan,1986,1.7
+W.P. Kuala Lumpur,1986,26.3
+W.P.Putrajaya,1986,
+Johor,1985,37.6
+Kedah,1985,31.5
+Kelantan,1985,20.7
+Malaysia,1985,336.8
+Melaka,1985,9.9
+Negeri Sembilan,1985,10.3
+Pahang,1985,14.8
+Perak,1985,43.5
+Perlis,1985,4.9
+Pulau Pinang,1985,20.4
+Sabah,1985,27.7
+Sarawak,1985,45.2
+Selangor,1985,34.5
+Terengganu,1985,16.4
+W.P Labuan,1985,1.3
+W.P. Kuala Lumpur,1985,18.0
+W.P.Putrajaya,1985,
+Johor,1984,30.9
+Kedah,1984,25.0
+Kelantan,1984,18.6
+Malaysia,1984,295.8
+Melaka,1984,9.2
+Negeri Sembilan,1984,11.6
+Pahang,1984,14.8
+Perak,1984,37.7
+Perlis,1984,3.0
+Pulau Pinang,1984,14.2
+Sabah,1984,25.6
+Sarawak,1984,41.5
+Selangor,1984,28.5
+Terengganu,1984,14.9
+W.P Labuan,1984,1.3
+W.P. Kuala Lumpur,1984,19.2
+W.P.Putrajaya,1984,
+Johor,1983,27.2
+Kedah,1983,14.7
+Kelantan,1983,18.8
+Malaysia,1983,214.9
+Melaka,1983,4.8
+Negeri Sembilan,1983,8.5
+Pahang,1983,9.1
+Perak,1983,35.7
+Perlis,1983,2.1
+Pulau Pinang,1983,16.1
+Sabah,1983,16.1
+Sarawak,1983,29.4
+Selangor,1983,17.2
+Terengganu,1983,6.2
+W.P Labuan,1983,
+W.P. Kuala Lumpur,1983,8.9
+W.P.Putrajaya,1983,
+Johor,1982,22.9
+Kedah,1982,15.0
+Kelantan,1982,15.2
+Malaysia,1982,182.4
+Melaka,1982,6.9
+Negeri Sembilan,1982,6.5
+Pahang,1982,9.5
+Perak,1982,34.6
+Perlis,1982,2.4
+Pulau Pinang,1982,13.7
+Sabah,1982,10.7
+Sarawak,1982,15.0
+Selangor,1982,15.0
+Terengganu,1982,6.1
+W.P Labuan,1982,
+W.P. Kuala Lumpur,1982,9.0
+W.P.Putrajaya,1982,

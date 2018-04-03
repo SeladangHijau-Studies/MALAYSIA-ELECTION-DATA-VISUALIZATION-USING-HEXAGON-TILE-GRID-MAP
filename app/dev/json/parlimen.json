@@ -168,16 +168,16 @@
                 "kod_parlimen": "P042",
                 "nama_parlimen": "TASEK GELUGOR",
                 "koordinat": {
-                    "x": 50,
-                    "y": 100
+                    "x": 20,
+                    "y": 90
                 }
             },
             {
                 "kod_parlimen": "P043",
                 "nama_parlimen": "BAGAN",
                 "koordinat": {
-                    "x": 20,
-                    "y": 90
+                    "x": 40,
+                    "y": 100
                 }
             },
             {
@@ -192,15 +192,15 @@
                 "kod_parlimen": "P045",
                 "nama_parlimen": "BUKIT MERTAJAM",
                 "koordinat": {
-                    "x": 10,
-                    "y": 100
+                    "x": 50,
+                    "y": 120
                 }
             },
             {
                 "kod_parlimen": "P046",
                 "nama_parlimen": "BATU KAWAN",
                 "koordinat": {
-                    "x": 20,
+                    "x": 30,
                     "y": 120
                 }
             },
@@ -208,7 +208,7 @@
                 "kod_parlimen": "P047",
                 "nama_parlimen": "NIBONG TEBAL",
                 "koordinat": {
-                    "x": 30,
+                    "x": 10,
                     "y": 120
                 }
             },
@@ -216,7 +216,7 @@
                 "kod_parlimen": "P048",
                 "nama_parlimen": "BUKIT BENDERA",
                 "koordinat": {
-                    "x": -30,
+                    "x": -10,
                     "y": 90
                 }
             },
@@ -225,38 +225,38 @@
                 "nama_parlimen": "TANJONG",
                 "koordinat": {
                     "x": -30,
-                    "y": 110
+                    "y": 90
                 }
             },
             {
                 "kod_parlimen": "P050",
                 "nama_parlimen": "JELUTONG",
                 "koordinat": {
-                    "x": -40,
-                    "y": 110
+                    "x": -10,
+                    "y": 100
                 }
             },
             {
                 "kod_parlimen": "P051",
                 "nama_parlimen": "BUKIT GELUGOR",
                 "koordinat": {
-                    "x": -30,
-                    "y": 120
+                    "x": -20,
+                    "y": 100
                 }
             },
             {
                 "kod_parlimen": "P052",
                 "nama_parlimen": "BAYAN BARU",
                 "koordinat": {
-                    "x": -50,
-                    "y": 90
+                    "x": -30,
+                    "y": 120
                 }
             },
             {
                 "kod_parlimen": "P053",
                 "nama_parlimen": "BALIK PULAU",
                 "koordinat": {
-                    "x": -50,
+                    "x": -10,
                     "y": 120
                 }
             }
@@ -1383,8 +1383,8 @@
                 "kod_parlimen": "P167",
                 "nama_parlimen": "KUDAT",
                 "koordinat": {
-                    "x": 420,
-                    "y": 280
+                  "x": 410,
+                  "y": 300
                 }
             },
             {
@@ -1424,7 +1424,7 @@
                 "nama_parlimen": "KOTA KINABALU",
                 "koordinat": {
                     "x": 510,
-                    "y": 280
+                    "y": 300
                 }
             },
             {
@@ -1471,7 +1471,7 @@
                 "kod_parlimen": "P178",
                 "nama_parlimen": "SIPITANG",
                 "koordinat": {
-                    "x": 400,
+                    "x": 700,
                     "y": 260
                 }
             },

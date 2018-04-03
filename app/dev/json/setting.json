@@ -4,7 +4,12 @@
     "padding": 100,
     "hexagon_radius": 10,
     "tooltip": {
-        "top": 10,
-        "left": 10
+        "top": 100,
+        "left": 120
+    },
+    "colors": {
+        "pas": "#00FF00",
+        "bn": "#0000FF",
+        "dap": "#FF0000"
     }
 }

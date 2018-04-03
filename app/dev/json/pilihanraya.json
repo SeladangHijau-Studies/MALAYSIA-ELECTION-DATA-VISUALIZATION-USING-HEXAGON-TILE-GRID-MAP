@@ -7,24 +7,30 @@
                 "jumlah_pengundi": 100,
                 "jumlah_undian": 50,
                 "peratusan_undian": 0.5,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "Barisan Nasional",
+                "pemenang_calon_nama": "Najib Tun Razak",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P002",
                 "jumlah_pengundi": 100,
                 "jumlah_undian": 50,
                 "peratusan_undian": 0.5,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P003",
                 "jumlah_pengundi": 100,
                 "jumlah_undian": 50,
                 "peratusan_undian": 0.5,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -36,120 +42,150 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P005",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P006",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P007",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P008",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P009",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P010",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P011",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P012",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P013",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P014",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P015",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P016",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P017",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P018",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -161,104 +197,130 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P042",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P043",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P044",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P045",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P046",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P047",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P048",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P049",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P050",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P051",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P052",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P053",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -270,192 +332,240 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P055",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P056",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P057",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P058",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P059",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P060",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P061",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P062",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P063",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P064",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P065",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P066",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P067",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P068",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P069",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P070",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P071",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P072",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P073",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P074",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P075",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P076",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P077",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -467,112 +577,140 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P020",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P021",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P022",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P023",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P024",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P025",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P026",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P027",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P028",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P029",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P030",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P031",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P032",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -584,176 +722,220 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P093",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P094",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P095",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P096",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P097",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P098",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P099",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P200",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P201",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P202",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P203",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P204",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P205",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P206",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P207",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P208",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P209",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P210",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P211",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P212",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P213",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -765,112 +947,140 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P079",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P080",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P081",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P082",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P083",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P084",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P085",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P086",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P087",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P088",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P089",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P090",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P091",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -882,64 +1092,80 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P034",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P035",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P036",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P037",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P038",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P039",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P040",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -951,88 +1177,110 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P115",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P116",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P117",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P118",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P119",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P120",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P121",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P122",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P123",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P124",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1044,8 +1292,10 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1057,56 +1307,70 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P128",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P129",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P130",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P131",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P132",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P133",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1118,48 +1382,60 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P135",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P136",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P137",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P138",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P139",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1171,208 +1447,260 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P141",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P142",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P143",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P144",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P145",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P146",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P147",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P148",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P149",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P150",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P151",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P152",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P153",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P154",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P155",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P156",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P157",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P158",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P159",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P160",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P161",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P162",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P163",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P164",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P165",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1384,192 +1712,240 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P168",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P169",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P170",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P171",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P172",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P173",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P174",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P175",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P176",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P177",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P178",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P179",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P180",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P181",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P182",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P183",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P184",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P185",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P186",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P187",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P189",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P190",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P191",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1581,248 +1957,310 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P193",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P194",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P195",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P196",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P197",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P198",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P199",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P200",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P201",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P202",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P203",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P204",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P205",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P206",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P207",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P208",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P209",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P210",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P211",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P212",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P213",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P214",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P215",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P216",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P217",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P218",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P219",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P220",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P221",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             },
             {
                 "kod_parlimen": "P222",
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     },
@@ -1834,8 +2272,10 @@
                 "jumlah_pengundi": 0,
                 "jumlah_undian": 0,
                 "peratusan_undian": 0.0,
-                "pemenang_parti": "",
-                "pemenang_calon": ""
+                "pemenang_parti_kod": "PAS",
+                "pemenang_parti_nama": "",
+                "pemenang_calon_nama": "",
+                "pemenang_calon_gambar": ""
             }
         ]
     }

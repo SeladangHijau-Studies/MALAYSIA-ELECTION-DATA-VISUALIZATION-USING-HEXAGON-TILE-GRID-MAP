@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-03-06" view-index="0" gantt-divider-location="443" resource-divider-location="300" version="2.8.6" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-03-19" view-index="0" gantt-divider-location="443" resource-divider-location="300" version="2.8.6" locale="en_US">
     <description/>
-    <view zooming-state="default:1" id="gantt-chart">
-        <field id="tpd3" name="Name" width="207" order="0"/>
-        <field id="tpd4" name="Begin date" width="109" order="1"/>
-        <field id="tpd5" name="End date" width="108" order="2"/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Name" width="205" order="0"/>
+        <field id="tpd4" name="Begin date" width="110" order="1"/>
+        <field id="tpd5" name="End date" width="109" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -33,64 +33,73 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="68" name="REPORT" meeting="false" start="2018-03-09" duration="27" complete="0" expand="true">
-            <task id="121" name="revision" meeting="false" start="2018-03-11" duration="12" complete="0" expand="true">
-                <task id="104" name="chapter 1" color="#8cb6ce" meeting="false" start="2018-03-11" duration="4" complete="0" thirdDate="2018-03-11" thirdDate-constraint="0" expand="true">
+        <task id="68" name="REPORT" meeting="false" start="2018-03-20" duration="29" complete="0" expand="true">
+            <task id="121" name="revision" meeting="false" start="2018-03-20" duration="12" complete="0" expand="false">
+                <task id="104" name="chapter 1" color="#8cb6ce" meeting="false" start="2018-03-20" duration="4" complete="0" thirdDate="2018-03-11" thirdDate-constraint="0" expand="true">
                     <depend id="105" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="105" name="chapter 2" color="#8cb6ce" meeting="false" start="2018-03-15" duration="4" complete="0" thirdDate="2018-03-15" thirdDate-constraint="0" expand="true">
+                <task id="105" name="chapter 2" color="#8cb6ce" meeting="false" start="2018-03-24" duration="4" complete="0" thirdDate="2018-03-15" thirdDate-constraint="0" expand="true">
                     <depend id="106" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="106" name="chapter 3" color="#8cb6ce" meeting="false" start="2018-03-19" duration="4" complete="0" thirdDate="2018-03-19" thirdDate-constraint="0" expand="true"/>
+                <task id="106" name="chapter 3" color="#8cb6ce" meeting="false" start="2018-03-28" duration="4" complete="0" thirdDate="2018-03-19" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="91" name="chapter 4" meeting="false" start="2018-03-09" duration="21" complete="0" expand="true">
+            <task id="91" name="chapter 4" meeting="false" start="2018-03-21" duration="22" complete="0" expand="true">
                 <depend id="92" type="2" difference="0" hardness="Strong"/>
-                <task id="93" name="4.1 algorithm" meeting="false" start="2018-03-09" duration="8" complete="0" expand="true">
-                    <task id="103" name="flowchart" color="#8cb6ce" meeting="false" start="2018-03-09" duration="1" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
+                <task id="93" name="4.1 algorithm" meeting="false" start="2018-03-21" duration="8" complete="0" expand="true">
+                    <task id="103" name="flowchart" color="#8cb6ce" meeting="false" start="2018-03-21" duration="1" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
                         <depend id="118" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="118" name="algo explanation" color="#8cb6ce" meeting="false" start="2018-03-10" duration="7" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
+                    <task id="118" name="algo explanation" color="#8cb6ce" meeting="false" start="2018-03-22" duration="7" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
                         <depend id="94" type="2" difference="0" hardness="Strong"/>
+                        <depend id="95" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="94" name="4.2 UI" color="#8cb6ce" meeting="false" start="2018-03-17" duration="7" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
-                <task id="95" name="4.3 evaluation" color="#8cb6ce" meeting="false" start="2018-03-20" duration="7" complete="0" thirdDate="2018-03-17" thirdDate-constraint="0" expand="true"/>
-                <task id="96" name="4.4 discussion" color="#8cb6ce" meeting="false" start="2018-03-23" duration="7" complete="0" thirdDate="2018-03-17" thirdDate-constraint="0" expand="true"/>
+                <task id="94" name="4.2 UI" color="#8cb6ce" meeting="false" start="2018-03-29" duration="7" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
+                <task id="95" name="4.3 evaluation" color="#8cb6ce" meeting="false" start="2018-03-29" duration="7" complete="0" thirdDate="2018-03-17" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="4.4 discussion" color="#8cb6ce" meeting="false" start="2018-04-05" duration="7" complete="0" thirdDate="2018-03-17" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="92" name="chapter 5" meeting="false" start="2018-03-30" duration="6" complete="0" expand="true">
-                <task id="97" name="5.1 conclusion" color="#8cb6ce" meeting="false" start="2018-03-30" duration="3" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true">
+            <task id="92" name="chapter 5" meeting="false" start="2018-04-12" duration="6" complete="0" expand="true">
+                <task id="97" name="5.1 conclusion" color="#8cb6ce" meeting="false" start="2018-04-12" duration="3" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true">
                     <depend id="98" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="98" name="5.2 recommendation" color="#8cb6ce" meeting="false" start="2018-04-02" duration="3" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+                <task id="98" name="5.2 recommendation" color="#8cb6ce" meeting="false" start="2018-04-15" duration="3" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
         <task id="87" name="SYSTEM DEV" meeting="false" start="2018-03-07" duration="34" complete="0" expand="true">
-            <task id="64" name="PLANNING" meeting="false" start="2018-03-07" duration="1" complete="0" expand="true">
+            <task id="64" name="PLANNING" meeting="false" start="2018-03-07" duration="1" complete="0" expand="false">
                 <task id="79" name="create gantt chart" color="#8cb6ce" meeting="false" start="2018-03-07" duration="1" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
                     <depend id="80" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="65" name="DESIGN" meeting="false" start="2018-03-08" duration="1" complete="0" expand="true">
+            <task id="65" name="DESIGN" meeting="false" start="2018-03-08" duration="1" complete="0" expand="false">
                 <task id="80" name="UI design" color="#8cb6ce" meeting="false" start="2018-03-08" duration="1" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
-                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                    <depend id="131" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
             <task id="66" name="DEVELOPMENT" meeting="false" start="2018-03-09" duration="27" complete="0" expand="true">
-                <task id="81" name="hexagon plotting" color="#8cb6ce" meeting="false" start="2018-03-09" duration="3" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
-                <task id="120" name="structurize JSON file" color="#8cb6ce" meeting="false" start="2018-03-09" duration="3" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
-                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                <task id="130" name="Main Function" meeting="false" start="2018-03-09" duration="17" complete="0" expand="true">
+                    <task id="131" name="hexagon plotting" color="#8cb6ce" meeting="false" start="2018-03-09" duration="3" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
+                    <task id="132" name="structurize JSON file" color="#8cb6ce" meeting="false" start="2018-03-09" duration="3" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true">
+                        <depend id="133" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="133" name="tooltip on hover" color="#8cb6ce" meeting="false" start="2018-03-12" duration="7" complete="0" thirdDate="2018-03-12" thirdDate-constraint="0" expand="true">
+                        <depend id="134" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="134" name="popup on click" color="#8cb6ce" meeting="false" start="2018-03-19" duration="7" complete="0" thirdDate="2018-03-19" thirdDate-constraint="0" expand="true">
+                        <depend id="128" type="2" difference="0" hardness="Strong"/>
+                    </task>
                 </task>
-                <task id="82" name="tooltip on hover" color="#8cb6ce" meeting="false" start="2018-03-12" duration="7" complete="0" thirdDate="2018-03-12" thirdDate-constraint="0" expand="true">
-                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                <task id="125" name="UI" meeting="false" start="2018-03-26" duration="10" complete="0" expand="true">
+                    <task id="128" name="state label" color="#8cb6ce" meeting="false" start="2018-03-26" duration="2" complete="0" thirdDate="2018-03-26" thirdDate-constraint="0" expand="true">
+                        <depend id="127" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="127" name="hexagon party color" color="#8cb6ce" meeting="false" start="2018-03-28" duration="1" complete="0" thirdDate="2018-03-26" thirdDate-constraint="0" expand="true">
+                        <depend id="126" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="126" name="state border" color="#8cb6ce" meeting="false" start="2018-03-29" duration="7" complete="0" thirdDate="2018-03-29" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="83" name="popup on click" color="#8cb6ce" meeting="false" start="2018-03-19" duration="7" complete="0" thirdDate="2018-03-19" thirdDate-constraint="0" expand="true">
-                    <depend id="84" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="84" name="hexagon party color" meeting="false" start="2018-03-26" duration="1" complete="0" expand="true"/>
-                <task id="86" name="state label" color="#8cb6ce" meeting="false" start="2018-03-26" duration="3" complete="0" thirdDate="2018-03-20" thirdDate-constraint="0" expand="true">
-                    <depend id="85" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="85" name="state border" color="#8cb6ce" meeting="false" start="2018-03-29" duration="7" complete="0" thirdDate="2018-03-22" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="67" name="TESTING &amp; EVALUATION" meeting="false" start="2018-04-04" duration="6" complete="0" expand="true">
                 <task id="88" name="evaluate data vs plot" color="#8cb6ce" meeting="true" start="2018-04-04" duration="0" complete="0" thirdDate="2018-03-29" thirdDate-constraint="0" expand="true"/>
@@ -98,7 +107,7 @@
                 <task id="90" name="evaluate data vs popup" color="#8cb6ce" meeting="true" start="2018-04-04" duration="0" complete="0" thirdDate="2018-03-29" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="70" name="SUBMISSION MILESTONES" meeting="false" start="2018-06-08" duration="45" complete="0" expand="true">
+        <task id="70" name="SUBMISSION MILESTONES" meeting="false" start="2018-06-08" duration="45" complete="0" expand="false">
             <task id="71" name="turnintin" color="#8cb6ce" meeting="true" start="2018-06-08" duration="0" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
             <task id="72" name="report submission" color="#8cb6ce" meeting="true" start="2018-06-21" duration="0" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
             <task id="73" name="presentation" color="#8cb6ce" meeting="true" start="2018-07-16" duration="0" complete="0" thirdDate="2018-03-09" thirdDate-constraint="0" expand="true"/>
