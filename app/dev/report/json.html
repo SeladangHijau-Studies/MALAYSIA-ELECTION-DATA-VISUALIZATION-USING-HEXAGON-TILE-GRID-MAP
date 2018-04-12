@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Setting</title>
+
+    <style>
+        div.tooltip {
+            opacity: .95;
+            z-index: 10;
+            position: absolute;
+            visibility: hidden;
+
+            padding: 5px;
+
+            font-weight: bold;
+            color: white;
+
+            border-radius: 5px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+
+            background-color: blueviolet;
+        }
+        div.tooltip::after {
+            content: " ";
+            position: absolute;
+            top: 30%;
+            right: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent black transparent transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 col-md-2">
+            <div id="chart"></div>
+        </div>
+    </div>
+</div>
+
+<script src="../../lib/jquery-3.3.1.min.js"></script>
+<script src="../../lib/d3.min.js"></script>
+<script src="../../lib/d3-hexbin.min.js"></script>
+<script>
+    d3.json("../json/setting.json", function(setting) {
+        document.write("<h3>Padding: " + setting.padding + "</h3>");
+    });
+
+    d3.json("../json/parlimen.json", function(senaraiParlimen) {
+        document.write("<h4>State 1 name: " + senaraiParlimen[0].nama_negeri + "</h4>");
+    });
+
+    d3.json("../json/pilihanraya.json", function(dataPilihanraya) {
+        document.write("<h4>Winning party for Padang Besar parliament: " + dataPilihanraya[0].keputusan[0].pemenang_parti_kod + "</h4>");
+    });
+</script>
+</body>
+</html>

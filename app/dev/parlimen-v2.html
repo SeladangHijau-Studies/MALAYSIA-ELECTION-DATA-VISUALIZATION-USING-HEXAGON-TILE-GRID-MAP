@@ -6,11 +6,13 @@
         <title>Parlimen Malaysia</title>
 
         <style>
+            /*
             path {
                 stroke: white;
                 stroke-width: 1px;
             }
-            
+            */
+
             div.tooltip {
                 opacity: .95;
                 z-index: 10;
@@ -87,7 +89,7 @@
                 var popup = d3.select("body").append("div")
                     .attr("class", "popup");
 
-                // initialize data in senarai-parlimen.json
+                // initialize data in senarai-parliament.json
                 d3.json("json/parlimen.json", function(senaraiParlimen) {
                     var koordinatParlimenList = [];
 
@@ -127,6 +129,9 @@
                                     .attr("fill", function(d, i, j) {
                                         return color[j];
                                     })
+                                    .attr("stroke", function(d, i, j) {
+                                        return color[j];
+                                    })
                                     .attr("d", function(d) {
                                         return "M" + (d.x + setting.padding) + "," + (d.y + setting.padding) + hexbin.hexagon();
                                     })
@@ -138,14 +143,14 @@
 
                                         return tooltip.style("visibility", "visible");
                                     })
-                                    .on("mousemove", function() {
+                                    .on("mousemove", function(d) {
                                         return tooltip
-                                            .style("top", (event.pageY - setting.tooltip.top) + "px")
-                                            .style("left", (event.pageX + setting.tooltip.left) + "px");
+                                            .style("top", (d.y + setting.padding) + "px")
+                                            .style("left", (d.x + 120) + "px");
                                     })
                                     .on("mouseout", function() {
                                         return tooltip.style("visibility", "hidden");
-                                    })
+                                    } )
                                     .on("click", function(d, i, j) {
                                         return popup
                                             .style("visibility", "visible")

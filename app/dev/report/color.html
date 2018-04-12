@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Setting</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 col-md-2">
+            <div id="chart"></div>
+        </div>
+    </div>
+</div>
+
+<script src="../../lib/jquery-3.3.1.min.js"></script>
+<script src="../../lib/d3.min.js"></script>
+<script src="../../lib/d3-hexbin.min.js"></script>
+<script>
+    var negeriList = [
+        "perlis",
+        "kedah",
+        "pulau-pinang",
+        "perak",
+        "kelantan",
+        "selangor",
+        "pahang",
+        "terengganu",
+        "kuala-lumpur",
+        "putrajaya",
+        "negeri-sembilan",
+        "melaka",
+        "johor",
+        "sabah",
+        "sarawak",
+        "labuan"
+    ];
+
+    var coorParlimen = [
+        [ // perlis
+            [50, 20], // padang besar
+            [50, 30], // kangar
+            [40, 30], // arau
+        ], [ // kedah
+            [10, 50], // langkawi
+            [40, 60], // jerlun
+            [50, 50], // kubang pasu
+            [60, 50], // padang terap
+            [50, 60], // pokok sena
+            [60, 70], // alor setar
+            [50, 70], // kuala kedah
+            [30, 70], // pendang
+            [60, 90], // jerai
+            [70, 60], // sik
+            [80, 90], // merbok
+            [70, 90], // sungai petani
+            [80, 80], // baling
+            [80, 100], // padang serai
+            [60, 100], // kulim
+        ], [ // pulau pinang
+            [40, 90], // kepala batas
+            [20, 90], // tasek gelugor
+            [40, 100], // bagan
+            [30, 100], // permatang pauh
+            [50, 120], // bukit mertajam
+            [30, 120], // batu kawan
+            [10, 120], // nibong tebal
+            // pulau
+            [-10, 90], // bukit bendera
+            [-30, 90], // tanjong
+            [-10, 100], // jelutong
+            [-20, 100], // bukit gelugor
+            [-30, 120], // bayan baru
+            [-10, 120], // balik pulau
+        ], [ // perak
+            [100, 90], // gerik
+            [110, 110], // lenggong
+            [100, 110], // larut
+            [100, 120], // parit buntar
+            [90, 120], // bagan serai
+            [70, 120], // bukit gantang
+            [100, 130], // taiping
+            [80, 130], // padang rengas
+            [60, 130], // sungai siput
+            [40, 130], // tambun
+            [20, 130], // ipoh timur
+            [110, 150], // ipoh barat
+            [90, 150], // batu gajah
+            [70, 150], // kuala kangsar
+            [50, 150], // beruas
+            [30, 150], // parit
+            [110, 160], // kampar
+            [100, 160], // gopeng
+            [80, 160], // tapah
+            [60, 160], // pasir salak
+            [40, 160], // lumut
+            [20, 160], // bagan datuk
+            [120, 180], // telok intan
+            [110, 180], // tanjong malim
+        ], [ // kelantan
+            [110, 80], // tumpat
+            [130, 80], // penkalan chepa
+            [120, 90], // kota bharu
+            [140, 90], // pasir mas
+            [150, 100], // rantau panjang
+            [130, 100], // kubang kerian
+            [160, 120], // bachok
+            [140, 120], // ketereh
+            [120, 120], // tanah merah
+            [170, 130], // pasir puteh
+            [150, 130], // machang
+            [130, 130], // jeli
+            [110, 130], // kuala krai
+            [120, 150], // gua musang
+        ], [ // selangor
+            [90, 180], // sabak bernam
+            [70, 180], // sungai besar
+            [50, 180], // hulu selangor
+            [30, 180], // tanjong karang
+            [120, 190], // kuala selangor
+            [100, 190], // selayang
+            [40, 190], // gombak
+            [110, 210], // ampang
+            [30, 210], // pandan
+            [120, 220], // hulu langat
+            [40, 220], // serdang
+            [110, 240], // puchong
+            [30, 240], // kelana jaya
+            [100, 260], // petaling jaya selatan
+            [80, 260], // petaling jaya utara
+            [40, 260], // subang
+            [110, 270], // shah alam
+            [90, 270], // kapar
+            [70, 270], // klang
+            [50, 270], // kota raja
+            [80, 280], // kuala langat
+            [60, 280], // sepang
+        ], [ // pahang
+            [150, 200], // cameron highlands
+            [130, 200], // lipis
+            [160, 210], // raub
+            [140, 210], // jerantut
+            [120, 210], // indera mahkota
+            [150, 220], // kuantan
+            [130, 220], // paya besar
+            [160, 240], // pekan
+            [140, 240], // maran
+            [120, 240], // kuala krau
+            [170, 250], // temerloh
+            [150, 250], // bentong
+            [130, 250], // bera
+            [110, 250], // rompin
+        ], [ // terengganu
+            [160, 150], // besut
+            [140, 150], // setiu
+            [170, 160], // kuala nerus
+            [150, 160], // kuala terengganu
+            [130, 160], // marang
+            [160, 180], // hulu terengganu
+            [140, 180], // dungun
+            [160, 200], // kemaman
+        ], [ // kuala lumpur
+            [80, 190], // kepong
+            [60, 190], // batu
+            [90, 210], // wangsa maju
+            [70, 210], // segambut
+            [50, 210], // setiawangsa
+            [100, 220], // titiwangsa
+            [80, 220], // bukit bintang
+            [60, 220], // lembah pantai
+            [90, 240], // seputeh
+            [70, 240], // cheras
+            [50, 240], // bandar tun razak
+        ], [ // putrajaya
+            [60, 250], // putrajaya
+        ], [ // negeri sembilan
+            [120, 280], // jempol
+            [100, 280], // seremban
+            [120, 300], // kuala pilah
+            [100, 300], // rasah
+            [80, 300], // rembau
+            [110, 310], // telok kemang
+            [90, 310], // tampin
+        ], [ // melaka
+            [130, 310], // masjid tanah
+            [150, 310], // alor gajah
+            [160, 330], // tangga batu
+            [140, 330], // bukit katil
+            [120, 330], // kota melaka
+            [100, 330], // jasin
+        ], [ // johor
+            [180, 270], // segamat
+            [160, 270], // sekijang
+            [140, 270], // labis
+            [120, 270], // pagoh
+            [190, 280], // ledang
+            [170, 280], // bakri
+            [150, 280], // muar
+            [130, 280], // parit sulong
+            [190, 300], // ayer hitam
+            [170, 300], // sri gading
+            [150, 300], // batu pahat
+            [130, 300], // simpang renggam
+            [200, 310], // kluang
+            [180, 310], // sembrong
+            [160, 310], // mersing
+            [230, 330], // tengara
+            [210, 330], // kota tinggi
+            [190, 330], // pengerang
+            [170, 330], // tebrau
+            [240, 340], // pasir gudang
+            [220, 340], // johor bahru
+            [200, 340], // pulai
+            [180, 340], // gelang patah
+            [230, 360], // kulai
+            [210, 360], // pontian
+            [190, 360], // tanjong piai
+        ], [ // sabah
+            [460, 300], // kudat
+            [440, 280], // kota marudu
+            [460, 280], // kota belud
+            [470, 280], // tuaran
+            [490, 280], // sepanggar
+            [480, 300], // kota kinabalu
+            [430, 270], // putatan
+            [450, 270], // penampang
+            [460, 270], // papar
+            [480, 270], // kimanis
+            [500, 270], // beaufort
+            [500, 300], // sipitang
+            [420, 260], // ranau
+            [440, 260], // keningau
+            [460, 260], // tenom
+            [470, 260], // pensiangan
+            [490, 260], // beluran
+            [510, 260], // libaran
+            [520, 260], // batu sapi
+            [430, 240], // sandakan
+            [450, 240], // kinabatangan
+            [460, 240], // silam
+            [480, 240], // semporna
+            [440, 220], // tawau
+            [470, 220], // kalabakan
+        ], [ // sarawak
+            [420, 290], // mas gading
+            [390, 290], // santubong
+            [450, 300], // petrajaya
+            [440, 300], // bandar kuching
+            [420, 300], // stampin
+            [400, 300], // kota samarahan
+            [380, 300], // mambong
+            [450, 320], // serian
+            [430, 320], // batang sadong
+            [410, 320], // batang lupar
+            [390, 320], // sri aman
+            [370, 320], // lubok antu
+            [440, 330], // betong
+            [420, 330], // saratok
+            [400, 330], // tanjong manis
+            [380, 330], // igan
+            [360, 330], // sarikei
+            [340, 330], // julau
+            [410, 340], // kanowit
+            [390, 340], // lanang
+            [370, 340], // sibu
+            [350, 340], // mukah
+            [330, 340], // selangau
+            [290, 340], // kapit
+            [370, 360], // hulu rajang
+            [350, 360], // bintulu
+            [330, 360], // sibuti
+            [310, 360], // miri
+            [290, 360], // baram
+            [330, 370], // limbang
+            [320, 370], // lawas
+        ], [ // labuan
+            [400, 260], // labuan [400, 260] --- [420, 260]
+        ]
+    ];
+
+    var color = [
+        "teal", "black", "red", "green", "blue",
+        "yellow", "cyan", "magenta", "silver", "lime",
+        "maroon", "olive", "purple", "aqua", "gray",
+        "navy"
+    ];
+
+    var width = 960,
+        height = 500,
+        radius = 10,
+        padding = 100;
+    var svg = d3.select("#chart").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+    var hexbin = d3.hexbin()
+        .radius(radius);
+
+    svg.selectAll("g")
+        .data(negeriList)
+        .enter().append("g")
+            .attr("id", function(d) {
+                return d;
+            })
+            .selectAll("parlimen")
+            .data(function(d, i) {
+                return hexbin(coorParlimen[i]);
+            })
+            .enter().append("path")
+                .attr("class", "parlimen")
+                .attr("d", function(d) {
+                    return "M" + (d.x + padding) + "," + (d.y + padding) + hexbin.hexagon();
+                })
+                .style("fill", function(d, i, j) {
+                    return color[j];
+                })
+                .style("stroke", "black");
+</script>
+</body>
+</html>
