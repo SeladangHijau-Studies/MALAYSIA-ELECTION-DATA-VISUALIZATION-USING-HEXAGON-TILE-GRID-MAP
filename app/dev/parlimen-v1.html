@@ -4,16 +4,6 @@
         <title>Parlimen Malaysia</title>
 
         <style>
-            .boundary {
-                stroke: white;
-                stroke-width: 1px;
-            }
-
-            g path {
-                stroke: white;
-                stroke-width: 1px;
-            }
-
             /*
             path {
                 stroke: white;
@@ -61,10 +51,22 @@
         <script>
             // init data
             var color = [
-                "teal", "black", "red", "green", "blue",
-                "yellow", "cyan", "magenta", "silver", "lime",
-                "maroon", "olive", "purple", "aqua", "gray",
-                "navy"
+                "#00FFFF",
+                "#00FF00",
+                "#FFFF00",
+                "#FF0000",
+                "#FF00FF",
+                "#0000FF",
+                "#007FFF",
+                "#00FF80",
+                "#7FFF00",
+                "#FF8000",
+                "#FF007F",
+                "#8000FF",
+                "#008080",
+                "#000080",
+                "#800000",
+                "#808000"
             ];
             var negeriList = [
                 "perlis",
@@ -566,12 +568,6 @@
                 ]
             ];
 
-            var stateBoundary = [
-                [ // perlis
-
-                ]
-            ];
-
             // init svg
             var width = 960,
                 height = 500,
@@ -613,16 +609,14 @@
                         })
                         .on("mouseout", function() {
                             return tooltip.style("visibility", "hidden");
+                        })
+                        .on("click", function(d, i, j) {
+                            console.log(x);
+                            d3.select("#" + negeriList[x])
+                                .style("fill", "black")
+                                .style("stroke-width", "2");
                         });
             }
-
-            svg.append("line")
-                .attr("x1", "200")
-                .attr("y1", "260")
-                .attr("x2", "220")
-                .attr("y2", "260")
-                .style("stroke", "rgb(255,0,0)")
-                .style("stroke-width", "2px");
         </script>
     </body>
 </html>

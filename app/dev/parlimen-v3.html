@@ -79,15 +79,24 @@
             // input
             d3.json("json/setting.json", function(error, setting) {
                 // initialize settings
+                var zoom = d3.behavior.zoom()
+                    .scaleExtent([1, 5])
+                    .on("zoom", zoomed);
+                    var hexbin = d3.hexbin()
+                    .radius(setting.hexagon_radius);
                 var svg = d3.select("#chart").append("svg")
                     .attr("width", setting.width)
-                    .attr("height", setting.height);
-                var hexbin = d3.hexbin()
-                    .radius(setting.hexagon_radius);
+                    .attr("height", setting.height)
+                    .call(zoom);
                 var tooltip = d3.select("body").append("div")
                     .attr("class", "tooltip");
                 var popup = d3.select("body").append("div")
                     .attr("class", "popup");
+
+                function zoomed() {
+                    d3.selectAll("g")
+                        .attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+                };
 
                 // initialize data in senarai-parliament.json
                 d3.json("json/parliament.json", function(senaraiParlimen) {
@@ -116,6 +125,11 @@
                             .enter().append("g")
                                 .attr("id", function(d) {
                                     return d.nama_negeri;
+                                })
+                                .on("click", function() {
+                                    d3.selectAll("g")
+                                        .transition().duration(750)
+                                        .attr("transform", "");
                                 })
                                 .selectAll("parlimen")
                                 .data(function(d, i) {
@@ -152,6 +166,7 @@
                                         return tooltip.style("visibility", "hidden");
                                     } )
                                     .on("click", function(d, i, j) {
+                                        /*
                                         return popup
                                             .style("visibility", "visible")
                                             .html(
@@ -170,6 +185,7 @@
                                                 + "<h4>"
                                                     + "Calon parti pemenang: " + dataPilihanraya[j].keputusan[i].pemenang_calon_nama
                                                 + "</h4>");
+                                        */
                                     });
 
                         popup.on("click", function() {
