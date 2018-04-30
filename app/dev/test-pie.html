@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>円グラフ</title>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+	<script>
+        var width = 960;
+        var height = 500;
+        var radius = 200;
+		var dataset = [
+			{legend:"apple", value:10, color:"red"},
+			{legend:"orange", value:45, color:"orangered"},
+			{legend:"banana", value:25, color:"yellow"},
+			{legend:"peach", value:70, color:"pink"},
+			{legend:"grape", value:20, color:"purple"}
+        ];
+
+		var arc = d3.svg.arc()
+            .outerRadius(radius)
+            .innerRadius(50);
+		var pie = d3.layout.pie()
+            .sort(null)
+            .value(function(d){ return d.value; });
+		var svg = d3.select("body").append("svg")
+			.attr("width", width)
+			.attr("height", height)
+			.append("g")
+                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+                .selectAll(".fan")
+                .data(pie(dataset))
+                .enter().append("g")
+                    .attr("class", "fan");
+
+		svg.append("path")
+			.attr("d", arc)
+			.attr("fill", function(d){ return d.data.color; });
+        svg.append("text")
+			.style("text-anchor", "middle")
+			.attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+			.text(function(d) { return d.data.legend; });
+	</script>
+</body>
+</html>

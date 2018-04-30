@@ -1,23 +1,36 @@
-<div class="container-fluid">
+<style>
+    /* boleh ubah styling dlm ni */
+</style>
+
+<div class="container">
     <div class="row">
         <div class="col-md-offset-1 col-md-10">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10">
-                    <h2>This is parliament popups</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="chart-3"></div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-offset-4 col-md-4">
-                    <a href='#' class='btn btn-primary' onclick='close_popup()'>Close</a>
-                </div>
-            </div>
+            <h3>
+                [<span id="parliament-code"></span>] <span id="parliament-name"></span>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <h4>
+                Winning Party : <span id="winning-party"></span><br />
+                Winning Candidate : <span id="winning-candidate"></span>
+            </h4>
+            <h5>
+                Total Voters: <span id="total-voter"></span><br />
+                <ul>
+                    <li>BN : <span id="total-vote-bn"></span></li>
+                    <li>PAS : <span id="total-vote-pas"></span></li>
+                    <li>PKR : <span id="total-vote-pkr"></span></li>
+                    <li>DAP : <span id="total-vote-dap"></span></li>
+                    <li>OTH : <span id="total-vote-oth"></span></li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <a href='#' class='btn btn-primary' onclick='close_popup()'>Close</a>
         </div>
     </div>
 </div>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>円グラフ</title>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+	<script>
+		// test for kedah only
+		var maleCount = 0,
+			femaleCount = 0;
+		var width = 300,
+			height = 300,
+			radius = 150;
+		var dataset = [];
+		var arc = d3.svg.arc()
+			.outerRadius(radius)
+			.innerRadius(50);
+		var pie = d3.layout.pie()
+			.sort(null)
+			.value(function(d){ return d.value; });
+		
+		d3.json("json/demography.json", function(error, demography) {
+			for(var x=0 ; x<demography.length ; x++) {
+				if(demography[x].state_name == "KEDAH") {
+					maleCount = demography[x].demography.gender.male;
+					femaleCount = demography[x].demography.gender.female;
+				}
+			}
+
+			dataset = [
+				{legend: "MALE", value: maleCount, color: "GREEN"},
+				{legend: "FEMALE", value: femaleCount, color: "RED"}
+			];
+			
+			var svg = d3.select("body").append("svg")
+				.attr("width", width)
+				.attr("height", height)
+				.append("g")
+					.attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")")
+					.selectAll(".fan")
+					.data(pie(dataset))
+					.enter().append("g")
+						.attr("class", "fan");
+
+			svg.append("path")
+				.attr("d", arc)
+				.attr("fill", function(d){ return d.data.color; });
+			svg.append("text")
+				.style("text-anchor", "middle")
+				.attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+				.text(function(d) { return d.data.legend; });
+		});
+	</script>
+</body>
+</html>

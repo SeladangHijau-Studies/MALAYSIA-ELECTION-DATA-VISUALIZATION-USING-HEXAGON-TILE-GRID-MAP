@@ -15,109 +15,86 @@ button {
     <script src="//d3js.org/d3.v3.min.js"></script>
     <script>
         var margin = {top: 0, right: 0, bottom: 0, left: 0},
-            width = 840,		// canvas width
-            height = 480;		// canvas height
-
-        var scale = 1.0;
-
+            width = 840, // canvas width
+            height = 480, // canvas height
+            scale = 1.0,
+            clickScale = 2.0; // scale used when clicked		
         var zoom = d3.behavior.zoom()
             .scale(scale)
             .scaleExtent([1, 5])
             .on("zoom", zoomed);
-
         var svg = d3.select("body").append("svg")
             .attr("width", width)
             .attr("height", height)
             .attr("style", "outline: medium solid red;")
             .call(zoom);
-
         var container = svg.append("g")
             .attr("id", "container")
             .attr("transform", "translate(0,0)scale(1,1)");
-
-        var bbox, viewBox, vx, vy, vw, vh, defaultView;
-
-        var clickScale = 2.0;		// scale used when circle is clicked
-
-        d3.select("button").on("click", reset);
-        d3.tsv("circles.tsv", circletype, function(error, circles) {
-            circle = container.append("g")
-                .attr("id", "circles")
-                .selectAll("circle")
-                .data(circles)
-                .enter().append("circle")
-                .attr("r",  function(d) { return d.r; })
-                .attr("cx", function(d) { return d.x; })
-                .attr("cy", function(d) { return d.y; })
-                .style("fill", function(d) { return d.fill; })
+        var rectData = [
+            {x: 10, y: 10, width: 50, height: 100, fill: "orange"},
+            {x: 50, y: 50, width: 100, height: 50, fill: "green"}
+        ];
+        
+        var rect = container.append("g")
+            .attr("id", "rectangles")
+            .selectAll(".rectangle")
+            .data(rectData)
+            .enter().append("rect")
+                .attr("x", function(d) { return d.x; })
+                .attr("y", function(d) { return d.y; })
+                .attr("width", function(d) { return d.width; })
+                .attr("height", function(d) { return d.height; })
+                .attr("fill", function(d) { return d.fill; })
                 .on("click", clicked);
-            bbox = container.node().getBBox();
-            vx = bbox.x;		// container x co-ordinate
-            vy = bbox.y;		// container y co-ordinate
-            vw = bbox.width;	// container width
-            vh = bbox.height;	// container height
-            defaultView = "" + vx + " " + vy + " " + vw + " " + vh;
-            svg
-                .attr("viewBox", defaultView)
-                .attr("preserveAspectRatio", "xMidYMid meet")
-                    .call(zoom);
-        });
-
-        /*
-        getTransform(node, scale) finds the correct translation co-ordinates in order
-        to center the circle (node) into the Viewbox. This depends on the scale.
-        - bbox is the bounding box of the circle (node)
-        - vx is the top-left x-cordinate of the Viewbox
-        - vy is the top-left y-cordinate of the Viewbox
-        - tx is the calculated movement in the x co-ordinate 
-        - ty is the calculated movement in the y co-ordinate 
-        - xScale is the scale of the SVG with respect to the default Viewbox
-        */
-        function getTransform(node, xScale) {
-        bbox = node.node().getBBox();
-        var bx = bbox.x;
-        var by = bbox.y;
-        var bw = bbox.width;
-        var bh = bbox.height;
-        var tx = -bx*xScale + vx + vw/2 - bw*xScale/2;
-        var ty = -by*xScale + vy + vh/2 - bh*xScale/2;
-        return {translate: [tx, ty], scale: xScale}
-        }
-
-        function clicked(d, i) {
-        if (d3.event.defaultPrevented) {
-            return; // panning, not clicking
-        }
-        node = d3.select(this);
-        var transform = getTransform(node, clickScale);
-        container.transition().duration(1000)
-            .attr("transform", "translate(" + transform.translate + ")scale(" + transform.scale + ")");
-        zoom.scale(transform.scale)
-            .translate(transform.translate);
-        scale = transform.scale;
-        }
-
-        function circletype(d) {
-        d.x = +d.x;
-        d.y = +d.y;
-        d.r = +d.r;
-        return d;
-        }
+        var bbox = container.node().getBBox();
+        var vx = bbox.x;		// container x co-ordinate
+        var vy = bbox.y;		// container y co-ordinate
+        var vw = bbox.width;	// container width
+        var vh = bbox.height;	// container height
+        var defaultView = "" + vx + " " + vy + " " + vw + " " + vh;
 
         function zoomed() {
-        var translateX = d3.event.translate[0];
-        var translateY = d3.event.translate[1];
-        var xScale = d3.event.scale;
-        container.attr("transform", "translate(" + translateX + "," + translateY + ")scale(" + xScale + ")");
-        }
+            var translateX = d3.event.translate[0];
+            var translateY = d3.event.translate[1];
+            var xScale = d3.event.scale;
 
+            container.attr("transform", "translate(" + translateX + "," + translateY + ")scale(" + xScale + ")");
+        }
         function reset() {
-        scale = 1.0;
-        container.attr("transform", "translate(0,0)scale(1,1)");
-        zoom.scale(scale)
-            .translate([0,0]);
+            scale = 1.0;
+            container.attr("transform", "translate(0,0)scale(1,1)");
+            zoom.scale(scale)
+                .translate([0,0]);
+        }
+        function getTransform(node, xScale) {
+            bbox = node.node().getBBox();
+            var bx = bbox.x;
+            var by = bbox.y;
+            var bw = bbox.width;
+            var bh = bbox.height;
+            var tx = -bx*xScale + vx + vw/2 - bw*xScale/2;
+            var ty = -by*xScale + vy + vh/2 - bh*xScale/2;
+            return {translate: [tx, ty], scale: xScale}
+        }
+        function clicked(d, i) {
+            if (d3.event.defaultPrevented)
+                return; // panning, not clicking
+            
+            var node = d3.select(this);
+            var transform = getTransform(node, clickScale);
+
+            container.transition().duration(1000)
+                .attr("transform", "translate(" + transform.translate + ")scale(" + transform.scale + ")");
+            zoom.scale(transform.scale)
+                .translate(transform.translate);
+            scale = transform.scale;
         }
 
-        d3.select(self.frameElement).attr("margin", 10);
+        d3.select("button").on("click", reset);
+
+        svg.attr("viewBox", defaultView)
+            .attr("preserveAspectRatio", "xMidYMid meet")
+                .call(zoom);
     </script>
 </body>

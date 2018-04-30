@@ -1,0 +1,242 @@
+[
+    {
+        "state_name": "PERLIS",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 1300
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "KEDAH",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 300
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "PULAU PINANG",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 1400
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "PERAK",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "KELANTAN",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "TERENGGANU",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "PAHANG",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "SELANGOR",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "MELAKA",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "NEGERI SEMBILAN",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "JOHOR",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "SABAH",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "SARAWAK",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "KUALA LUMPUR",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "PUTRAJAYA",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    },
+    {
+        "state_name": "LABUAN",
+        "demography": {
+            "gender": {
+                "male": 100,
+                "female": 100
+            },
+            "ethnic": {
+                "malay": 100,
+                "indian": 100,
+                "chinese": 100,
+                "others": 100
+            }
+        }
+    }
+]
