@@ -40,17 +40,27 @@
                 color: white;
                 background-color: black;
             }
+
+            .state-label {
+                font-weight: bold;
+                box-shadow: 0 0 0 100px black;
+            }
+
+            #chart {
+                overflow: hidden;
+                border: 1px solid black;
+            }
         </style>
     </head>
 
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row system-title">
                 <div class="col-md-offset-2 col-md-6">
-                    <h3>MALAYSIA ELECTION DATA VISUALIZATION</h3>
+                    <h3><b>MALAYSIA ELECTION DATA VISUALIZATION</b></h3>
                     <div class="row">
                         <div class="col-md-offset-1 col-md-4">
-                            <h4>PRU-13</h4>
+                            <h4><u>GE-14</u></h4>
                         </div>
                     </div>
                 </div>
@@ -69,10 +79,18 @@
         <script>
             d3.json("json/setting.json", function(setting) {
                 // initialize settings
-                var level = 1;
+                var level = 1
+                    // attr for zooming
+                    scale = 1.0,
+                    zoomScale = 2.0;
+                var zoom = d3.behavior.zoom()
+                    .scale(scale)
+                    .scaleExtent([1, 5])
+                    .on("zoom", zoomed);
                 var svg = d3.select("#chart").append("svg")
                     .attr("width", setting.width)
-                    .attr("height", setting.height);
+                    .attr("height", setting.height)
+                    .call(zoom);
                 var hexbin = d3.hexbin()
                     .radius(setting.hexagon_radius);
                 var tooltip = d3.select("body")
@@ -81,13 +99,14 @@
                 var popup = d3.select("body")
                     .append("div")
                         .attr("class", "popup");
+                var selectedState = null;
 
-                close_popup = function() {
-                    level = 1;
+                function zoomed() {
+                    var translateX = d3.event.translate[0];
+                    var translateY = d3.event.translate[1];
+                    var xScale = d3.event.scale;
 
-                    popup.style("visibility", "hidden");
-                    d3.selectAll("g")
-                        .style("opacity", 1);
+                    svg.attr("transform", "translate(" + translateX + "," + translateY + ")scale(" + xScale + ")");
                 }
 
                 d3.json("json/parliament.json", function(parliamentList) {
@@ -106,123 +125,171 @@
                         parliamentCoordinateList.push(tempCoordinate);
                     }
 
+                    close_popup = function() {
+                        level = 1;
+
+                        popup.style("visibility", "hidden");
+                        d3.selectAll("g")
+                            .style("opacity", 1);
+                        d3.select(".system-title")
+                            .style("visibility", "visible");
+                        d3.selectAll(".state-label")
+                            .style("visibility", "visible");
+
+                        for(var x=0 ; x<setting.state_id.length ; x++)
+                            if(setting.state_id[x] == selectedState.attr("id"))
+                                selectedState.selectAll(".parliament")
+                                    .style("stroke", function() {
+                                        return setting.colors.states[x];
+                                    })
+                                    .style("fill", function() {
+                                        return setting.colors.states[x];
+                                    });
+                    }
+
                     d3.json("json/election.json", function(election) {
-                        // populate data visualization
-                        svg.selectAll("g")
-                            .data(parliamentList)
-                            .enter().append("g")
-                                .attr("id", function(d) {
-                                    return d.state_name;
+                        var g = svg.selectAll("g")
+                            .data(parliamentList);
+
+                        // populate data visualization                        
+                        g.enter().append("g")
+                            .attr("id", function(d, i) {
+                                return setting.state_id[i];
+                            })
+                            .attr("class", "state")
+                            .style('fill', function(d, i) {
+                                return setting.colors.states[i];
+                            })
+                            .style('stroke', function(d, i) {
+                                return setting.colors.states[i];
+                            })
+                            .on("mousemove", function() {
+                                tooltip.style("top", (event.pageY - 10)+"px")
+                                    .style("left",(event.pageX + 20)+"px");
+                            })
+                            .on("mouseout", function() {
+                                tooltip.transition().duration(200)		
+                                    .style("opacity", 0);
+                            } )
+                            .on("click", function(d, i, j) {
+                                if(level == 1) {
+                                    level = 2;
+                                    selectedState = d3.select(this);
+
+                                    tooltip.transition().duration(200)		
+                                        .style("opacity", 0);
+                                    
+                                    $(document).ready(function() {
+                                        $.get("popup-state.html", function(htmlResult) {
+                                            popup.html(htmlResult)
+                                                .style("visibility", "visible")
+                                                .style("width", "50%")
+                                                .style("height", "50%")
+                                                .style("top", "10px")
+                                                .style("left", "10px");
+                                        }, "html");
+                                    });
+                                    
+                                    d3.select(".system-title")
+                                        .style("visibility", "hidden");
+                                    d3.selectAll(".state-label")
+                                        .style("visibility", "hidden");
+                                    d3.selectAll("g")
+                                        .style("opacity", .2);
+                                    d3.select(this)
+                                        .selectAll(".parliament")
+                                        .attr("class", "parliament active");
+                                    d3.select(this)
+                                        .style("opacity", 1)
+                                        .selectAll(".parliament")
+                                        .style("stroke", "white")
+                                        .style("fill", function(d, j) {
+                                            var winner = election[i].result[j].winner.party;
+
+                                            switch(winner) {
+                                                case "BN":
+                                                    return setting.colors.parties.BN;
+                                                    break;
+                                                case "PH":
+                                                    return setting.colors.parties.PH;
+                                                    break;
+                                                case "GS":
+                                                    return setting.colors.parties.GS;
+                                                    break;
+                                                case "OTH":
+                                                    return setting.colors.parties.OTH;
+                                                    break;
+                                            }
+                                        });
+                                }
+                            })
+                            .selectAll(".parliament")
+                            .data(function(d, i) {
+                                return hexbin(parliamentCoordinateList[i]);
+                            })
+                            .enter().append("path")
+                                .attr("class", "parliament")
+                                .attr("id", function(d, i, j) {
+                                    return parliamentList[j].parliament[i].parliament_code;
                                 })
-                                .style('fill', function(d, i) {
-                                    return setting.colors.states[i];
+                                .attr("d", function(d) {
+                                    return "M" + (d.x + setting.padding)
+                                        + ","
+                                        + (d.y + setting.padding) + hexbin.hexagon();
                                 })
-                                .style('stroke', function(d, i) {
-                                    return setting.colors.states[i];
-                                })
-                                .on("mouseover", function(d) {
-                                    if(level == 1) {
-                                        tooltip.text(d.state_name)
-                                            .transition().duration(200)
+                                .on("mouseover", function(d, i, j) {
+                                    var thisHex = d3.select(this).attr("class");
+
+                                    if((level == 2) && (thisHex == "parliament active")) {
+                                        tooltip.transition().duration(200)
+                                            .text(parliamentList[j].parliament[i].parliament_code
+                                                + " : "
+                                                + parliamentList[j].parliament[i].parliament_name)
                                             .style("opacity", .9)
                                             .style("visibility", "visible");
                                     }
                                 })
-                                .on("mousemove", function() {
-                                    tooltip
-                                        .style("top", (event.pageY - 10)+"px")
-                                        .style("left",(event.pageX + 20)+"px");
-                                })
-                                .on("mouseout", function() {
-                                    tooltip.transition().duration(200)		
-                                        .style("opacity", 0);
-                                } )
-                                .on("click", function(d, i) {
-                                    if(level == 1) {
-                                        level = 2;
+                                .on("click", function(d, i, j) {
+                                    if(level == 2) {
+                                        var parliamentResult = election[j].result[i];
+                                        var parliamentName = parliamentList[j].parliament[i].parliament_name;
 
-                                        tooltip.transition().duration(200)		
-                                            .style("opacity", 0);
-                                        
                                         $(document).ready(function() {
-                                            $.get("popup-state.html", function(htmlResult) {
+                                            $.get("popup-parliament.html", function(htmlResult) {
                                                 popup.html(htmlResult)
                                                     .style("visibility", "visible")
                                                     .style("width", "50%")
                                                     .style("height", "50%")
                                                     .style("top", "10px")
                                                     .style("left", "10px");
+                                                
+                                                d3.select("#parliament-code").text(parliamentResult.parliament_code);
+                                                d3.select("#parliament-name").text(parliamentName);
+                                                d3.select("#winning-party").text(parliamentResult.winner.party);
+                                                d3.select("#winning-candidate").text(parliamentResult.winner.candidate);
+                                                d3.select("#total-voter").text(parliamentResult.vote.voter_total);
+                                                d3.select("#total-vote-bn").text(parliamentResult.vote.BN);
+                                                d3.select("#total-vote-ph").text(parliamentResult.vote.PH);
+                                                d3.select("#total-vote-oth").text(parliamentResult.vote.OTH);
                                             }, "html");
                                         });
-
-                                        d3.selectAll("g")
-                                            .style("opacity", .5);
-                                        d3.select(this)
-                                            .style("opacity", 1)
-                                            .style("stroke", "white");
                                     }
+                                });
+                                
+                            g.enter().append("text")
+                                .attr("class", "state-label")
+                                .attr("id", function(d, i) { return setting.state_id[i]; })
+                                .attr("x", function(d, i) {
+                                    var bbox = d3.select("#" + setting.state_id[i]).node().getBBox();
+                                    
+                                    return ((bbox.x + (bbox.x + bbox.width)) / 2);
                                 })
-                                .selectAll(".parliament")
-                                .data(function(d, i) {
-                                    return hexbin(parliamentCoordinateList[i]);
+                                .attr("y",  function(d, i) {
+                                    var bbox = d3.select("#" + setting.state_id[i]).node().getBBox();
+                                    
+                                    return ((bbox.y + (bbox.y + bbox.height)) / 2);
                                 })
-                                .enter().append("path")
-                                    .attr("class", "parliament")
-                                    .attr("id", function(d, i, j) {
-                                        return parliamentList[j].parliament[i].parliament_code;
-                                    })
-                                    .attr("d", function(d) {
-                                        return "M" + (d.x + setting.padding)
-                                            + ","
-                                            + (d.y + setting.padding) + hexbin.hexagon();
-                                    })
-                                    .on("mouseover", function(d, i, j) {
-                                        if(level == 2) {
-                                            tooltip.transition().duration(200)
-                                                .text(parliamentList[j].parliament[i].parliament_code
-                                                    + " : "
-                                                    + parliamentList[j].parliament[i].parliament_name)
-                                                .style("opacity", .9)
-                                                .style("visibility", "visible");
-                                        }
-                                    })
-                                    .on("mousemove", function(event) {
-                                        tooltip
-                                            .style("top", (event.pageY - 10)+"px")
-                                            .style("left",(event.pageX + 20)+"px");
-                                    })
-                                    .on("mouseout", function() {
-                                        tooltip.transition().duration(200)		
-                                            .style("opacity", 0);
-                                    })
-                                    .on("click", function(d, i, j) {
-                                        if(level == 2) {
-                                            var parliamentResult = election[j].result[i];
-                                            var parliamentName = parliamentList[j].parliament[i].parliament_name;
-
-                                            $(document).ready(function() {
-                                                $.get("popup-parliament.html", function(htmlResult) {
-                                                    popup.html(htmlResult)
-                                                        .style("visibility", "visible")
-                                                        .style("width", "50%")
-                                                        .style("height", "50%")
-                                                        .style("top", "10px")
-                                                        .style("left", "10px");
-                                                    
-                                                    d3.select("#parliament-code").text(parliamentResult.parliament_code);
-                                                    d3.select("#parliament-name").text(parliamentName);
-                                                    d3.select("#winning-party").text(parliamentResult.winner.party);
-                                                    d3.select("#winning-candidate").text(parliamentResult.winner.candidate);
-                                                    d3.select("#total-voter").text(parliamentResult.vote.voter_total);
-                                                    d3.select("#total-vote-bn").text(parliamentResult.vote.BN);
-                                                    d3.select("#total-vote-pas").text(parliamentResult.vote.PAS);
-                                                    d3.select("#total-vote-pkr").text(parliamentResult.vote.PKR);
-                                                    d3.select("#total-vote-dap").text(parliamentResult.vote.DAP);
-                                                    d3.select("#total-vote-oth").text(parliamentResult.vote.OTH);
-                                                }, "html");
-                                            });
-                                        }
-                                    });
+                                .text(function(d) { return d.state_name; });
                     });
                 });
             });

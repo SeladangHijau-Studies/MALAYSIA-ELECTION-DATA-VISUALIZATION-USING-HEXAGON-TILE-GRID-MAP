@@ -4,47 +4,56 @@
         "result": [
             {
                 "parliament_code": "P001",
-                "voter_total": 41974,
+                "candidate": {
+                    "BN": "Datuk Zahidi Zainul Abidin",
+                    "PH": "Izizam Ibrahim",
+                    "OTH": "Mokhtar Senik"
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 14047,
-                    "BN": 21473,
-                    "PKR": 0,
-                    "DAP": 0,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "ZAHIDI BIN ZAINUL ABIDIN"
+                    "party": "OTH",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P002",
-                "voter_total": 51207,
+                "candidate": {
+                    "BN": "Ramli Shariff",
+                    "PH": "Noor Amin Bin Ahmad",
+                    "OTH": "Mohamad Zahid Ibrahim"
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 19306,
-                    "BN": 23343,
-                    "PKR": 0,
-                    "DAP": 0,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "SHAHARUDDIN BIN ISMAIL"
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P003",
-                "voter_total": 43876,
+                "candidate": {
+                    "BN": "Datuk Seri Shahidan Kassim",
+                    "PH": "Datuk Dr Abdul Rahman Daud",
+                    "OTH": "Hashim Jasin"
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 18005,
-                    "BN": 19376,
-                    "PKR": 0,
-                    "DAP": 0,
-                    "OTH": 406
+                    "BN": 0,
+                    "PH": 0,
+                    "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "SHAHIDAN BIN KASSIM"
+                    "candidate": ""
                 }
             }
         ]
@@ -54,227 +63,272 @@
         "result": [
             {
                 "parliament_code": "P004",
-                "voter_total": 37536,
+                "candidate": {
+                    "BN": "Datuk Ir Nawawi Ahmad",
+                    "PH": "Tun Dr Mahathir Mohamad",
+                    "OTH": ""
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 0,
-                    "BN": 21407,
-                    "PKR": 9546,
-                    "DAP": 0,
-                    "OTH": 180
+                    "BN": 0,
+                    "PH": 0,
+                    "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "NAWAWI BIN AHMAD"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P005",
-                "voter_total": 52383,
+                "candidate": {
+                    "BN": "Datuk Othman Aziz",
+                    "PH": "Datuk Seri Mukhriz Tun Mahathir",
+                    "OTH": "Abd Ghani Ahmad"
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 20891,
-                    "BN": 24161,
-                    "PKR": 0,
-                    "DAP": 0,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "OTHMAN BIN AZIZ"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P006",
-                "voter_total": 65550,
+                "candidate": {
+                    "BN": "Datuk Seri Mohd Johari Baharum",
+                    "PH": "Datuk Ir Amiruddin Hamzah",
+                    "OTH": "Norhafiza Fadzil"
+                },
+                "voter_total": 0,
                 "vote": {
-                    "PAS": 22890,
-                    "BN": 33334,
-                    "PKR": 0,
-                    "DAP": 0,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "MOHD JOHARI BIN BAHARUM"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P007",
+                "candidate": {
+                    "BN": "Datuk Seri Mahdzir Khalid",
+                    "PH": "Mohd Khairizal Khazali",
+                    "OTH": "Mohamad Azam Abd Aziz"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P008",
+                "candidate": {
+                    "BN": "Datuk  Said Ali Syed Rastan",
+                    "PH": "Dato Mahfuz Haji Omar",
+                    "OTH": "Muhamad Radhi Mat Din"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P009",
+                "candidate": {
+                    "BN": "Yoo Wei How",
+                    "PH": "Chan Ming Kai",
+                    "OTH": "Mohd Aminur Shafiq M Abduh"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P010",
+                "candidate": {
+                    "BN": "Dato Abdullah Hasnan Kamaruddin",
+                    "PH": "Dr. Azman Ismail",
+                    "OTH": "Muhammad Riduan Othman"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }
             },
             {
                 "parliament_code": "P011",
+                "candidate": {
+                    "BN": "Datuk Othman Abdul",
+                    "PH": "Wan Saiful Wan Jan",
+                    "OTH": "Awang Hashim"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P012",
+                "candidate": {
+                    "BN": "Datuk Seri Jamil Khir Baharom",
+                    "PH": "Akhramsyah Muammar Sanusi",
+                    "OTH": "Mohamad Ismail"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P013",
+                "candidate": {
+                    "BN": "Dr Mansor Abdul Rahman",
+                    "PH": "Azli Che Uda",
+                    "OTH": "Ahmad Tarmizi Sulaiman"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P014",
+                "candidate": {
+                    "BN": "Datuk Tajul Urus Mat Zin",
+                    "PH": "Nor Azrina Surip @ Nurin Aina Abdullah",
+                    "OTH": "Ahmad Fauzi Ramli"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P015",
+                "candidate": {
+                    "BN": "Datuk Shahanim Mohd Yusoff",
+                    "PH": "Dato’ Johari Abdul",
+                    "OTH": "Shahril Long"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P016",
+                "candidate": {
+                    "BN": "Datuk Seri Abdul Azeez Abd Rahim",
+                    "PH": "Mohd Taufik Yaacob",
+                    "OTH": "Hassan Saad"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P017",
+                "candidate": {
+                    "BN": "Dato Dr Leong Yong Kong",
+                    "PH": "Karupaiyyah A/L Muhusamy",
+                    "OTH": "Muhamad Sobri Osman"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "GS",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P018",
+                "candidate": {
+                    "BN": "Datuk Abd Aziz Sheikh Fadzir",
+                    "PH": "Dato’ Saifuddin Nasution Ismail",
+                    "OTH": "Hasan Abdul Razak"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "GS",
+                    "candidate": ""
                 }                
             }
         ]
@@ -284,197 +338,236 @@
         "result": [
             {
                 "parliament_code": "P041",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "",
+                    "candidate": ""
+                }
             },
             {
                 "parliament_code": "P042",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P043",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P044",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P045",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P046",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P047",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P048",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P049",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P050",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P051",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P052",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P053",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -484,362 +577,434 @@
         "result": [
             {
                 "parliament_code": "P054",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P055",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P056",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P057",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P058",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P059",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P060",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P061",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P062",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P063",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P064",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P065",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P066",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P067",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P068",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P069",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P070",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P071",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P072",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P073",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P074",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P075",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P076",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P077",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -849,212 +1014,254 @@
         "result": [
             {
                 "parliament_code": "P019",
+                "candidate": {
+                    "BN": "Datuk Wan Johani Wan Hussin",
+                    "PH": "Datuk Nordin Salleh",
+                    "OTH": "Datuk Che Abdullah Mat Nawi"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P020",
+                "candidate": {
+                    "BN": "Datuk Zaluzi Sulaiman",
+                    "PH": "Mohamad Ibrahim",
+                    "OTH": "Ahmad Marzuk Shaary"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P021",
+                "candidate": {
+                    "BN": "Fikhran Hamshi Mohamad Fatmi",
+                    "PH": "Datuk Husam Musa",
+                    "OTH": "Datuk Takiyuddin Hassan"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P022",
+                "candidate": {
+                    "BN": "Nor Azmawi Ab Rahman",
+                    "PH": "Ujang Che Daud",
+                    "OTH": "Ahmad Fadhli Shaari"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P023",
+                "candidate": {
+                    "BN": "Senator Datuk Abdullah Mat Yasim",
+                    "PH": "Shah Jihan Wan Din",
+                    "OTH": "Siti Zailah Md Yusoff"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P024",
+                "candidate": {
+                    "BN": "Datuk Seri Mohamad Abdul Ghani",
+                    "PH": "Datuk Dr Abdul Halim Yusof",
+                    "OTH": "Datuk Tuan Ibrahim Tuan Man"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P025",
+                "candidate": {
+                    "BN": "Datuk Dr. Awang Adek Hussin",
+                    "PH": "Mohd Zulkifli Zakaria",
+                    "OTH": "Nik Mohd Abduh Nik Abd Aziz"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P026",
+                "candidate": {
+                    "BN": "Tan Sri Annuar Musa",
+                    "PH": "Dr Mohd Radzi Mohd Jidin",
+                    "OTH": "Wan Ismail Wan Jusoh"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P027",
+                "candidate": {
+                    "BN": "Datuk Seri Ikmal Hisham Abdul Aziz",
+                    "PH": "Dato Mohamad Suparadi Md Noor",
+                    "OTH": "Datuk Dr. Johari Mat"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P028",
+                "candidate": {
+                    "BN": "Datuk Dr. Asyraf Wajdi Dusuki",
+                    "PH": "Datuk Kamaruddin Md Nor",
+                    "OTH": "Datuk Nik Mohd Zawawi Salleh"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P029",
+                "candidate": {
+                    "BN": "Datuk Ahmad Jazlan Yaakob",
+                    "PH": "Datuk Sazmi Miah",
+                    "OTH": "Zulkifli Mamat"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P030",
+                "candidate": {
+                    "BN": "Datuk Seri Mustapa Mohamed",
+                    "PH": "Azran Deraman",
+                    "OTH": "Mohamad Hamid"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P031",
+                "candidate": {
+                    "BN": "Datuk Ramzi Ab Rahman",
+                    "PH": "Yazid Abdullah",
+                    "OTH": "Abdul Latiff Abdul Rahman"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P032",
+                "candidate": {
+                    "BN": "Tengku Razaleigh Tengku Hamzah",
+                    "PH": "Mohd Nor Hussin",
+                    "OTH": "Abdullah Hussien"
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1064,332 +1271,398 @@
         "result": [
             {
                 "parliament_code": "P092",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P093",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P094",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P095",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P096",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P097",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P098",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P099",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P200",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P201",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P202",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P203",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P204",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P205",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P206",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P207",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P208",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P209",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P210",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P211",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P212",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P213",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1399,212 +1672,254 @@
         "result": [
             {
                 "parliament_code": "P078",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P079",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P080",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P081",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P082",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P083",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P084",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P085",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P086",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P087",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P088",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P089",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P090",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P091",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1614,122 +1929,146 @@
         "result": [
             {
                 "parliament_code": "P033",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P034",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P035",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P036",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P037",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P038",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P039",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P040",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1739,167 +2078,200 @@
         "result": [
             {
                 "parliament_code": "P114",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P115",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P116",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P117",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P118",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P119",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P120",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P121",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P122",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P123",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P124",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1909,17 +2281,20 @@
         "result": [
             {
                 "parliament_code": "P125",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -1929,107 +2304,128 @@
         "result": [
             {
                 "parliament_code": "P127",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P128",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P129",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P130",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P131",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P132",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P133",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -2039,92 +2435,110 @@
         "result": [
             {
                 "parliament_code": "P134",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P135",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P136",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P137",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P138",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P139",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -2134,392 +2548,470 @@
         "result": [
             {
                 "parliament_code": "P140",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P141",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P142",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P143",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P144",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P145",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P146",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P147",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P148",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P149",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P150",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P151",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P152",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P153",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P154",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P155",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P156",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P157",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P158",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P159",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P160",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P161",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P162",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P163",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P164",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P165",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -2529,362 +3021,434 @@
         "result": [
             {
                 "parliament_code": "P167",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P168",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P169",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "",
+                    "candidate": ""
+                }
             },
             {
                 "parliament_code": "P170",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P171",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P172",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P173",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P174",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P175",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P176",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P177",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P178",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P179",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P180",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P181",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P182",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P183",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P184",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P185",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P186",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P187",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P189",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P190",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P191",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             }
         ]
@@ -2894,468 +3458,561 @@
         "result": [
             {
                 "parliament_code": "P192",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P193",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "GS",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P194",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "OTH",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P195",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "GS",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P196",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P197",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P198",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P199",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "OTH",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P200",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P201",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P202",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P203",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P204",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P205",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P206",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P207",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P208",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P209",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P210",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P211",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P212",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P213",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P214",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "party": "",
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P215",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P216",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P217",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P218",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "Najib Tun Razak"
+                    "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P219",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "PH",
+                    "candidate": ""
+                }
             },
             {
                 "parliament_code": "P220",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "PH",
+                    "candidate": ""
+                }
             },
             {
                 "parliament_code": "P221",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "PH",
+                    "candidate": ""
+                }
             },
             {
                 "parliament_code": "P222",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
                     "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "candidate": ""
+                }
             }
         ]
     },
@@ -3364,18 +4021,21 @@
         "result": [
             {
                 "parliament_code": "P166",
+                "candidate": {
+                    "BN": "",
+                    "PH": "",
+                    "OTH": ""
+                },
                 "voter_total": 0,
                 "vote": {
-                    "PAS": 10000,
-                    "BN": 20202020,
-                    "PKR": 388383,
-                    "DAP": 8293,
+                    "BN": 0,
+                    "PH": 0,
                     "OTH": 0
                 },
                 "winner": {
-                    "party": "BN",
-                    "candidate": "Najib Tun Razak"
-                }                
+                    "party": "",
+                    "candidate": ""
+                }              
             }
         ]
     }

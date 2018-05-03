@@ -277,7 +277,7 @@
                 "parliament_code": "P055",
                 "parliament_name": "LENGGONG",
                 "coordinate": {
-                    "x": 90,
+                    "x": 110,
                     "y": 110
                 }
             },
@@ -285,16 +285,16 @@
                 "parliament_code": "P056",
                 "parliament_name": "LARUT",
                 "coordinate": {
-                    "x": 90,
-                    "y": 130
+                    "x": 100,
+                    "y": 110
                 }
             },
             {
                 "parliament_code": "P057",
                 "parliament_name": "PARIT BUNTAR",
                 "coordinate": {
-                    "x": 80,
-                    "y": 150
+                    "x": 100,
+                    "y": 120
                 }
             },
             {
@@ -302,94 +302,94 @@
                 "parliament_name": "BAGAN SERAI",
                 "coordinate": {
                     "x": 90,
-                    "y": 160
+                    "y": 120
                 }
             },
             {
                 "parliament_code": "P059",
                 "parliament_name": "BUKIT GANTANG",
                 "coordinate": {
-                    "x": 60,
-                    "y": 140
+                    "x": 70,
+                    "y": 120
                 }
             },
             {
                 "parliament_code": "P060",
                 "parliament_name": "TAIPING",
                 "coordinate": {
-                    "x": 110,
-                    "y": 160
+                    "x": 100,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P061",
                 "parliament_name": "PADANG RENGAS",
                 "coordinate": {
-                    "x": 100,
-                    "y": 150
+                    "x": 80,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P062",
                 "parliament_name": "SUNGAI SIPUT",
                 "coordinate": {
-                    "x": 80,
-                    "y": 140
+                    "x": 60,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P063",
                 "parliament_name": "TAMBUN",
                 "coordinate": {
-                    "x": 50,
-                    "y": 140
+                    "x": 40,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P064",
                 "parliament_name": "IPOH TIMUR",
                 "coordinate": {
-                    "x": 100,
-                    "y": 120
+                    "x": 20,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P065",
                 "parliament_name": "IPOH BARAT",
                 "coordinate": {
-                    "x": 70,
-                    "y": 120
+                    "x": 110,
+                    "y": 150
                 }
             },
             {
                 "parliament_code": "P066",
                 "parliament_name": "BATU GAJAH",
                 "coordinate": {
-                    "x": 120,
-                    "y": 110
+                    "x": 90,
+                    "y": 150
                 }
             },
             {
                 "parliament_code": "P067",
                 "parliament_name": "KUALA KANGSAR",
                 "coordinate": {
-                    "x": 100,
-                    "y": 180
+                    "x": 70,
+                    "y": 150
                 }
             },
             {
                 "parliament_code": "P068",
                 "parliament_name": "BERUAS",
                 "coordinate": {
-                    "x": 120,
-                    "y": 180
+                    "x": 50,
+                    "y": 150
                 }
             },
             {
                 "parliament_code": "P069",
                 "parliament_name": "PARIT",
                 "coordinate": {
-                    "x": 70,
+                    "x": 30,
                     "y": 150
                 }
             },
@@ -397,7 +397,7 @@
                 "parliament_code": "P070",
                 "parliament_name": "KAMPAR",
                 "coordinate": {
-                    "x": 70,
+                    "x": 110,
                     "y": 160
                 }
             },
@@ -405,7 +405,7 @@
                 "parliament_code": "P071",
                 "parliament_name": "GOPENG",
                 "coordinate": {
-                    "x": 60,
+                    "x": 100,
                     "y": 160
                 }
             },
@@ -414,7 +414,7 @@
                 "parliament_name": "TAPAH",
                 "coordinate": {
                     "x": 80,
-                    "y": 120
+                    "y": 160
                 }
             },
             {
@@ -422,14 +422,14 @@
                 "parliament_name": "PASIR SALAK",
                 "coordinate": {
                     "x": 60,
-                    "y": 150
+                    "y": 160
                 }
             },
             {
                 "parliament_code": "P074",
                 "parliament_name": "LUMUT",
                 "coordinate": {
-                    "x": 30,
+                    "x": 40,
                     "y": 160
                 }
             },
@@ -437,24 +437,24 @@
                 "parliament_code": "P075",
                 "parliament_name": "BAGAN DATUK",
                 "coordinate": {
-                    "x": 40,
-                    "y": 150
+                    "x": 20,
+                    "y": 160
                 }
             },
             {
                 "parliament_code": "P076",
                 "parliament_name": "TELOK INTAN",
                 "coordinate": {
-                    "x": 60,
-                    "y": 120
+                    "x": 120,
+                    "y": 180
                 }
             },
             {
                 "parliament_code": "P077",
                 "parliament_name": "TANJONG MALIM",
                 "coordinate": {
-                    "x": 40,
-                    "y": 160
+                    "x": 110,
+                    "y": 180
                 }
             }
         ]
@@ -466,24 +466,24 @@
                 "parliament_code": "P019",
                 "parliament_name": "TUMPAT",
                 "coordinate": {
-                    "x": 130,
-                    "y": 110
+                    "x": 110,
+                    "y": 80
                 }
             },
             {
                 "parliament_code": "P020",
                 "parliament_name": "PENKALAN CHEPA",
                 "coordinate": {
-                    "x": 140,
-                    "y": 90
+                    "x": 130,
+                    "y": 80
                 }
             },
             {
                 "parliament_code": "P021",
                 "parliament_name": "KOTA BHARU",
                 "coordinate": {
-                    "x": 140,
-                    "y": 110
+                    "x": 120,
+                    "y": 90
                 }
             },
             {
@@ -491,30 +491,30 @@
                 "parliament_name": "PASIR MAS",
                 "coordinate": {
                     "x": 140,
-                    "y": 80
+                    "y": 90
                 }
             },
             {
                 "parliament_code": "P023",
                 "parliament_name": "RANTAU PANJANG",
                 "coordinate": {
-                    "x": 130,
-                    "y": 120
+                    "x": 150,
+                    "y": 100
                 }
             },
             {
                 "parliament_code": "P024",
                 "parliament_name": "KUBANG KERIAN",
                 "coordinate": {
-                    "x": 150,
-                    "y": 120
+                    "x": 130,
+                    "y": 100
                 }
             },
             {
                 "parliament_code": "P025",
                 "parliament_name": "BACHOK",
                 "coordinate": {
-                    "x": 120,
+                    "x": 160,
                     "y": 120
                 }
             },
@@ -522,32 +522,32 @@
                 "parliament_code": "P026",
                 "parliament_name": "KETEREH",
                 "coordinate": {
-                    "x": 130,
-                    "y": 80
+                    "x": 140,
+                    "y": 120
                 }
             },
             {
                 "parliament_code": "P027",
                 "parliament_name": "TANAH MERAH",
                 "coordinate": {
-                    "x": 160,
-                    "y": 110
+                    "x": 120,
+                    "y": 120
                 }
             },
             {
                 "parliament_code": "P028",
                 "parliament_name": "PASIR PUTEH",
                 "coordinate": {
-                    "x": 160,
-                    "y": 90
+                    "x": 170,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P029",
                 "parliament_name": "MACHANG",
                 "coordinate": {
-                    "x": 120,
-                    "y": 90
+                    "x": 150,
+                    "y": 130
                 }
             },
             {
@@ -562,16 +562,16 @@
                 "parliament_code": "P031",
                 "parliament_name": "KUALA KRAI",
                 "coordinate": {
-                    "x": 120,
-                    "y": 150
+                    "x": 110,
+                    "y": 130
                 }
             },
             {
                 "parliament_code": "P032",
                 "parliament_name": "GUA MUSANG",
                 "coordinate": {
-                    "x": 110,
-                    "y": 130
+                    "x": 120,
+                    "y": 150
                 }
             }
         ]
@@ -583,7 +583,7 @@
                 "parliament_code": "P092",
                 "parliament_name": "SABAK BERNAM",
                 "coordinate": {
-                    "x": 40,
+                    "x": 90,
                     "y": 180
                 }
             },
@@ -591,7 +591,7 @@
                 "parliament_code": "P093",
                 "parliament_name": "SUNGAI BESAR",
                 "coordinate": {
-                    "x": 50,
+                    "x": 70,
                     "y": 180
                 }
             },
@@ -599,7 +599,7 @@
                 "parliament_code": "P094",
                 "parliament_name": "HULU SELANGOR",
                 "coordinate": {
-                    "x": 70,
+                    "x": 50,
                     "y": 180
                 }
             },
@@ -608,14 +608,14 @@
                 "parliament_name": "TANJONG KARANG",
                 "coordinate": {
                     "x": 30,
-                    "y": 190
+                    "y": 180
                 }
             },
             {
                 "parliament_code": "P096",
                 "parliament_name": "KUALA SELANGOR",
                 "coordinate": {
-                    "x": 40,
+                    "x": 120,
                     "y": 190
                 }
             },
@@ -623,24 +623,24 @@
                 "parliament_code": "P097",
                 "parliament_name": "SELAYANG",
                 "coordinate": {
-                    "x": 40,
-                    "y": 210
+                    "x": 100,
+                    "y": 190
                 }
             },
             {
                 "parliament_code": "P098",
                 "parliament_name": "GOMBAK",
                 "coordinate": {
-                    "x": 30,
-                    "y": 220
+                    "x": 40,
+                    "y": 190
                 }
             },
             {
                 "parliament_code": "P099",
                 "parliament_name": "AMPANG",
                 "coordinate": {
-                    "x": 40,
-                    "y": 220
+                    "x": 110,
+                    "y": 210
                 }
             },
             {
@@ -648,46 +648,46 @@
                 "parliament_name": "PANDAN",
                 "coordinate": {
                     "x": 30,
-                    "y": 240
+                    "y": 210
                 }
             },
             {
                 "parliament_code": "P101",
                 "parliament_name": "HULU LANGAT",
                 "coordinate": {
-                    "x": 80,
-                    "y": 180
+                    "x": 120,
+                    "y": 220
                 }
             },
             {
                 "parliament_code": "P102",
                 "parliament_name": "SERDANG",
                 "coordinate": {
-                    "x": 60,
-                    "y": 260
+                    "x": 40,
+                    "y": 220
                 }
             },
             {
                 "parliament_code": "P103",
                 "parliament_name": "PUCHONG",
                 "coordinate": {
-                    "x": 90,
-                    "y": 260
+                    "x": 110,
+                    "y": 240
                 }
             },
             {
                 "parliament_code": "P104",
                 "parliament_name": "KELANA JAYA",
                 "coordinate": {
-                    "x": 20,
-                    "y": 210
+                    "x": 30,
+                    "y": 240
                 }
             },
             {
                 "parliament_code": "P105",
                 "parliament_name": "PETALING JAYA SELATAN",
                 "coordinate": {
-                    "x": 30,
+                    "x": 100,
                     "y": 260
                 }
             },
@@ -695,7 +695,7 @@
                 "parliament_code": "P106",
                 "parliament_name": "PETALING JAYA UTARA",
                 "coordinate": {
-                    "x": 40,
+                    "x": 80,
                     "y": 260
                 }
             },
@@ -703,8 +703,8 @@
                 "parliament_code": "P107",
                 "parliament_name": "SUBANG",
                 "coordinate": {
-                    "x": 90,
-                    "y": 190
+                    "x": 40,
+                    "y": 260
                 }
             },
             {
@@ -712,30 +712,30 @@
                 "parliament_name": "SHAH ALAM",
                 "coordinate": {
                     "x": 110,
-                    "y": 190
+                    "y": 270
                 }
             },
             {
                 "parliament_code": "P109",
                 "parliament_name": "KAPAR",
                 "coordinate": {
-                    "x": 110,
-                    "y": 220
+                    "x": 90,
+                    "y": 270
                 }
             },
             {
                 "parliament_code": "P110",
                 "parliament_name": "KLANG",
                 "coordinate": {
-                    "x": 100,
-                    "y": 210
+                    "x": 70,
+                    "y": 270
                 }
             },
             {
                 "parliament_code": "P111",
                 "parliament_name": "KOTA RAJA",
                 "coordinate": {
-                    "x": 40,
+                    "x": 50,
                     "y": 270
                 }
             },
@@ -743,16 +743,16 @@
                 "parliament_code": "P112",
                 "parliament_name": "KUALA LANGAT",
                 "coordinate": {
-                    "x": 100,
-                    "y": 240
+                    "x": 80,
+                    "y": 280
                 }
             },
             {
                 "parliament_code": "P113",
                 "parliament_name": "SEPANG",
                 "coordinate": {
-                    "x": 70,
-                    "y": 260
+                    "x": 60,
+                    "y": 280
                 }
             }
         ]
@@ -764,16 +764,16 @@
                 "parliament_code": "P078",
                 "parliament_name": "CAMERON HIGHLANDS",
                 "coordinate": {
-                    "x": 130,
-                    "y": 170
+                    "x": 150,
+                    "y": 200
                 }
             },
             {
                 "parliament_code": "P079",
                 "parliament_name": "LIPIS",
                 "coordinate": {
-                    "x": 140,
-                    "y": 180
+                    "x": 130,
+                    "y": 200
                 }
             },
             {
@@ -781,22 +781,22 @@
                 "parliament_name": "RAUB",
                 "coordinate": {
                     "x": 160,
-                    "y": 190
+                    "y": 210
                 }
             },
             {
                 "parliament_code": "P081",
                 "parliament_name": "JERANTUT",
                 "coordinate": {
-                    "x": 130,
-                    "y": 190
+                    "x": 140,
+                    "y": 210
                 }
             },
             {
                 "parliament_code": "P082",
                 "parliament_name": "INDERA MAHKOTA",
                 "coordinate": {
-                    "x": 130,
+                    "x": 120,
                     "y": 210
                 }
             },
@@ -804,8 +804,8 @@
                 "parliament_code": "P083",
                 "parliament_name": "KUANTAN",
                 "coordinate": {
-                    "x": 120,
-                    "y": 210
+                    "x": 150,
+                    "y": 220
                 }
             },
             {
@@ -820,47 +820,47 @@
                 "parliament_code": "P085",
                 "parliament_name": "PEKAN",
                 "coordinate": {
-                    "x": 140,
-                    "y": 190
+                    "x": 160,
+                    "y": 240
                 }
             },
             {
                 "parliament_code": "P086",
                 "parliament_name": "MARAN",
                 "coordinate": {
-                    "x": 130,
-                    "y": 250
+                    "x": 140,
+                    "y": 240
                 }
             },
             {
                 "parliament_code": "P087",
                 "parliament_name": "KUALA KRAU",
                 "coordinate": {
-                    "x": 150,
-                    "y": 210
+                    "x": 120,
+                    "y": 240
                 }
             },
             {
                 "parliament_code": "P088",
                 "parliament_name": "TEMERLOH",
                 "coordinate": {
-                    "x": 130,
-                    "y": 240
+                    "x": 170,
+                    "y": 250
                 }
             },
             {
                 "parliament_code": "P089",
                 "parliament_name": "BENTONG",
                 "coordinate": {
-                    "x": 120,
-                    "y": 240
+                    "x": 150,
+                    "y": 250
                 }
             },
             {
                 "parliament_code": "P090",
                 "parliament_name": "BERA",
                 "coordinate": {
-                    "x": 140,
+                    "x": 130,
                     "y": 250
                 }
             },
@@ -868,8 +868,8 @@
                 "parliament_code": "P091",
                 "parliament_name": "ROMPIN",
                 "coordinate": {
-                    "x": 140,
-                    "y": 220
+                    "x": 110,
+                    "y": 250
                 }
             }
         ]
@@ -881,7 +881,7 @@
                 "parliament_code": "P033",
                 "parliament_name": "BESUT",
                 "coordinate": {
-                    "x": 130,
+                    "x": 160,
                     "y": 150
                 }
             },
@@ -890,15 +890,15 @@
                 "parliament_name": "SETIU",
                 "coordinate": {
                     "x": 140,
-                    "y": 130
+                    "y": 150
                 }
             },
             {
                 "parliament_code": "P035",
                 "parliament_name": "KUALA NERUS",
                 "coordinate": {
-                    "x": 160,
-                    "y": 130
+                    "x": 170,
+                    "y": 160
                 }
             },
             {
@@ -906,31 +906,31 @@
                 "parliament_name": "KUALA TERENGGANU",
                 "coordinate": {
                     "x": 150,
-                    "y": 150
+                    "y": 160
                 }
             },
             {
                 "parliament_code": "P037",
                 "parliament_name": "MARANG",
                 "coordinate": {
-                    "x": 170,
-                    "y": 150
+                    "x": 130,
+                    "y": 160
                 }
             },
             {
                 "parliament_code": "P038",
                 "parliament_name": "HULU TERENGGANU",
                 "coordinate": {
-                    "x": 140,
-                    "y": 160
+                    "x": 160,
+                    "y": 180
                 }
             },
             {
                 "parliament_code": "P039",
                 "parliament_name": "DUNGUN",
                 "coordinate": {
-                    "x": 160,
-                    "y": 160
+                    "x": 140,
+                    "y": 180
                 }
             },
             {
@@ -938,7 +938,7 @@
                 "parliament_name": "KEMAMAN",
                 "coordinate": {
                     "x": 160,
-                    "y": 180
+                    "y": 200
                 }
             }
         ]
@@ -950,7 +950,7 @@
                 "parliament_code": "P114",
                 "parliament_name": "KEPONG",
                 "coordinate": {
-                    "x": 60,
+                    "x": 80,
                     "y": 190
                 }
             },
@@ -958,7 +958,7 @@
                 "parliament_code": "P115",
                 "parliament_name": "BATU",
                 "coordinate": {
-                    "x": 70,
+                    "x": 60,
                     "y": 190
                 }
             },
@@ -966,7 +966,7 @@
                 "parliament_code": "P116",
                 "parliament_name": "WANGSA MAJU",
                 "coordinate": {
-                    "x": 50,
+                    "x": 90,
                     "y": 210
                 }
             },
@@ -982,7 +982,7 @@
                 "parliament_code": "P118",
                 "parliament_name": "SETIAWANGSA",
                 "coordinate": {
-                    "x": 80,
+                    "x": 50,
                     "y": 210
                 }
             },
@@ -990,31 +990,31 @@
                 "parliament_code": "P119",
                 "parliament_name": "TITIWANGSA",
                 "coordinate": {
-                    "x": 60,
-                    "y": 230
+                    "x": 100,
+                    "y": 220
                 }
             },
             {
                 "parliament_code": "P120",
                 "parliament_name": "BUKIT BINTANG",
                 "coordinate": {
-                    "x": 70,
-                    "y": 230
+                    "x": 80,
+                    "y": 220
                 }
             },
             {
                 "parliament_code": "P121",
                 "parliament_name": "LEMBAH PANTAI",
                 "coordinate": {
-                    "x": 90,
-                    "y": 230
+                    "x": 60,
+                    "y": 220
                 }
             },
             {
                 "parliament_code": "P122",
                 "parliament_name": "SEPUTEH",
                 "coordinate": {
-                    "x": 50,
+                    "x": 90,
                     "y": 240
                 }
             },
@@ -1030,7 +1030,7 @@
                 "parliament_code": "P124",
                 "parliament_name": "BANDAR TUN RAZAK",
                 "coordinate": {
-                    "x": 90,
+                    "x": 50,
                     "y": 240
                 }
             }
@@ -1043,8 +1043,8 @@
                 "parliament_code": "P125",
                 "parliament_name": "PUTRAJAYA",
                 "coordinate": {
-                    "x": 50,
-                    "y": 270
+                    "x": 60,
+                    "y": 250
                 }
             }
         ]
@@ -1056,48 +1056,48 @@
                 "parliament_code": "P127",
                 "parliament_name": "JEMPOL",
                 "coordinate": {
-                    "x": 70,
-                    "y": 270
+                    "x": 120,
+                    "y": 280
                 }
             },
             {
                 "parliament_code": "P128",
                 "parliament_name": "SEREMBAN",
                 "coordinate": {
-                    "x": 80,
-                    "y": 270
+                    "x": 100,
+                    "y": 280
                 }
             },
             {
                 "parliament_code": "P129",
                 "parliament_name": "KUALA PILAH",
                 "coordinate": {
-                    "x": 100,
-                    "y": 280
+                    "x": 120,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P130",
                 "parliament_name": "RASAH",
                 "coordinate": {
-                    "x": 80,
-                    "y": 280
+                    "x": 100,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P131",
                 "parliament_name": "REMBAU",
                 "coordinate": {
-                    "x": 60,
-                    "y": 280
+                    "x": 80,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P132",
                 "parliament_name": "TELOK KEMANG",
                 "coordinate": {
-                    "x": 70,
-                    "y": 300
+                    "x": 110,
+                    "y": 310
                 }
             },
             {
@@ -1105,7 +1105,7 @@
                 "parliament_name": "TAMPIN",
                 "coordinate": {
                     "x": 90,
-                    "y": 300
+                    "y": 310
                 }
             }
         ]
@@ -1117,23 +1117,23 @@
                 "parliament_code": "P134",
                 "parliament_name": "MASJID TANAH",
                 "coordinate": {
-                    "x": 80,
-                    "y": 320
+                    "x": 130,
+                    "y": 310
                 }
             },
             {
                 "parliament_code": "P135",
                 "parliament_name": "ALOR GAJAH",
                 "coordinate": {
-                    "x": 100,
-                    "y": 320
+                    "x": 150,
+                    "y": 310
                 }
             },
             {
                 "parliament_code": "P136",
                 "parliament_name": "TANGGA BATU",
                 "coordinate": {
-                    "x": 90,
+                    "x": 160,
                     "y": 330
                 }
             },
@@ -1141,7 +1141,7 @@
                 "parliament_code": "P137",
                 "parliament_name": "BUKIT KATIL",
                 "coordinate": {
-                    "x": 100,
+                    "x": 140,
                     "y": 330
                 }
             },
@@ -1149,8 +1149,8 @@
                 "parliament_code": "P138",
                 "parliament_name": "KOTA MELAKA",
                 "coordinate": {
-                    "x": 110,
-                    "y": 340
+                    "x": 120,
+                    "y": 330
                 }
             },
             {
@@ -1158,7 +1158,7 @@
                 "parliament_name": "JASIN",
                 "coordinate": {
                     "x": 100,
-                    "y": 340
+                    "y": 330
                 }
             }
         ]
@@ -1170,15 +1170,15 @@
                 "parliament_code": "P140",
                 "parliament_name": "SEGAMAT",
                 "coordinate": {
-                    "x": 110,
-                    "y": 260
+                    "x": 180,
+                    "y": 270
                 }
             },
             {
                 "parliament_code": "P141",
                 "parliament_name": "SEKIJANG",
                 "coordinate": {
-                    "x": 100,
+                    "x": 160,
                     "y": 270
                 }
             },
@@ -1186,7 +1186,7 @@
                 "parliament_code": "P142",
                 "parliament_name": "LABIS",
                 "coordinate": {
-                    "x": 120,
+                    "x": 140,
                     "y": 270
                 }
             },
@@ -1194,7 +1194,7 @@
                 "parliament_code": "P143",
                 "parliament_name": "PAGOH",
                 "coordinate": {
-                    "x": 140,
+                    "x": 120,
                     "y": 270
                 }
             },
@@ -1202,7 +1202,7 @@
                 "parliament_code": "P144",
                 "parliament_name": "LEDANG",
                 "coordinate": {
-                    "x": 90,
+                    "x": 190,
                     "y": 280
                 }
             },
@@ -1210,7 +1210,7 @@
                 "parliament_code": "P145",
                 "parliament_name": "BAKRI",
                 "coordinate": {
-                    "x": 110,
+                    "x": 170,
                     "y": 280
                 }
             },
@@ -1218,7 +1218,7 @@
                 "parliament_code": "P146",
                 "parliament_name": "MUAR",
                 "coordinate": {
-                    "x": 130,
+                    "x": 150,
                     "y": 280
                 }
             },
@@ -1226,15 +1226,15 @@
                 "parliament_code": "P147",
                 "parliament_name": "PARIT SULONG",
                 "coordinate": {
-                    "x": 100,
-                    "y": 300
+                    "x": 130,
+                    "y": 280
                 }
             },
             {
                 "parliament_code": "P148",
                 "parliament_name": "AYER HITAM",
                 "coordinate": {
-                    "x": 120,
+                    "x": 190,
                     "y": 300
                 }
             },
@@ -1242,7 +1242,7 @@
                 "parliament_code": "P149",
                 "parliament_name": "SRI GADING",
                 "coordinate": {
-                    "x": 140,
+                    "x": 170,
                     "y": 300
                 }
             },
@@ -1250,23 +1250,23 @@
                 "parliament_code": "P150",
                 "parliament_name": "BATU PAHAT",
                 "coordinate": {
-                    "x": 160,
-                    "y": 330
+                    "x": 150,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P151",
                 "parliament_name": "SIMPANG RENGGAM",
                 "coordinate": {
-                    "x": 110,
-                    "y": 310
+                    "x": 130,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P152",
                 "parliament_name": "KLUANG",
                 "coordinate": {
-                    "x": 130,
+                    "x": 200,
                     "y": 310
                 }
             },
@@ -1274,7 +1274,7 @@
                 "parliament_code": "P153",
                 "parliament_name": "SEMBRONG",
                 "coordinate": {
-                    "x": 150,
+                    "x": 180,
                     "y": 310
                 }
             },
@@ -1282,15 +1282,15 @@
                 "parliament_code": "P154",
                 "parliament_name": "MERSING",
                 "coordinate": {
-                    "x": 120,
-                    "y": 330
+                    "x": 160,
+                    "y": 310
                 }
             },
             {
                 "parliament_code": "P155",
                 "parliament_name": "TENGARA",
                 "coordinate": {
-                    "x": 130,
+                    "x": 230,
                     "y": 330
                 }
             },
@@ -1298,31 +1298,31 @@
                 "parliament_code": "P156",
                 "parliament_name": "KOTA TINGGI",
                 "coordinate": {
-                    "x": 130,
-                    "y": 340
+                    "x": 210,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P157",
                 "parliament_name": "PENGERANG",
                 "coordinate": {
-                    "x": 150,
-                    "y": 340
+                    "x": 190,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P158",
                 "parliament_name": "TEBRAU",
                 "coordinate": {
-                    "x": 160,
-                    "y": 340
+                    "x": 170,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P159",
                 "parliament_name": "PASIR GUDANG",
                 "coordinate": {
-                    "x": 170,
+                    "x": 240,
                     "y": 340
                 }
             },
@@ -1330,31 +1330,31 @@
                 "parliament_code": "P160",
                 "parliament_name": "JOHOR BAHRU",
                 "coordinate": {
-                    "x": 120,
-                    "y": 360
+                    "x": 220,
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P161",
                 "parliament_name": "PULAI",
                 "coordinate": {
-                    "x": 140,
-                    "y": 360
+                    "x": 200,
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P162",
                 "parliament_name": "GELANG PATAH",
                 "coordinate": {
-                    "x": 160,
-                    "y": 360
+                    "x": 180,
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P163",
                 "parliament_name": "KULAI",
                 "coordinate": {
-                    "x": 180,
+                    "x": 230,
                     "y": 360
                 }
             },
@@ -1362,8 +1362,8 @@
                 "parliament_code": "P164",
                 "parliament_name": "PONTIAN",
                 "coordinate": {
-                    "x": 150,
-                    "y": 370
+                    "x": 210,
+                    "y": 360
                 }
             },
             {
@@ -1371,7 +1371,7 @@
                 "parliament_name": "TANJONG PIAI",
                 "coordinate": {
                     "x": 190,
-                    "y": 370
+                    "y": 360
                 }
             }
         ]
@@ -1383,7 +1383,7 @@
                 "parliament_code": "P167",
                 "parliament_name": "KUDAT",
                 "coordinate": {
-                  "x": 410,
+                  "x": 460,
                   "y": 300
                 }
             },
@@ -1423,7 +1423,7 @@
                 "parliament_code": "P172",
                 "parliament_name": "KOTA KINABALU",
                 "coordinate": {
-                    "x": 510,
+                    "x": 480,
                     "y": 300
                 }
             },
@@ -1471,8 +1471,8 @@
                 "parliament_code": "P178",
                 "parliament_name": "SIPITANG",
                 "coordinate": {
-                    "x": 700,
-                    "y": 260
+                    "x": 500,
+                    "y": 300
                 }
             },
             {
@@ -1588,160 +1588,160 @@
                 "parliament_code": "P192",
                 "parliament_name": "MAS GADING",
                 "coordinate": {
-                    "x": 260,
-                    "y": 280
+                    "x": 420,
+                    "y": 290
                 }
             },
             {
                 "parliament_code": "P193",
                 "parliament_name": "SANTUBONG",
                 "coordinate": {
-                    "x": 320,
-                    "y": 280
+                    "x": 390,
+                    "y": 290
                 }
             },
             {
                 "parliament_code": "P194",
                 "parliament_name": "PETRAJAYA",
                 "coordinate": {
-                    "x": 330,
-                    "y": 288
+                    "x": 450,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P195",
                 "parliament_name": "BANDAR KUCHING",
                 "coordinate": {
-                    "x": 350,
-                    "y": 280
+                    "x": 440,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P196",
                 "parliament_name": "STAMPIN",
                 "coordinate": {
-                    "x": 370,
-                    "y": 280
+                    "x": 420,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P197",
                 "parliament_name": "KOTA SAMARAHAN",
                 "coordinate": {
-                    "x": 390,
-                    "y": 280
+                    "x": 400,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P198",
                 "parliament_name": "MAMBONG",
                 "coordinate": {
-                    "x": 400,
-                    "y": 280
+                    "x": 380,
+                    "y": 300
                 }
             },
             {
                 "parliament_code": "P199",
                 "parliament_name": "SERIAN",
                 "coordinate": {
-                    "x": 280,
-                    "y": 300
+                    "x": 450,
+                    "y": 320
                 }
             },
             {
                 "parliament_code": "P200",
                 "parliament_name": "BATANG SADONG",
                 "coordinate": {
-                    "x": 290,
-                    "y": 300
+                    "x": 430,
+                    "y": 320
                 }
             },
             {
                 "parliament_code": "P201",
                 "parliament_name": "BATANG LUPAR",
                 "coordinate": {
-                    "x": 310,
-                    "y": 300
+                    "x": 410,
+                    "y": 320
                 }
             },
             {
                 "parliament_code": "P202",
                 "parliament_name": "SRI AMAN",
                 "coordinate": {
-                    "x": 330,
-                    "y": 300
+                    "x": 390,
+                    "y": 320
                 }
             },
             {
                 "parliament_code": "P203",
                 "parliament_name": "LUBOK ANTU",
                 "coordinate": {
-                    "x": 340,
-                    "y": 300
+                    "x": 370,
+                    "y": 320
                 }
             },
             {
                 "parliament_code": "P204",
                 "parliament_name": "BETONG",
                 "coordinate": {
-                    "x": 360,
-                    "y": 300
+                    "x": 440,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P205",
                 "parliament_name": "SARATOK",
                 "coordinate": {
-                    "x": 380,
-                    "y": 300
+                    "x": 420,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P206",
                 "parliament_name": "TANJONG MANIS",
                 "coordinate": {
-                    "x": 390,
-                    "y": 300
+                    "x": 400,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P207",
                 "parliament_name": "IGAN",
                 "coordinate": {
-                    "x": 280,
-                    "y": 310
+                    "x": 380,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P208",
                 "parliament_name": "SARIKEI",
                 "coordinate": {
-                    "x": 300,
-                    "y": 310
+                    "x": 360,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P209",
                 "parliament_name": "JULAU",
                 "coordinate": {
-                    "x": 320,
-                    "y": 310
+                    "x": 340,
+                    "y": 330
                 }
             },
             {
                 "parliament_code": "P210",
                 "parliament_name": "KANOWIT",
                 "coordinate": {
-                    "x": 330,
-                    "y": 310
+                    "x": 410,
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P211",
                 "parliament_name": "LANANG",
                 "coordinate": {
-                    "x": 350,
-                    "y": 310
+                    "x": 390,
+                    "y": 340
                 }
             },
             {
@@ -1749,15 +1749,15 @@
                 "parliament_name": "SIBU",
                 "coordinate": {
                     "x": 370,
-                    "y": 310
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P213",
                 "parliament_name": "MUKAH",
                 "coordinate": {
-                    "x": 310,
-                    "y": 330
+                    "x": 350,
+                    "y": 340
                 }
             },
             {
@@ -1765,71 +1765,71 @@
                 "parliament_name": "SELANGAU",
                 "coordinate": {
                     "x": 330,
-                    "y": 330
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P215",
                 "parliament_name": "KAPIT",
                 "coordinate": {
-                    "x": 410,
-                    "y": 270
+                    "x": 290,
+                    "y": 340
                 }
             },
             {
                 "parliament_code": "P216",
                 "parliament_name": "HULU RAJANG",
                 "coordinate": {
-                    "x": 330,
-                    "y": 270
+                    "x": 370,
+                    "y": 360
                 }
             },
             {
                 "parliament_code": "P217",
                 "parliament_name": "BINTULU",
                 "coordinate": {
-                    "x": 340,
-                    "y": 270
+                    "x": 350,
+                    "y": 360
                 }
             },
             {
                 "parliament_code": "P218",
                 "parliament_name": "SIBUTI",
                 "coordinate": {
-                    "x": 360,
-                    "y": 270
+                    "x": 330,
+                    "y": 360
                 }
             },
             {
                 "parliament_code": "P219",
                 "parliament_name": "MIRI",
                 "coordinate": {
-                    "x": 390,
-                    "y": 270
+                    "x": 310,
+                    "y": 360
                 }
             },
             {
                 "parliament_code": "P220",
                 "parliament_name": "BARAM",
                 "coordinate": {
-                    "x": 380,
-                    "y": 270
+                    "x": 290,
+                    "y": 360
                 }
             },
             {
                 "parliament_code": "P221",
                 "parliament_name": "LIMBANG",
                 "coordinate": {
-                    "x": 390,
-                    "y": 260
+                    "x": 330,
+                    "y": 370
                 }
             },
             {
                 "parliament_code": "P222",
                 "parliament_name": "LAWAS",
                 "coordinate": {
-                    "x": 340,
-                    "y": 260
+                    "x": 320,
+                    "y": 370
                 }
             }
         ]
@@ -1842,7 +1842,7 @@
                 "parliament_name": "LABUAN",
                 "coordinate": {
                     "x": 400,
-                    "y": 220
+                    "y": 260
                 }
             }
         ]

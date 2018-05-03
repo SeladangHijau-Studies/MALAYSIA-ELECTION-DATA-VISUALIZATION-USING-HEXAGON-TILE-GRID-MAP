@@ -9,10 +9,10 @@
     },
     "colors": {
         "parties": {
-            "PAS": "#00FF00",
             "BN": "#0000FF",
-            "DAP": "#FF0000",
-            "PKR": "#F0000F"
+            "PH": "#00FFFF",
+            "GS": "#00FF00",
+            "OTH": "#898989"
         },
         "states": [
             "#00FFFF",
@@ -32,5 +32,11 @@
             "#800000",
             "#808000"
         ]
-    }
+    },
+    "state_id": [
+        "perlis", "kedah", "pulau-pinang", "perak",
+        "kelantan", "selangor", "pahang", "terengganu",
+        "kuala-lumpur", "putrajaya", "negeri-sembilan", "melaka",
+        "johor", "sabah", "sarawak", "labuan"
+    ]
 }
