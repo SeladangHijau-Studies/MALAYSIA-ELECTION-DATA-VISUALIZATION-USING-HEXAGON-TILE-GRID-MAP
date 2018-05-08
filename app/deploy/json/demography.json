@@ -1,6 +1,6 @@
 [
     {
-        "state_name": "PERLIS",
+        "state_id": "perlis",
         "demography": {
             "gender": {
                 "male": 100,
@@ -15,7 +15,7 @@
         }
     },
     {
-        "state_name": "KEDAH",
+        "state_id": "kedah",
         "demography": {
             "gender": {
                 "male": 100,
@@ -30,7 +30,7 @@
         }
     },
     {
-        "state_name": "PULAU PINANG",
+        "state_id": "pulau-pinang",
         "demography": {
             "gender": {
                 "male": 100,
@@ -45,7 +45,7 @@
         }
     },
     {
-        "state_name": "PERAK",
+        "state_id": "perak",
         "demography": {
             "gender": {
                 "male": 100,
@@ -60,7 +60,7 @@
         }
     },
     {
-        "state_name": "KELANTAN",
+        "state_id": "kelantan",
         "demography": {
             "gender": {
                 "male": 100,
@@ -75,7 +75,7 @@
         }
     },
     {
-        "state_name": "TERENGGANU",
+        "state_id": "terengganu",
         "demography": {
             "gender": {
                 "male": 100,
@@ -90,7 +90,7 @@
         }
     },
     {
-        "state_name": "PAHANG",
+        "state_id": "pahang",
         "demography": {
             "gender": {
                 "male": 100,
@@ -105,7 +105,7 @@
         }
     },
     {
-        "state_name": "SELANGOR",
+        "state_id": "selangor",
         "demography": {
             "gender": {
                 "male": 100,
@@ -120,7 +120,7 @@
         }
     },
     {
-        "state_name": "MELAKA",
+        "state_id": "melaka",
         "demography": {
             "gender": {
                 "male": 100,
@@ -135,7 +135,7 @@
         }
     },
     {
-        "state_name": "NEGERI SEMBILAN",
+        "state_id": "negeri-sembilan",
         "demography": {
             "gender": {
                 "male": 100,
@@ -150,7 +150,7 @@
         }
     },
     {
-        "state_name": "JOHOR",
+        "state_id": "johor",
         "demography": {
             "gender": {
                 "male": 100,
@@ -165,7 +165,7 @@
         }
     },
     {
-        "state_name": "SABAH",
+        "state_id": "sabah",
         "demography": {
             "gender": {
                 "male": 100,
@@ -180,7 +180,7 @@
         }
     },
     {
-        "state_name": "SARAWAK",
+        "state_id": "sarawak",
         "demography": {
             "gender": {
                 "male": 100,
@@ -195,7 +195,7 @@
         }
     },
     {
-        "state_name": "KUALA LUMPUR",
+        "state_id": "kuala-lumpur",
         "demography": {
             "gender": {
                 "male": 100,
@@ -210,7 +210,7 @@
         }
     },
     {
-        "state_name": "PUTRAJAYA",
+        "state_id": "putrajaya",
         "demography": {
             "gender": {
                 "male": 100,
@@ -225,14 +225,14 @@
         }
     },
     {
-        "state_name": "LABUAN",
+        "state_id": "labuan",
         "demography": {
             "gender": {
                 "male": 100,
                 "female": 100
             },
             "ethnic": {
-                "malay": 100,
+                "malay": 10,
                 "indian": 100,
                 "chinese": 100,
                 "others": 100

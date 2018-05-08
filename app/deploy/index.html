@@ -24,8 +24,7 @@
 
             .popup {
                 visibility: hidden;
-
-                opacity: .8;
+                
                 z-index: 20;
                 position: absolute;
 
@@ -38,7 +37,7 @@
                 border-radius: 10px;
 
                 color: white;
-                background-color: black;
+                background-color: rgba(0, 0, 0, .9);
             }
 
             .state-label {
@@ -66,7 +65,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-offset-2 col-md-8">
+                <div class="col-md-offset-2 col-md-7">
                     <div id="chart"></div>
                 </div>
             </div>
@@ -107,6 +106,85 @@
                     var xScale = d3.event.scale;
 
                     svg.attr("transform", "translate(" + translateX + "," + translateY + ")scale(" + xScale + ")");
+                }
+
+                function loadEthnicDemographyChart(stateId) {
+                    d3.json("json/demography.json", function(demography) {
+                        var w = 200,
+                            h = 200,
+                            r = 100,
+                            color = ["red", "green", "blue", "yellow"];
+                        var arc = d3.svg.arc()
+                            .outerRadius(r);
+                        var pie = d3.layout.pie()
+                            .value(function(d) { return d.value; });
+
+                        var ethnicDemography;
+                        for(var x=0 ; x<demography.length ; x++) {
+                            if(demography[x].state_id == stateId) {
+                                ethnicDemography = [
+                                    {"label": "Malay", "value": demography[x].demography.ethnic.malay},
+                                    {"label": "Indian", "value": demography[x].demography.ethnic.indian},
+                                    {"label": "Chinese", "value": demography[x].demography.ethnic.chinese},
+                                    {"label": "Others", "value": demography[x].demography.ethnic.others}
+                                ];
+
+                                break;
+                            }
+                        }
+                        
+                        var ethnicSVG = d3.select("#chart-demography-ethnic").append("svg")
+                            .attr("width", w)
+                            .attr("height", h)
+                            .data([ethnicDemography])
+                            .append("g")
+                                .attr("transform", "translate(" + (w/2) + "," + (h/2) + ")");
+                        var arcs = ethnicSVG.selectAll(".slice")
+                            .data(pie)
+                            .enter().append("g")
+                                .attr("class", "slice");
+        
+                        arcs.append("path")
+                            .attr("fill", function(d, i) { return color[i]; })
+                            .attr("d", arc);
+
+                        arcs.append("text")
+                            .text(function(d, i) { return ethnicDemography[i].label; })
+                            .attr("transform", function(d, i) {
+                                d.innerRadius = 0;
+                                d.outerRadius = r;
+
+                                return "translate(" + arc.centroid(d) + ")";
+                            })
+                            .attr("text-anchor", "middle")
+                            .style("font-weight", "bold")
+                            .style("color", "white");
+                    });
+                }
+
+                function loadRaceDemographyChart(stateId) {
+                    d3.json("json/demography.json", function(demography) {
+                        var w = 300,
+                            h = 300,
+                            r = 100,
+                            color = d3.scale.category20c();
+                        var arc = d3.svg.arc()
+                            .outerRadius(r);
+                        var pie = d3.layout.pie()
+                            .value(function(d) { return d.value; });
+
+                        var genderDemography;
+                        for(var x=0 ; x<demography.length ; x++) {
+                            if(demography[x].state_id == stateId) {
+                                genderDemography = [
+                                    {"label": "Male", "value": demography[x].demography.gender.male},
+                                    {"label": "Female", "value": demography[x].demography.gender.female}
+                                ];
+                                
+                                break;
+                            }
+                        }
+                    });
                 }
 
                 d3.json("json/parliament.json", function(parliamentList) {
@@ -176,9 +254,7 @@
                                     level = 2;
                                     selectedState = d3.select(this);
 
-                                    tooltip.transition().duration(200)		
-                                        .style("opacity", 0);
-                                    
+                                    // state demography chart
                                     $(document).ready(function() {
                                         $.get("popup-state.html", function(htmlResult) {
                                             popup.html(htmlResult)
@@ -187,15 +263,23 @@
                                                 .style("height", "50%")
                                                 .style("top", "10px")
                                                 .style("left", "10px");
+
+                                            d3.select("#state-name").text(parliamentList[i].state_name);
+                                            
+                                            // demography chart
+                                            loadEthnicDemographyChart(selectedState.attr("id"));
+                                            
                                         }, "html");
                                     });
-                                    
+
+                                    tooltip.transition().duration(200)		
+                                        .style("opacity", 0);
                                     d3.select(".system-title")
                                         .style("visibility", "hidden");
                                     d3.selectAll(".state-label")
                                         .style("visibility", "hidden");
                                     d3.selectAll("g")
-                                        .style("opacity", .2);
+                                        .style("opacity", ".2");
                                     d3.select(this)
                                         .selectAll(".parliament")
                                         .attr("class", "parliament active");
@@ -215,9 +299,6 @@
                                                     break;
                                                 case "GS":
                                                     return setting.colors.parties.GS;
-                                                    break;
-                                                case "OTH":
-                                                    return setting.colors.parties.OTH;
                                                     break;
                                             }
                                         });
@@ -250,7 +331,9 @@
                                     }
                                 })
                                 .on("click", function(d, i, j) {
-                                    if(level == 2) {
+                                    var thisHex = d3.select(this).attr("class");
+
+                                    if((level == 2) && (thisHex == "parliament active")) {
                                         var parliamentResult = election[j].result[i];
                                         var parliamentName = parliamentList[j].parliament[i].parliament_name;
 
@@ -270,7 +353,7 @@
                                                 d3.select("#total-voter").text(parliamentResult.vote.voter_total);
                                                 d3.select("#total-vote-bn").text(parliamentResult.vote.BN);
                                                 d3.select("#total-vote-ph").text(parliamentResult.vote.PH);
-                                                d3.select("#total-vote-oth").text(parliamentResult.vote.OTH);
+                                                d3.select("#total-vote-gs").text(parliamentResult.vote.GS);
                                             }, "html");
                                         });
                                     }
@@ -279,15 +362,106 @@
                             g.enter().append("text")
                                 .attr("class", "state-label")
                                 .attr("id", function(d, i) { return setting.state_id[i]; })
+                                .style("cursor", "default")
+                                .style("pointer-events", "none")
                                 .attr("x", function(d, i) {
                                     var bbox = d3.select("#" + setting.state_id[i]).node().getBBox();
-                                    
-                                    return ((bbox.x + (bbox.x + bbox.width)) / 2);
+
+                                    switch(setting.state_id[i]) {
+                                        case "perlis":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 25);
+                                            break;
+                                        case "kedah":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 20);
+                                            break;
+                                        case "pulau-pinang":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 55);
+                                            break;
+                                        case "perak":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 30);
+                                            break;
+                                        case "kelantan":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 35);
+                                            break;
+                                        case "terengganu":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 50);
+                                            break;
+                                        case "kuala-lumpur":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 80);
+                                            break;
+                                        case "selangor":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 70);
+                                            break;
+                                        case "putrajaya":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 70);
+                                            break;
+                                        case "pahang":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 20);
+                                            break;
+                                        case "negeri-sembilan":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 100);
+                                            break;
+                                        case "melaka":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 30);
+                                            break;
+                                        case "johor":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 20);
+                                            break;
+                                        case "labuan":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 50);
+                                            break;
+                                        case "sabah":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 30);
+                                            break;
+                                        case "sarawak":
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2 - 5);
+                                            break;
+                                        default:
+                                            return ((bbox.x + (bbox.x + bbox.width)) / 2);
+                                            break;
+                                    }
                                 })
                                 .attr("y",  function(d, i) {
                                     var bbox = d3.select("#" + setting.state_id[i]).node().getBBox();
                                     
-                                    return ((bbox.y + (bbox.y + bbox.height)) / 2);
+                                    switch(setting.state_id[i]) {
+                                        case "perlis":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "pulau-pinang":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "perak":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 15);
+                                            break;
+                                        case "kuala-lumpur":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 10);
+                                            break;
+                                        case "selangor":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 - 30);
+                                            break;
+                                        case "putrajaya":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "pahang":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "negeri-sembilan":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "melaka":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "labuan":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        case "sabah":
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2 + 5);
+                                            break;
+                                        default:
+                                            return ((bbox.y + (bbox.y + bbox.height)) / 2);
+                                            break;
+                                    }
                                 })
                                 .text(function(d) { return d.state_name; });
                     });

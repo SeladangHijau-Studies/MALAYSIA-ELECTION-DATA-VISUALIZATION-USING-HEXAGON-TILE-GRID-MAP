@@ -7,16 +7,16 @@
                 "candidate": {
                     "BN": "Datuk Zahidi Zainul Abidin",
                     "PH": "Izizam Ibrahim",
-                    "OTH": "Mokhtar Senik"
+                    "GS": "Mokhtar Senik"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
-                    "party": "OTH",
+                    "party": "GS",
                     "candidate": ""
                 }
             },
@@ -25,13 +25,13 @@
                 "candidate": {
                     "BN": "Ramli Shariff",
                     "PH": "Noor Amin Bin Ahmad",
-                    "OTH": "Mohamad Zahid Ibrahim"
+                    "GS": "Mohamad Zahid Ibrahim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -43,13 +43,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Shahidan Kassim",
                     "PH": "Datuk Dr Abdul Rahman Daud",
-                    "OTH": "Hashim Jasin"
+                    "GS": "Hashim Jasin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -66,13 +66,13 @@
                 "candidate": {
                     "BN": "Datuk Ir Nawawi Ahmad",
                     "PH": "Tun Dr Mahathir Mohamad",
-                    "OTH": ""
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -84,13 +84,13 @@
                 "candidate": {
                     "BN": "Datuk Othman Aziz",
                     "PH": "Datuk Seri Mukhriz Tun Mahathir",
-                    "OTH": "Abd Ghani Ahmad"
+                    "GS": "Abd Ghani Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -102,13 +102,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Mohd Johari Baharum",
                     "PH": "Datuk Ir Amiruddin Hamzah",
-                    "OTH": "Norhafiza Fadzil"
+                    "GS": "Norhafiza Fadzil"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -120,13 +120,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Mahdzir Khalid",
                     "PH": "Mohd Khairizal Khazali",
-                    "OTH": "Mohamad Azam Abd Aziz"
+                    "GS": "Mohamad Azam Abd Aziz"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -138,13 +138,13 @@
                 "candidate": {
                     "BN": "Datuk  Said Ali Syed Rastan",
                     "PH": "Dato Mahfuz Haji Omar",
-                    "OTH": "Muhamad Radhi Mat Din"
+                    "GS": "Muhamad Radhi Mat Din"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -156,13 +156,13 @@
                 "candidate": {
                     "BN": "Yoo Wei How",
                     "PH": "Chan Ming Kai",
-                    "OTH": "Mohd Aminur Shafiq M Abduh"
+                    "GS": "Mohd Aminur Shafiq M Abduh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -174,13 +174,13 @@
                 "candidate": {
                     "BN": "Dato Abdullah Hasnan Kamaruddin",
                     "PH": "Dr. Azman Ismail",
-                    "OTH": "Muhammad Riduan Othman"
+                    "GS": "Muhammad Riduan Othman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -192,13 +192,13 @@
                 "candidate": {
                     "BN": "Datuk Othman Abdul",
                     "PH": "Wan Saiful Wan Jan",
-                    "OTH": "Awang Hashim"
+                    "GS": "Awang Hashim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -210,13 +210,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Jamil Khir Baharom",
                     "PH": "Akhramsyah Muammar Sanusi",
-                    "OTH": "Mohamad Ismail"
+                    "GS": "Mohamad Ismail"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -228,13 +228,13 @@
                 "candidate": {
                     "BN": "Dr Mansor Abdul Rahman",
                     "PH": "Azli Che Uda",
-                    "OTH": "Ahmad Tarmizi Sulaiman"
+                    "GS": "Ahmad Tarmizi Sulaiman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -246,13 +246,13 @@
                 "candidate": {
                     "BN": "Datuk Tajul Urus Mat Zin",
                     "PH": "Nor Azrina Surip @ Nurin Aina Abdullah",
-                    "OTH": "Ahmad Fauzi Ramli"
+                    "GS": "Ahmad Fauzi Ramli"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -264,13 +264,13 @@
                 "candidate": {
                     "BN": "Datuk Shahanim Mohd Yusoff",
                     "PH": "Dato’ Johari Abdul",
-                    "OTH": "Shahril Long"
+                    "GS": "Shahril Long"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -282,13 +282,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Abdul Azeez Abd Rahim",
                     "PH": "Mohd Taufik Yaacob",
-                    "OTH": "Hassan Saad"
+                    "GS": "Hassan Saad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -300,13 +300,13 @@
                 "candidate": {
                     "BN": "Dato Dr Leong Yong Kong",
                     "PH": "Karupaiyyah A/L Muhusamy",
-                    "OTH": "Muhamad Sobri Osman"
+                    "GS": "Muhamad Sobri Osman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "GS",
@@ -318,13 +318,13 @@
                 "candidate": {
                     "BN": "Datuk Abd Aziz Sheikh Fadzir",
                     "PH": "Dato’ Saifuddin Nasution Ismail",
-                    "OTH": "Hasan Abdul Razak"
+                    "GS": "Hasan Abdul Razak"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "GS",
@@ -339,15 +339,15 @@
             {
                 "parliament_code": "P041",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Reezal Merican Naina Merican",
+                    "PH": "Dr Zaidi Zakaria",
+                    "GS": "Siti Mastura Muhammad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -357,15 +357,15 @@
             {
                 "parliament_code": "P042",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Shabudin Yahaya",
+                    "PH": "Marzuki Yahya",
+                    "GS": "Rizal Hafiz Ruslan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -375,15 +375,15 @@
             {
                 "parliament_code": "P043",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Lee Beng Seng",
+                    "PH": "Lim Guan Eng",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -393,15 +393,15 @@
             {
                 "parliament_code": "P044",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Zaidi Mohd Said",
+                    "PH": "Nurul Izzah Anwar",
+                    "GS": "Afnan Hamimi Taib Azamuddin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -411,15 +411,15 @@
             {
                 "parliament_code": "P045",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Gui Guat Lye",
+                    "PH": "Steven Sim Chee Keong",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -429,15 +429,15 @@
             {
                 "parliament_code": "P046",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Jayanthi Devi Balaguru",
+                    "PH": "Kasthuriraani a/p Patto",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -447,15 +447,15 @@
             {
                 "parliament_code": "P047",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Shaik Hussein Mydin",
+                    "PH": "Datuk Mansor Othman",
+                    "GS": "Mohd Helmi Haron"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -465,15 +465,15 @@
             {
                 "parliament_code": "P048",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Andy Yong",
+                    "PH": "Wong Hon Wai",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -483,15 +483,15 @@
             {
                 "parliament_code": "P049",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ng Siew Lai",
+                    "PH": "Chow Kon Yeow",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -501,15 +501,15 @@
             {
                 "parliament_code": "P050",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Baljit Singh",
+                    "PH": "Sanisvara Nethaji Rayer",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -519,15 +519,15 @@
             {
                 "parliament_code": "P051",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Law Joo Hiap",
+                    "PH": "Ramkarpal Singh a/l Karpal Singh",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -537,15 +537,15 @@
             {
                 "parliament_code": "P052",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tang Heap Seng",
+                    "PH": "Sim Tze Tzin",
+                    "GS": "Iszuree Ibrahim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -555,15 +555,15 @@
             {
                 "parliament_code": "P053",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato' Seri Dr Hilmi Yahaya",
+                    "PH": "Bakhtiar Wan Chik",
+                    "GS": "Muhammad Imran Muhd Saad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -578,15 +578,15 @@
             {
                 "parliament_code": "P054",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Hasbullah Osman",
+                    "PH": "Ibrahim Mohd Hanafiah",
+                    "GS": "Mohd Dahlan Ismail"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -596,15 +596,15 @@
             {
                 "parliament_code": "P055",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Shamsul Anuar Haji Nasarah",
+                    "PH": "Amirul Fairuzzeen Jamaluddin",
+                    "GS": "Mohd Mujahid Mohd Fadzil"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -614,15 +614,15 @@
             {
                 "parliament_code": "P056",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Hamzah Zainudin",
+                    "PH": "Datuk Khairil Anuar Akhiruddin",
+                    "GS": "Abu Husin Mohamad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -632,15 +632,15 @@
             {
                 "parliament_code": "P057",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Puhat Mat Nayan",
+                    "PH": "Datuk Dr Mujahid Yusof Rawa",
+                    "GS": "Ahmad Azhar Sharin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -650,15 +650,15 @@
             {
                 "parliament_code": "P058",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Nor Azmi Ghazali",
+                    "PH": "Adam Asmuni",
+                    "GS": "Rohaya Bakar"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -668,15 +668,15 @@
             {
                 "parliament_code": "P059",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Said Abu Hussin Syed Abg Fasal",
+                    "PH": "Datuk Khadri Khalid",
+                    "GS": "Idris Haji Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -686,15 +686,15 @@
             {
                 "parliament_code": "P060",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Keng Liang",
+                    "PH": "Teh Kok Lim",
+                    "GS": "BERJASA"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -704,15 +704,15 @@
             {
                 "parliament_code": "P061",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Mohd Nazri Abd Aziz ",
+                    "PH": "Ejazi Yahya",
+                    "GS": "Mohd Azalan Mohamad Radzi"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -722,15 +722,15 @@
             {
                 "parliament_code": "P062",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri S.K. Devamany",
+                    "PH": "Kesavaran A/L Subramaniam",
+                    "GS": "Dr Ishak Ibrahim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -740,15 +740,15 @@
             {
                 "parliament_code": "P063",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ahmad Husni Mohd Hanadzlah",
+                    "PH": "Ahmad Faizal Azumu",
+                    "GS": "Ibrahim Mohamad Zakaria"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -758,15 +758,15 @@
             {
                 "parliament_code": "P064",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Kathleen Wong Mei Yin",
+                    "PH": "Wong Kah Who",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -776,15 +776,15 @@
             {
                 "parliament_code": "P065",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dr Cheng Wei Yee",
+                    "PH": "M. Kulasegaran",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -794,15 +794,15 @@
             {
                 "parliament_code": "P066",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Leong Chee Wai",
+                    "PH": "Sivakumar Varatharaju Naidu",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -812,15 +812,15 @@
             {
                 "parliament_code": "P067",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datin Mastura Tan Sri Mohd Yazid",
+                    "PH": "Dr Ahmad Termizi Ramli",
+                    "GS": "Khalili Idham Lim Abdullah"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -830,15 +830,15 @@
             {
                 "parliament_code": "P068",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Pang Chok King",
+                    "PH": "Datuk Ngeh Koo Ham",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -848,15 +848,15 @@
             {
                 "parliament_code": "P069",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Drs Mohd Nizar Zakaria",
+                    "PH": "Tarmizi Mohd Jam",
+                    "GS": "Dr. Najihatussalehah Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -866,15 +866,15 @@
             {
                 "parliament_code": "P070",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Lee Chee Leong",
+                    "PH": "Thomas Su Keong Siong",
+                    "GS": "Yougan a/l Mahalingam"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -884,15 +884,15 @@
             {
                 "parliament_code": "P071",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Heng Seai Kiel",
+                    "PH": "Dr. Lee Boon Chye",
+                    "GS": "Ismail Ariffin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -902,15 +902,15 @@
             {
                 "parliament_code": "P072",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri M. Saravanan",
+                    "PH": "Mohamed Azni Mohamed Ali",
+                    "GS": "Nor Azli Musa"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -920,15 +920,15 @@
             {
                 "parliament_code": "P073",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Sri Tajuddin Abdul Rahman",
+                    "PH": "Salihuddin Radin Sumadi",
+                    "GS": "Zafarul Azhan Zan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -938,15 +938,15 @@
             {
                 "parliament_code": "P074",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato' Seri Dr. Zambry Abdul Kadir",
+                    "PH": "Dr Mohd Hatta Md Ramli",
+                    "GS": "Mohd Zamri Ibrahim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -956,15 +956,15 @@
             {
                 "parliament_code": "P075",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Ahmad Zahid Hamidi",
+                    "PH": "Pakhrurrazi Arshad",
+                    "GS": "Datuk  Abd Muneim Hasan Adli"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -974,15 +974,15 @@
             {
                 "parliament_code": "P076",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Mah Siew Keong",
+                    "PH": "Nga Kor Ming",
+                    "GS": "Dr Ahmad Ramadzan Daud"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -992,15 +992,15 @@
             {
                 "parliament_code": "P077",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Mah Hang Soon",
+                    "PH": "Chang Lih Kang",
+                    "GS": "Mohd Tarmizi Abdul Rahman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1017,13 +1017,13 @@
                 "candidate": {
                     "BN": "Datuk Wan Johani Wan Hussin",
                     "PH": "Datuk Nordin Salleh",
-                    "OTH": "Datuk Che Abdullah Mat Nawi"
+                    "GS": "Datuk Che Abdullah Mat Nawi"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1035,13 +1035,13 @@
                 "candidate": {
                     "BN": "Datuk Zaluzi Sulaiman",
                     "PH": "Mohamad Ibrahim",
-                    "OTH": "Ahmad Marzuk Shaary"
+                    "GS": "Ahmad Marzuk Shaary"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1053,13 +1053,13 @@
                 "candidate": {
                     "BN": "Fikhran Hamshi Mohamad Fatmi",
                     "PH": "Datuk Husam Musa",
-                    "OTH": "Datuk Takiyuddin Hassan"
+                    "GS": "Datuk Takiyuddin Hassan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1071,13 +1071,13 @@
                 "candidate": {
                     "BN": "Nor Azmawi Ab Rahman",
                     "PH": "Ujang Che Daud",
-                    "OTH": "Ahmad Fadhli Shaari"
+                    "GS": "Ahmad Fadhli Shaari"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1089,13 +1089,13 @@
                 "candidate": {
                     "BN": "Senator Datuk Abdullah Mat Yasim",
                     "PH": "Shah Jihan Wan Din",
-                    "OTH": "Siti Zailah Md Yusoff"
+                    "GS": "Siti Zailah Md Yusoff"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1107,13 +1107,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Mohamad Abdul Ghani",
                     "PH": "Datuk Dr Abdul Halim Yusof",
-                    "OTH": "Datuk Tuan Ibrahim Tuan Man"
+                    "GS": "Datuk Tuan Ibrahim Tuan Man"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1125,13 +1125,13 @@
                 "candidate": {
                     "BN": "Datuk Dr. Awang Adek Hussin",
                     "PH": "Mohd Zulkifli Zakaria",
-                    "OTH": "Nik Mohd Abduh Nik Abd Aziz"
+                    "GS": "Nik Mohd Abduh Nik Abd Aziz"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1143,13 +1143,13 @@
                 "candidate": {
                     "BN": "Tan Sri Annuar Musa",
                     "PH": "Dr Mohd Radzi Mohd Jidin",
-                    "OTH": "Wan Ismail Wan Jusoh"
+                    "GS": "Wan Ismail Wan Jusoh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1161,13 +1161,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Ikmal Hisham Abdul Aziz",
                     "PH": "Dato Mohamad Suparadi Md Noor",
-                    "OTH": "Datuk Dr. Johari Mat"
+                    "GS": "Datuk Dr. Johari Mat"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1179,13 +1179,13 @@
                 "candidate": {
                     "BN": "Datuk Dr. Asyraf Wajdi Dusuki",
                     "PH": "Datuk Kamaruddin Md Nor",
-                    "OTH": "Datuk Nik Mohd Zawawi Salleh"
+                    "GS": "Datuk Nik Mohd Zawawi Salleh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1197,13 +1197,13 @@
                 "candidate": {
                     "BN": "Datuk Ahmad Jazlan Yaakob",
                     "PH": "Datuk Sazmi Miah",
-                    "OTH": "Zulkifli Mamat"
+                    "GS": "Zulkifli Mamat"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1215,13 +1215,13 @@
                 "candidate": {
                     "BN": "Datuk Seri Mustapa Mohamed",
                     "PH": "Azran Deraman",
-                    "OTH": "Mohamad Hamid"
+                    "GS": "Mohamad Hamid"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1233,13 +1233,13 @@
                 "candidate": {
                     "BN": "Datuk Ramzi Ab Rahman",
                     "PH": "Yazid Abdullah",
-                    "OTH": "Abdul Latiff Abdul Rahman"
+                    "GS": "Abdul Latiff Abdul Rahman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1251,13 +1251,13 @@
                 "candidate": {
                     "BN": "Tengku Razaleigh Tengku Hamzah",
                     "PH": "Mohd Nor Hussin",
-                    "OTH": "Abdullah Hussien"
+                    "GS": "Abdullah Hussien"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1272,15 +1272,15 @@
             {
                 "parliament_code": "P092",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Mohd Fasiah Mohd Fakeh",
+                    "PH": "Kalam Salan",
+                    "GS": "Muhamad Labib Abd Jalil"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1290,15 +1290,15 @@
             {
                 "parliament_code": "P093",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Budiman Mohd Zohdi",
+                    "PH": "Mohd. Ashyraf Basri",
+                    "GS": "Mohd Salleh Mohd Hussin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1308,15 +1308,15 @@
             {
                 "parliament_code": "P094",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk P. Kamalanathan",
+                    "PH": "Leow Hsiad Hui",
+                    "GS": "Dr Wan Mat Wan Sulaiman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1326,15 +1326,15 @@
             {
                 "parliament_code": "P095",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Sri Noh Omar",
+                    "PH": "Kapten (B) Datuk Dr. Zulkaferi Hanafi",
+                    "GS": "Nor Az Azlan Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1344,15 +1344,15 @@
             {
                 "parliament_code": "P096",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Irmohizam Ibrahim",
+                    "PH": "Dr Dzulkefly Ahmad",
+                    "GS": "Mohd Fakaruddin Ismail"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1362,15 +1362,15 @@
             {
                 "parliament_code": "P097",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Kang Meng Fuat",
+                    "PH": "William Leong Jee Keen",
+                    "GS": "Datuk Hashim Abdul Karim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1380,15 +1380,15 @@
             {
                 "parliament_code": "P098",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Abd Rahim Pandak Kamarudin",
+                    "PH": "Dato Seri Mohamed Azmin Ali",
+                    "GS": "Khairil Nizam Khirudin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1398,15 +1398,15 @@
             {
                 "parliament_code": "P099",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Leong Kim Soon",
+                    "PH": "Zuraida Kamaruddin",
+                    "GS": "Nurul Islam Mohamed Yusoff"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1414,17 +1414,17 @@
                 }                
             },
             {
-                "parliament_code": "P200",
+                "parliament_code": "P100",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Leong Kok Wee",
+                    "PH": "Datuk Seri Dr Wan Azizah Wan Ismail",
+                    "GS": "Mohamed Sukri Omar"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1432,17 +1432,17 @@
                 }                
             },
             {
-                "parliament_code": "P201",
+                "parliament_code": "P101",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Azman Ahmad",
+                    "PH": "Hasanuddin Mohd Yunus",
+                    "GS": "Dr Che Rosli Che Mat"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1450,17 +1450,17 @@
                 }                
             },
             {
-                "parliament_code": "P202",
+                "parliament_code": "P102",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Liew Yuen Keong",
+                    "PH": "Dr Ong Kian Ming",
+                    "GS": "Nushi Mahfodz"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1468,17 +1468,17 @@
                 }                
             },
             {
-                "parliament_code": "P203",
+                "parliament_code": "P103",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Ang Chin Tat",
+                    "PH": "Gobind Singh Deo",
+                    "GS": "Mohamad Rosalizan Roslan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1486,17 +1486,17 @@
                 }                
             },
             {
-                "parliament_code": "P204",
+                "parliament_code": "P104",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Seong Lim",
+                    "PH": "Wong Chen",
+                    "GS": "Mohd Shahir Mohd Adnan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1504,17 +1504,17 @@
                 }                
             },
             {
-                "parliament_code": "P205",
+                "parliament_code": "P105",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Chew Hian Tat",
+                    "PH": "Maria Chin Abdullah",
+                    "GS": "Noraini Hussin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1522,17 +1522,17 @@
                 }                
             },
             {
-                "parliament_code": "P206",
+                "parliament_code": "P106",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ho Kwok Xheng",
+                    "PH": "Tony Pua Kiam Wee",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1540,17 +1540,17 @@
                 }                
             },
             {
-                "parliament_code": "P207",
+                "parliament_code": "P107",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "A. Pakas Rao",
+                    "PH": "Sivarasa a/l K. Rasiah",
+                    "GS": "Nuridah Salleh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1558,17 +1558,17 @@
                 }                
             },
             {
-                "parliament_code": "P208",
+                "parliament_code": "P108",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Azhari Shaari",
+                    "PH": "Khalid Abd. Samad",
+                    "GS": "Dr. Mohd. Zuhdi Marzuki"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1576,17 +1576,17 @@
                 }                
             },
             {
-                "parliament_code": "P209",
+                "parliament_code": "P109",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk M. Mohana Muniandy",
+                    "PH": "Dato Abdullah Sani Abdul Hamid",
+                    "GS": "Dr. Abdul Rani Osman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1594,17 +1594,17 @@
                 }                
             },
             {
-                "parliament_code": "P210",
+                "parliament_code": "P110",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Ching Eu Boon",
+                    "PH": "Charles Anthony Santiago",
+                    "GS": "Khairushah Kottapan Abdullah"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1612,17 +1612,17 @@
                 }                
             },
             {
-                "parliament_code": "P211",
+                "parliament_code": "P111",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "V. Gunalan",
+                    "PH": "Mohamad Sabu",
+                    "GS": "Mohamed Diah Baharun"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1630,17 +1630,17 @@
                 }                
             },
             {
-                "parliament_code": "P212",
+                "parliament_code": "P112",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Shahril Sufian Hamdan",
+                    "PH": "Datuk Dr Xavier Jayakumar Arulanandam",
+                    "GS": "Datuk Dr. Yahaya Baba"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1648,17 +1648,17 @@
                 }                
             },
             {
-                "parliament_code": "P213",
+                "parliament_code": "P113",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Marsum Paing",
+                    "PH": "Mohamed Hanipa Maidin",
+                    "GS": "Sabirin Marsono"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1673,15 +1673,15 @@
             {
                 "parliament_code": "P078",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk C. Sivarraajh",
+                    "PH": "M Manogaran",
+                    "GS": "Wan Mahadir Wan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1691,15 +1691,15 @@
             {
                 "parliament_code": "P079",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Abdul Rahman Mohamad",
+                    "PH": "Ahmad Pozi Yahaya",
+                    "GS": "Sobirin Duli"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1709,15 +1709,15 @@
             {
                 "parliament_code": "P080",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Chew Mei Fun",
+                    "PH": "Tengku Zulpuri Shah Raja Puji",
+                    "GS": "Mohamed Nilam Abdul Manap"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1727,15 +1727,15 @@
             {
                 "parliament_code": "P081",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ahmad Nazlan Idris",
+                    "PH": "Wan Mohd Shaharir",
+                    "GS": "Yohanis Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1745,15 +1745,15 @@
             {
                 "parliament_code": "P082",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dr. Johan Mat Sah",
+                    "PH": "Dato’ Saifuddin Abdullah",
+                    "GS": "Nasrudin Hassan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1763,15 +1763,15 @@
             {
                 "parliament_code": "P083",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Wong Kiew Lee",
+                    "PH": "Fuziah Salleh",
+                    "GS": "Sulaiman Mat Derus"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1781,15 +1781,15 @@
             {
                 "parliament_code": "P084",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Mohd Shahar Abdullah",
+                    "PH": "Mohd Ashraf Mustaqim Badrul",
+                    "GS": "Mohamad Azhar Mohd Noor"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1799,15 +1799,15 @@
             {
                 "parliament_code": "P085",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Seri Mohd Najib Tun Abd Razak",
+                    "PH": "Zahid Mat Arip",
+                    "GS": "Kapten (B) Ahiatudin Daud"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1817,15 +1817,15 @@
             {
                 "parliament_code": "P086",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Ismail Abd Muttalib",
+                    "PH": "Ahmad Farid Ahmad Nordin",
+                    "GS": "Hasenan Haron"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1835,15 +1835,15 @@
             {
                 "parliament_code": "P087",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Ismail Said",
+                    "PH": "Mohamad Rafidee Hashim",
+                    "GS": "Kamal Ashaari"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1853,15 +1853,15 @@
             {
                 "parliament_code": "P088",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Mohd Sharkar Shamsudin",
+                    "PH": "Mohd Anuar Tahir",
+                    "GS": "Jusof Darus"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1871,15 +1871,15 @@
             {
                 "parliament_code": "P089",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Liow Tiong Lai",
+                    "PH": "Wong Tack",
+                    "GS": "N. Balasubramaniam"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1889,15 +1889,15 @@
             {
                 "parliament_code": "P090",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Ismail Sabri Yaakob",
+                    "PH": "Zakaria Abdul Hamid",
+                    "GS": "Musaniff Rahman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1907,15 +1907,15 @@
             {
                 "parliament_code": "P091",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Hasan Arifin",
+                    "PH": "Sitarunisah Ab Kadir",
+                    "GS": "Mohd Shahrul Nizam Abd Haliff"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1930,15 +1930,15 @@
             {
                 "parliament_code": "P033",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Idris Jusoh",
+                    "PH": "Datuk Ir Wan Nazari Wan Jusoh",
+                    "GS": "Dr. Riduan Mohamad Nor"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1948,15 +1948,15 @@
             {
                 "parliament_code": "P034",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Mohd Jidin Shafee",
+                    "PH": "Datuk Dr Mohd Faudzi Musa",
+                    "GS": "Shaharizukirnain Abd Kadir"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1966,15 +1966,15 @@
             {
                 "parliament_code": "P035",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "YM Tengku Asmadi Tengku Mohamad",
+                    "PH": "Abdullah Muhamad",
+                    "GS": "Datuk Dr. Khairuddin Razali"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -1984,15 +1984,15 @@
             {
                 "parliament_code": "P036",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Wan Nawawi Wan Ismail",
+                    "PH": "Datuk Raja Kamarul Bahrin Rj Ahmad",
+                    "GS": "Ahmad Amzad Mohamed"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2002,15 +2002,15 @@
             {
                 "parliament_code": "P037",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Mohd Noor Endut",
+                    "PH": "Dr Zarawi Sulong",
+                    "GS": "Datuk Seri Abdul Hadi Awang"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2020,15 +2020,15 @@
             {
                 "parliament_code": "P038",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Rosol Wahid",
+                    "PH": "Datuk Razali Idris",
+                    "GS": "Muhyiddin Abdul Rashid"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2038,15 +2038,15 @@
             {
                 "parliament_code": "P039",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Din Adam",
+                    "PH": "Abdul Rahman Yusof",
+                    "GS": "Wan Hassan Mohd. Ramli"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2056,15 +2056,15 @@
             {
                 "parliament_code": "P040",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ahmad Shabery Cheek",
+                    "PH": "Huzaifah Md Suhaimi",
+                    "GS": "Che Alias Hamid"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2079,15 +2079,15 @@
             {
                 "parliament_code": "P114",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ong Siang Liang",
+                    "PH": "Lim Lip Eng",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2097,15 +2097,15 @@
             {
                 "parliament_code": "P115",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dr. Dominic Lau Hoe Chai",
+                    "PH": "Chua Tian Chang @ Tian Chua",
+                    "GS": "Azhar Yahya"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2115,15 +2115,15 @@
             {
                 "parliament_code": "P116",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Yew Teong Look",
+                    "PH": "Datin Paduka Dr Tan Yee Kew",
+                    "GS": "Razali Tumiran"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2133,15 +2133,15 @@
             {
                 "parliament_code": "P117",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Loga Bala Mohan",
+                    "PH": "Hannah Yeoh",
+                    "GS": "Muhammad Soleh Abdul Razak"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2151,15 +2151,15 @@
             {
                 "parliament_code": "P118",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Sri Zulhasnan Rafique",
+                    "PH": "Nik Nazmi Nik Ahmad",
+                    "GS": "Ubaid Abdul Akla"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2169,15 +2169,15 @@
             {
                 "parliament_code": "P119",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Johari Abdul Ghani",
+                    "PH": "Rina Mohd Harun",
+                    "GS": "Mohamad Noor Mohamad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2187,15 +2187,15 @@
             {
                 "parliament_code": "P120",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ann Tan Yen",
+                    "PH": "Fong Kui Lun",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2205,15 +2205,15 @@
             {
                 "parliament_code": "P121",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Raja Nong Chik Raja Zainal Abidin",
+                    "PH": "Ahmad Fahmi Mohamed Fadzil",
+                    "GS": "Fauzi Abu Bakar"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2223,15 +2223,15 @@
             {
                 "parliament_code": "P122",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Chan Quin Er",
+                    "PH": "Teresa Kok Suh Sim",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2241,15 +2241,15 @@
             {
                 "parliament_code": "P123",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Heng Sinn Yee",
+                    "PH": "Tan Kok Wai",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2259,15 +2259,15 @@
             {
                 "parliament_code": "P124",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Adnan Abu Seman",
+                    "PH": "Dato Kamarudin Jaffar",
+                    "GS": "Dr Rosni Adam"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2282,15 +2282,15 @@
             {
                 "parliament_code": "P125",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Tengku Adnan Tg Mansor",
+                    "PH": "Datuk Dr Samsu Adabi Mamat",
+                    "GS": "Prof Zainal Abidin Kidam"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2303,17 +2303,35 @@
         "state_name": "NEGERI SEMBILAN",
         "result": [
             {
-                "parliament_code": "P127",
+                "parliament_code": "P126",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Jalaluddin Alias",
+                    "PH": "Ir. Mustafar Ab Kadir",
+                    "GS": "Norman Ipin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
+                },
+                "winner": {
+                    "party": "",
+                    "candidate": ""
+                }                
+            },
+            {
+                "parliament_code": "P127",
+                "candidate": {
+                    "BN": "Datuk Mohd Salim Shariff",
+                    "PH": "Kamarulzaman Kamdias",
+                    "GS": "Mustaffa Daharun"
+                },
+                "voter_total": 0,
+                "vote": {
+                    "BN": 0,
+                    "PH": 0,
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2323,15 +2341,15 @@
             {
                 "parliament_code": "P128",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Chong Sin Woon",
+                    "PH": "Anthony Loke Siew Fook",
+                    "GS": "Shariffuddin Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2341,15 +2359,15 @@
             {
                 "parliament_code": "P129",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Hasan Malek",
+                    "PH": "Eddin Syazlee Shith",
+                    "GS": "Rafiei Mustapha"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2359,15 +2377,15 @@
             {
                 "parliament_code": "P130",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ng Kean Nam",
+                    "PH": "Cha Kee Chin",
+                    "GS": "Mohd Khairil Anuar Wafa"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2377,15 +2395,15 @@
             {
                 "parliament_code": "P131",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Khairy Jamaluddin",
+                    "PH": "Lt. Kolonel (B) Rosselli Abd Ghani",
+                    "GS": "Mustafa Dolah"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2395,15 +2413,15 @@
             {
                 "parliament_code": "P132",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk V.S. Mogan",
+                    "PH": "Rosman Junid",
+                    "GS": "Mahfuz Roslan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2413,15 +2431,15 @@
             {
                 "parliament_code": "P133",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Shahziman Abu Mansor",
+                    "PH": "Prof. Hasan Bahrom",
+                    "GS": "Mej (B) Abdul Halim Abu Bakar"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2436,15 +2454,15 @@
             {
                 "parliament_code": "P134",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Mas Ermieyati Samsudin",
+                    "PH": "Datuk Dr Sabirin Ja'afar",
+                    "GS": "Mohd Nasir Othman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2454,15 +2472,15 @@
             {
                 "parliament_code": "P135",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Wong Nai Chee",
+                    "PH": "Mohd Redzuan Md Yusof",
+                    "GS": "Mohd Nazree Mohd Aris"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2472,15 +2490,15 @@
             {
                 "parliament_code": "P136",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Zali Mat Yasin",
+                    "PH": "Dr. Rusnah Aluai",
+                    "GS": "Zulkifli Ismail"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2490,15 +2508,15 @@
             {
                 "parliament_code": "P137",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Sri Mohd Ali Rustam",
+                    "PH": "Shamsul Iskandar Md Akin",
+                    "GS": "Md Khalid Kassim"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2508,15 +2526,15 @@
             {
                 "parliament_code": "P138",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Choo Wei Sern",
+                    "PH": "Khoo Poay Tiong",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2526,15 +2544,15 @@
             {
                 "parliament_code": "P139",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Ahmad Hamzah",
+                    "PH": "Khairuddin Abu Hassan",
+                    "GS": "Abd Alim Shapie"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2549,15 +2567,15 @@
             {
                 "parliament_code": "P140",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Dr S. Subramaniam",
+                    "PH": "Dato’ Seri Dr. Edmund Santhara",
+                    "GS": "Khairul Faizi Ahmad Kamil"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2567,15 +2585,15 @@
             {
                 "parliament_code": "P141",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Haji Ayub Rahmat",
+                    "PH": "Natrah Ismail",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2585,15 +2603,15 @@
             {
                 "parliament_code": "P142",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Chua Tee Yong",
+                    "PH": "Pang Hok Liong",
+                    "GS": "Datuk Sarchu Sawal"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2603,15 +2621,15 @@
             {
                 "parliament_code": "P143",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ismail Mohamed",
+                    "PH": "Tan Sri Muhyiddin Mohd. Yassin",
+                    "GS": "Ahmad Nawfal Mahfodz"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2621,15 +2639,15 @@
             {
                 "parliament_code": "P144",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Ir Haji Hamim Samuri",
+                    "PH": "Syed Ibrahim Syed Nuh",
+                    "GS": "Rusman Kemin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2639,15 +2657,15 @@
             {
                 "parliament_code": "P145",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Koh Chon Chai",
+                    "PH": "Yeo Bee Yin",
+                    "GS": "Mohammad Zahrul Salleh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2657,15 +2675,15 @@
             {
                 "parliament_code": "P146",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Seri Razali Haji Ibrahim",
+                    "PH": "Syed Saddiq Syed Abd Rahman",
+                    "GS": "Abdul Aziz Talib"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2675,15 +2693,15 @@
             {
                 "parliament_code": "P147",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Dr Noraini Ahmad",
+                    "PH": "Anis Afida Mohd Azli",
+                    "GS": "Ahmad Rosdi Bahari"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2693,15 +2711,15 @@
             {
                 "parliament_code": "P148",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Dr Ir Wee Ka Siong",
+                    "PH": "Liew Chin Tong",
+                    "GS": "Mardi Marwan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2711,15 +2729,15 @@
             {
                 "parliament_code": "P149",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Abdul Aziz Kaprawi",
+                    "PH": "Datuk Dr Shahruddin Md Salleh",
+                    "GS": "M Ash'ari Sidon"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2729,15 +2747,15 @@
             {
                 "parliament_code": "P150",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Halizah Binti Abdullah",
+                    "PH": "Dato Rashid Hasnon",
+                    "GS": "Datuk Dr Mahfodz Mohamed"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2747,15 +2765,15 @@
             {
                 "parliament_code": "P151",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Liang Teck Meng",
+                    "PH": "Dr Maszlee Malik",
+                    "GS": "Mohd Jubri Selamat"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2765,15 +2783,15 @@
             {
                 "parliament_code": "P152",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Gan Peng Siew",
+                    "PH": "Shu Qi",
+                    "GS": "Muhd Hasbullah Md Najib"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2783,15 +2801,15 @@
             {
                 "parliament_code": "P153",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Seri Hishammuddin Tun Hussein",
+                    "PH": "Onn Abu Bakar",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2801,15 +2819,15 @@
             {
                 "parliament_code": "P154",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Latif Ahmad",
+                    "PH": "Ir. Nasir Hashim",
+                    "GS": "A Rahman A Hamid"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2819,15 +2837,15 @@
             {
                 "parliament_code": "P155",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Adham Baba",
+                    "PH": "Norjepri Mohamed Jelani",
+                    "GS": "Yuhanita Yunan"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2837,15 +2855,15 @@
             {
                 "parliament_code": "P156",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Halimah Mohamed Sadique",
+                    "PH": "Azlinda Abdul Latif",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2855,15 +2873,15 @@
             {
                 "parliament_code": "P157",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Seri Azalina Dato Othman Said",
+                    "PH": "Norliza Ngadiman",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2873,15 +2891,15 @@
             {
                 "parliament_code": "P158",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Dr Hou Kok Chung",
+                    "PH": "Steven Choong",
+                    "GS": "Abdullah Husin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2891,15 +2909,15 @@
             {
                 "parliament_code": "P159",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Mohamed Khaled Nordin",
+                    "PH": "Hassan Abdul Karim",
+                    "GS": "Ab Aziz Abdullah"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2909,15 +2927,15 @@
             {
                 "parliament_code": "P160",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tan Sri Shahrir Abd Samad",
+                    "PH": "Akmal Nasrullah Nasir",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2927,15 +2945,15 @@
             {
                 "parliament_code": "P161",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Nur Jazlan Tan Sri Mohamed",
+                    "PH": "Salahuddin Ayub",
+                    "GS": "Dr Mohd Mazri Yahya"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2945,15 +2963,15 @@
             {
                 "parliament_code": "P162",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Jason Teoh Sew Hock",
+                    "PH": "Lim Kit Siang",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2963,15 +2981,15 @@
             {
                 "parliament_code": "P163",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tang Nai Soon",
+                    "PH": "Teo Nie Ching",
+                    "GS": "Juwahir Amin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2981,15 +2999,15 @@
             {
                 "parliament_code": "P164",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Ahmad Maslan",
+                    "PH": "Karmaine Sardini",
+                    "GS": "Dr Baharom Mohamad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -2999,15 +3017,15 @@
             {
                 "parliament_code": "P165",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dato Wee Jeck Seng",
+                    "PH": "Dr. Md. Farid Md. Rafik",
+                    "GS": "Nordin Othman"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3022,15 +3040,15 @@
             {
                 "parliament_code": "P167",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Abdul Rahim Bakri",
+                    "PH": "Sharif Azman Sharif Along",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3040,15 +3058,15 @@
             {
                 "parliament_code": "P168",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Dr Maximus Ongkili",
+                    "PH": "Barlus Manggabis",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3058,15 +3076,15 @@
             {
                 "parliament_code": "P169",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Dr Salleh Said Keruak",
+                    "PH": "Isnarasiah Munirah Majilis",
+                    "GS": "Abang Laiman Ikin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3076,15 +3094,15 @@
             {
                 "parliament_code": "P170",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Wilfred Tangau",
+                    "PH": "Chrisnadia Sinam",
+                    "GS": "Mohd Aminuddin Aling"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3094,15 +3112,15 @@
             {
                 "parliament_code": "P171",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Abdul Rahman Dahlan",
+                    "PH": "Datuk Mohd Azis Jamman",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3112,15 +3130,15 @@
             {
                 "parliament_code": "P172",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Joseph Lee",
+                    "PH": "Foong Hin Chan",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3130,15 +3148,15 @@
             {
                 "parliament_code": "P173",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Marcus Mojigoh",
+                    "PH": "Awang Husaini Sahari",
+                    "GS": "Zulzaim Hilmee Abidin"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3148,15 +3166,15 @@
             {
                 "parliament_code": "P174",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Caesar Mandela Malakun",
+                    "PH": "Ignatius Dorell Leiking",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3166,15 +3184,15 @@
             {
                 "parliament_code": "P175",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Rosnah Abd Rashid Shirlin",
+                    "PH": "Ahmad Hassan",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3184,15 +3202,15 @@
             {
                 "parliament_code": "P176",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Anifah Aman",
+                    "PH": "Datuk Karim Bujang",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3202,15 +3220,15 @@
             {
                 "parliament_code": "P177",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Azizah Mohd Dun",
+                    "PH": "Johan @Christopher Ghani",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3220,15 +3238,15 @@
             {
                 "parliament_code": "P178",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Yamani Hafez Musa",
+                    "PH": "Noor Hayati Mustapha",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3238,15 +3256,15 @@
             {
                 "parliament_code": "P179",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Ewon Ebin",
+                    "PH": "Jonathan Yasin",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3256,15 +3274,15 @@
             {
                 "parliament_code": "P180",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Daniel Kinsik",
+                    "PH": "Datuk Jake Nointin",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3274,15 +3292,15 @@
             {
                 "parliament_code": "P181",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Rubin Balang",
+                    "PH": "Noorita Sual",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3292,15 +3310,15 @@
             {
                 "parliament_code": "P182",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Arthur Joseph Kurup",
+                    "PH": "Raymond Ahuar",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3310,15 +3328,15 @@
             {
                 "parliament_code": "P183",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Dr Ronald Kiandee",
+                    "PH": "Dr Jaafar Zairun",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3328,15 +3346,15 @@
             {
                 "parliament_code": "P184",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Zakaria Mohd Edris",
+                    "PH": "Irwanshah Mustapha",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3346,15 +3364,15 @@
             {
                 "parliament_code": "P185",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datin Linda Tsen Thau Lin",
+                    "PH": "Datuk V.K. Liew",
+                    "GS": "Norsah Bongsu"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3364,15 +3382,15 @@
             {
                 "parliament_code": "P186",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Lim Ming Ho",
+                    "PH": "Stephen Wong Tien Fatt",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3382,15 +3400,33 @@
             {
                 "parliament_code": "P187",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Bung Moktar Radin",
+                    "PH": "Ghazali Abdul Ghani",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
+                },
+                "winner": {
+                    "party": "",
+                    "candidate": ""
+                }                
+            },
+            {
+                "parliament_code": "P188",
+                "candidate": {
+                    "BN": "Datuk Datu Nasrun Datu Mansur",
+                    "PH": "Mohammad Din Ketapi",
+                    "GS": "Ramli Pataruddin"
+                },
+                "voter_total": 0,
+                "vote": {
+                    "BN": 0,
+                    "PH": 0,
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3400,15 +3436,15 @@
             {
                 "parliament_code": "P189",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Ramlee Marahaban",
+                    "PH": "Datuk Seri Shafie Mohd. Apdal",
+                    "GS": "Abdul Nasir Ab Raup"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3418,15 +3454,15 @@
             {
                 "parliament_code": "P190",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Dr Mary Yap Kain Ching",
+                    "PH": "Liew Chin Jin",
+                    "GS": "Mohamad Husain"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3436,15 +3472,15 @@
             {
                 "parliament_code": "P191",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Abdul Ghapur Salleh",
+                    "PH": "Ma’mun Sulaiman",
+                    "GS": "Norbin Aloh"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3459,15 +3495,15 @@
             {
                 "parliament_code": "P192",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Nogeh anak Gumbek",
+                    "PH": "Madi Bimol",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3477,15 +3513,15 @@
             {
                 "parliament_code": "P193",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Dr. Wan Junaidi Tuanku Jaafar",
+                    "PH": "Mohamad Fidzuan Zaidi",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "GS",
@@ -3495,33 +3531,33 @@
             {
                 "parliament_code": "P194",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Fadillah Yusof",
+                    "PH": "Nor Irwan Ahmad Nor",
+                    "GS": "Hamdan Sani"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
-                    "party": "OTH",
+                    "party": "GS",
                     "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P195",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Kho Teck Wan",
+                    "PH": "Dr Kelvin Yii",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "GS",
@@ -3531,15 +3567,15 @@
             {
                 "parliament_code": "P196",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Sim Kui Hian",
+                    "PH": "Chong Chieng Jen",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3549,15 +3585,15 @@
             {
                 "parliament_code": "P197",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Rubiah Wang",
+                    "PH": "Sopian Julaihi",
+                    "GS": "Zulkipli Ramzi"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3567,15 +3603,15 @@
             {
                 "parliament_code": "P198",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Genot Sinel @ Jeannoth Sinel",
+                    "PH": "Willie Mongin",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3585,33 +3621,33 @@
             {
                 "parliament_code": "P199",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Richard Riot Jaem",
+                    "PH": "Edward Andrew Luwak",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
-                    "party": "OTH",
+                    "party": "GS",
                     "candidate": ""
                 }                
             },
             {
                 "parliament_code": "P200",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Nancy Shukri",
+                    "PH": "Othman Mustapha @ Mos",
+                    "GS": "Asan Singkro"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3621,15 +3657,15 @@
             {
                 "parliament_code": "P201",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Seri Rohani Abdul Karim",
+                    "PH": "Narudin Mentali",
+                    "GS": "Wan Abdillah Wan Ahmad"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3639,15 +3675,15 @@
             {
                 "parliament_code": "P202",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Masir Kujat",
+                    "PH": "Norina Utot",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3657,15 +3693,15 @@
             {
                 "parliament_code": "P203",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Robert Pasang Alam",
+                    "PH": "Nicholas Bawin",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3675,15 +3711,15 @@
             {
                 "parliament_code": "P204",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Robert Lawson Chuat",
+                    "PH": "Noel Bucking",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3693,15 +3729,15 @@
             {
                 "parliament_code": "P205",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Jagah@Subeng Mula",
+                    "PH": "Ali Biju",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3711,15 +3747,15 @@
             {
                 "parliament_code": "P206",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Yusuf Abd. Wahab",
+                    "PH": "Mohamad Fadillah Sabali",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3729,15 +3765,15 @@
             {
                 "parliament_code": "P207",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Ahmad Johnie Zawawi",
+                    "PH": "Andri Zulkarnaen Hamdan",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3747,15 +3783,15 @@
             {
                 "parliament_code": "P208",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Huang Tiong Sii",
+                    "PH": "Wong Ling Biu",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3765,15 +3801,15 @@
             {
                 "parliament_code": "P209",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Joseph Salang anak Gandum",
+                    "PH": "Larry Sng",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3783,15 +3819,15 @@
             {
                 "parliament_code": "P210",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Aaron Ago Dagang",
+                    "PH": "Satu Anchom",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3801,15 +3837,15 @@
             {
                 "parliament_code": "P211",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Kong Sien Chiu @ Kelvin Kong",
+                    "PH": "Alice Lau Kiong Yieng",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3819,15 +3855,15 @@
             {
                 "parliament_code": "P212",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Wong Kee Yew",
+                    "PH": "Oscar Ling Chai Yew",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3837,15 +3873,15 @@
             {
                 "parliament_code": "P213",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Hanifah Hajar Taib",
+                    "PH": "Abdul Jalil Bujang",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3855,15 +3891,15 @@
             {
                 "parliament_code": "P214",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Rita Sarimah Patrick",
+                    "PH": "Baru Bian",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
@@ -3873,15 +3909,15 @@
             {
                 "parliament_code": "P215",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Alexander Nata Linggi",
+                    "PH": "Paren Nyawi",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -3891,15 +3927,15 @@
             {
                 "parliament_code": "P216",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Wilson Ugak Kumbong",
+                    "PH": "Abun Sui Anyit",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -3909,15 +3945,15 @@
             {
                 "parliament_code": "P217",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Tiong King Sing",
+                    "PH": "Tony Chan Yew Chiew",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -3927,15 +3963,15 @@
             {
                 "parliament_code": "P218",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Lukanisman Awang",
+                    "PH": "Jemat Panjang",
+                    "GS": "Zulaihi Bakar"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -3945,15 +3981,15 @@
             {
                 "parliament_code": "P219",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Sabastian Tin Chew Liew",
+                    "PH": "Dr Michael Teo Yu Keng",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "PH",
@@ -3963,15 +3999,15 @@
             {
                 "parliament_code": "P220",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Anyi Ngau",
+                    "PH": "Roland Egan",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "PH",
@@ -3981,15 +4017,15 @@
             {
                 "parliament_code": "P221",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Hasbi Habibollah",
+                    "PH": "Dr Ricardo Baba",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "PH",
@@ -3999,15 +4035,15 @@
             {
                 "parliament_code": "P222",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Henry Sum Agong",
+                    "PH": "Danny Piri",
+                    "GS": ""
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "BN",
@@ -4022,15 +4058,15 @@
             {
                 "parliament_code": "P166",
                 "candidate": {
-                    "BN": "",
-                    "PH": "",
-                    "OTH": ""
+                    "BN": "Datuk Rozman Isli",
+                    "PH": "Noor Halim Zaini",
+                    "GS": "Ahmad Junit Ahmad Alit"
                 },
                 "voter_total": 0,
                 "vote": {
                     "BN": 0,
                     "PH": 0,
-                    "OTH": 0
+                    "GS": 0
                 },
                 "winner": {
                     "party": "",
