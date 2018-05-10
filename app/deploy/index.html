@@ -281,11 +281,9 @@
                                     d3.selectAll("g")
                                         .style("opacity", ".2");
                                     d3.select(this)
-                                        .selectAll(".parliament")
-                                        .attr("class", "parliament active");
-                                    d3.select(this)
                                         .style("opacity", 1)
                                         .selectAll(".parliament")
+                                        .attr("class", "parliament active")
                                         .style("stroke", "white")
                                         .style("fill", function(d, j) {
                                             var winner = election[i].result[j].winner.party;
@@ -297,8 +295,11 @@
                                                 case "PH":
                                                     return setting.colors.parties.PH;
                                                     break;
-                                                case "GS":
-                                                    return setting.colors.parties.GS;
+                                                case "PAS":
+                                                    return setting.colors.parties.PAS;
+                                                    break;
+                                                case "OTH":
+                                                    return setting.colors.parties.OTH;
                                                     break;
                                             }
                                         });
@@ -353,7 +354,8 @@
                                                 d3.select("#total-voter").text(parliamentResult.vote.voter_total);
                                                 d3.select("#total-vote-bn").text(parliamentResult.vote.BN);
                                                 d3.select("#total-vote-ph").text(parliamentResult.vote.PH);
-                                                d3.select("#total-vote-gs").text(parliamentResult.vote.GS);
+                                                d3.select("#total-vote-pas").text(parliamentResult.vote.PAS);
+                                                d3.select("#total-vote-oth").text(parliamentResult.vote.OTH);
                                             }, "html");
                                         });
                                     }

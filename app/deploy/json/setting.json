@@ -11,7 +11,7 @@
         "parties": {
             "BN": "#0000FF",
             "PH": "#00FFFF",
-            "GS": "#00FF00",
+            "PAS": "#00FF00",
             "OTH": "#898989"
         },
         "states": [
