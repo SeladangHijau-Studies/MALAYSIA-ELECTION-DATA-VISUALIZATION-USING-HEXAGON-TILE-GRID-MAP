@@ -6,9 +6,23 @@
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
         <title>MALAYSIA ELECTION DATA VISUALIZATION USING HEXAGON TILE-GRID MAP</title>
 
-        <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="lib/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../lib/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../lib/css/bootstrap-theme.min.css" />
         <style>
+            * {
+                margin: 0 auto;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            .vcenter {
+                display: inline-block;
+                vertical-align: middle;
+                float: none;
+            }
+
             .tooltip {
                 line-height: 1;
                 font-weight: bold;
@@ -23,21 +37,12 @@
             }
 
             .popup {
-                visibility: hidden;
-                
-                z-index: 20;
-                position: absolute;
-
-                padding: 5px;
-                top: 0px;
-                left: 0px;
-                width: 100%;
-                height: 100%;
-
                 border-radius: 10px;
-
                 color: white;
-                background-color: rgba(0, 0, 0, .9);
+                background-color: black;
+            }
+            .popup-content {
+                visibility: hidden;
             }
 
             .state-label {
@@ -45,38 +50,149 @@
                 box-shadow: 0 0 0 100px black;
             }
 
-            #chart {
+            .title {
+                font-weight: bold;
+                text-shadow:
+                    -1px 0 grey,
+                    0 1px grey,
+                    1px 0 grey,
+                    0 -1px grey;
+            }
+
+            #chart-map {
                 overflow: hidden;
                 border: 1px solid black;
+                background-color: rgba(0, 0, 0, .05);
+            }
+            
+            #title-malay { color: blue; }
+            #title-chinese { color: red; }
+            #title-indian { color: purple; }
+            #title-sabah { color: green; }
+            #title-sarawak { color: magenta; }
+            #title-other { color: grey; }
+
+            #chart-election,
+            #chart-demography {
+                background-color: grey;
             }
         </style>
     </head>
 
     <body>
         <div class="container-fluid">
-            <div class="row system-title">
-                <div class="col-md-offset-2 col-md-6">
-                    <h3><b>MALAYSIA ELECTION DATA VISUALIZATION</b></h3>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <h3><b>MALAYSIA ELECTION DATA VISUALIZATION (GE-14)</b></h3>
+                    <ul><li><h4>USING HEXAGON TILE GRID MAP</h4></li></ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-offset-1 col-md-4">
-                            <h4><u>GE-14</u></h4>
+                        <!-- map -->
+                        <div class="col-md-6">
+                            <div id="chart-map"></div>
+                        </div>
+
+                        <!-- popup -->
+                        <div class="col-md-6 popup">
+                            <div class="popup-content">
+                                <!-- title -->
+                                <div class="row">
+                                    <div class="col-md-offset-1 col-md-10">
+                                        <h3>
+                                            <b>[<span id="parliament-code"></span>] </b>
+                                            <u><span id="parliament-name"></span></u>
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                <!-- election data -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4><b>ELECTION RESULT</b></h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div id="chart-election"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h4>
+                                            <b>WINNING PARTY: </b>
+                                            <span id="winning-party"></span>
+                                        </h4>
+                                        <h4>
+                                            <b>WINNING CANDIDATE: </b>
+                                            <span id="winning-candidate"></span>
+                                        </h4>
+                                        <h5><u><b>TOTAL VOTES:</b></u></h5>
+                                        <ul>
+                                            <li>
+                                                <b>BN: [<span id="vote-BN"></span> votes]</b><br />
+                                                <ul><li><u><span id="candidate-BN"></span></u></li></ul>
+                                            </li>
+                                            <li>
+                                                <b>PH: [<span id="vote-PH"></span> votes]</b><br />
+                                                <ul><li><u><span id="candidate-PH"></span></u></li></ul>
+                                            </li>
+                                            <li>
+                                                <b>PAS: [<span id="vote-PAS"></span> votes]</b><br />
+                                                <ul><li><u><span id="candidate-PAS"></span></u></li></ul>
+                                            </li>
+                                            <li>
+                                                <b>Others: [<span id="vote-OTH"></span> votes]</b><br />
+                                                <ul><li><u><span id="candidate-OTH"></span></u></li></ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- demographic data -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4><b>DEMOGRAPHICS</b></h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div id="chart-demography"></div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <ul>
+                                            <li>
+                                                <span class="title" id="title-malay">MALAY: </span>
+                                                <span id="race-malay"></span>%
+                                            </li>
+                                            <li>
+                                                <span class="title" id="title-chinese">CHINESE: </span>
+                                                <span id="race-chinese"></span>%
+                                            </li>
+                                            <li>
+                                                <span class="title" id="title-indian">INDIAN: </span>
+                                                <span id="race-indian"></span>%
+                                            </li>
+                                            <li>
+                                                <span class="title" id="title-other">OTHERS: </span>
+                                                <span id="race-other"></span>%
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-offset-2 col-md-7">
-                    <div id="chart"></div>
-                </div>
-            </div>
         </div>
 
-        <script src="lib/js/jquery-3.3.1.min.js"></script>
-        <script src="lib/js/d3.min.js"></script>
-        <script src="lib/js/d3-hexbin.min.js"></script>
-        <script src="lib/js/bootstrap.min.js"></script>
+        <script src="../lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../lib/js/d3.min.js"></script>
+        <script src="../lib/js/d3-hexbin.min.js"></script>
+        <script src="../lib/js/bootstrap.min.js"></script>
         <script>
-            d3.json("json/setting.json", function(setting) {
+            d3.json("../json/setting.json", function(setting) {
                 // initialize settings
                 var level = 1
                     // attr for zooming
@@ -86,7 +202,7 @@
                     .scale(scale)
                     .scaleExtent([1, 5])
                     .on("zoom", zoomed);
-                var svg = d3.select("#chart").append("svg")
+                var svg = d3.select("#chart-map").append("svg")
                     .attr("width", setting.width)
                     .attr("height", setting.height)
                     .call(zoom);
@@ -95,9 +211,6 @@
                 var tooltip = d3.select("body")
                     .append("div")
                         .attr("class", "tooltip");
-                var popup = d3.select("body")
-                    .append("div")
-                        .attr("class", "popup");
                 var selectedState = null;
 
                 function zoomed() {
@@ -109,7 +222,7 @@
                 }
 
                 function loadEthnicDemographyChart(stateId) {
-                    d3.json("json/demography.json", function(demography) {
+                    d3.json("../json/demography.json", function(demography) {
                         var w = 200,
                             h = 200,
                             r = 100,
@@ -162,32 +275,7 @@
                     });
                 }
 
-                function loadRaceDemographyChart(stateId) {
-                    d3.json("json/demography.json", function(demography) {
-                        var w = 300,
-                            h = 300,
-                            r = 100,
-                            color = d3.scale.category20c();
-                        var arc = d3.svg.arc()
-                            .outerRadius(r);
-                        var pie = d3.layout.pie()
-                            .value(function(d) { return d.value; });
-
-                        var genderDemography;
-                        for(var x=0 ; x<demography.length ; x++) {
-                            if(demography[x].state_id == stateId) {
-                                genderDemography = [
-                                    {"label": "Male", "value": demography[x].demography.gender.male},
-                                    {"label": "Female", "value": demography[x].demography.gender.female}
-                                ];
-                                
-                                break;
-                            }
-                        }
-                    });
-                }
-
-                d3.json("json/parliament.json", function(parliamentList) {
+                d3.json("../json/parliament.json", function(parliamentList) {
                     // init coordinate data from json
                     var parliamentCoordinateList = [];
                     for(var x=0 ; x<parliamentList.length ; x++) {
@@ -206,7 +294,8 @@
                     close_popup = function() {
                         level = 1;
 
-                        popup.style("visibility", "hidden");
+                        d3.select(".popup-content").style("visibility", "hidden");
+                        d3.select("#btn-popup-close").style("visibility", "hidden");
                         d3.selectAll("g")
                             .style("opacity", 1);
                         d3.select(".system-title")
@@ -225,7 +314,7 @@
                                     });
                     }
 
-                    d3.json("json/election.json", function(election) {
+                    d3.json("../json/election.json", function(election) {
                         var g = svg.selectAll("g")
                             .data(parliamentList);
 
@@ -254,28 +343,8 @@
                                     level = 2;
                                     selectedState = d3.select(this);
 
-                                    // state demography chart
-                                    $(document).ready(function() {
-                                        $.get("popup-state.html", function(htmlResult) {
-                                            popup.html(htmlResult)
-                                                .style("visibility", "visible")
-                                                .style("width", "50%")
-                                                .style("height", "50%")
-                                                .style("top", "10px")
-                                                .style("left", "10px");
-
-                                            d3.select("#state-name").text(parliamentList[i].state_name);
-                                            
-                                            // demography chart
-                                            loadEthnicDemographyChart(selectedState.attr("id"));
-                                            
-                                        }, "html");
-                                    });
-
                                     tooltip.transition().duration(200)		
                                         .style("opacity", 0);
-                                    d3.select(".system-title")
-                                        .style("visibility", "hidden");
                                     d3.selectAll(".state-label")
                                         .style("visibility", "hidden");
                                     d3.selectAll("g")
@@ -335,32 +404,35 @@
                                     var thisHex = d3.select(this).attr("class");
 
                                     if((level == 2) && (thisHex == "parliament active")) {
-                                        var parliamentResult = election[j].result[i];
-                                        var parliamentName = parliamentList[j].parliament[i].parliament_name;
+                                        d3.json("../json/demography.json", function(demography) {
+                                            var parliamentResult = election[j].result[i];
+                                            var demographicResult = demography[j].demography[i];
+                                            var parliamentName = parliamentList[j].parliament[i].parliament_name;
 
-                                        $(document).ready(function() {
-                                            $.get("popup-parliament.html", function(htmlResult) {
-                                                popup.html(htmlResult)
-                                                    .style("visibility", "visible")
-                                                    .style("width", "50%")
-                                                    .style("height", "50%")
-                                                    .style("top", "10px")
-                                                    .style("left", "10px");
-                                                
-                                                d3.select("#parliament-code").text(parliamentResult.parliament_code);
-                                                d3.select("#parliament-name").text(parliamentName);
-                                                d3.select("#winning-party").text(parliamentResult.winner.party);
-                                                d3.select("#winning-candidate").text(parliamentResult.winner.candidate);
-                                                d3.select("#total-voter").text(parliamentResult.vote.voter_total);
-                                                d3.select("#total-vote-bn").text(parliamentResult.vote.BN);
-                                                d3.select("#total-vote-ph").text(parliamentResult.vote.PH);
-                                                d3.select("#total-vote-pas").text(parliamentResult.vote.PAS);
-                                                d3.select("#total-vote-oth").text(parliamentResult.vote.OTH);
-                                            }, "html");
+                                            d3.select(".popup-content").style("visibility", "visible");
+                                            d3.select("#btn-popup-close").style("visibility", "visible");
+
+                                            d3.select("#parliament-code").text(parliamentResult.parliament_code);
+                                            d3.select("#parliament-name").text(parliamentName);
+                                            d3.select("#winning-party").text(parliamentResult.winner.party);
+                                            d3.select("#winning-candidate").text(parliamentResult.winner.candidate);
+                                            d3.select("#vote-BN").text(parliamentResult.vote.BN);
+                                            d3.select("#vote-PH").text(parliamentResult.vote.PH);
+                                            d3.select("#vote-PAS").text(parliamentResult.vote.PAS);
+                                            d3.select("#vote-OTH").text(parliamentResult.vote.OTH);
+                                            d3.select("#candidate-BN").text(parliamentResult.candidate.BN);
+                                            d3.select("#candidate-PH").text(parliamentResult.candidate.PH);
+                                            d3.select("#candidate-PAS").text(parliamentResult.candidate.PAS);
+                                            d3.select("#candidate-OTH").text(parliamentResult.candidate.OTH);
+                                            d3.select("#race-malay").text(demographicResult.race.malay);
+                                            d3.select("#race-chinese").text(demographicResult.race.chinese);
+                                            d3.select("#race-indian").text(demographicResult.race.indian);
+                                            d3.select("#race-other").text(demographicResult.race.others);
                                         });
                                     }
                                 });
-                                
+
+                            // initialize label
                             g.enter().append("text")
                                 .attr("class", "state-label")
                                 .attr("id", function(d, i) { return setting.state_id[i]; })
@@ -466,6 +538,19 @@
                                     }
                                 })
                                 .text(function(d) { return d.state_name; });
+
+                            // popup close button
+                            d3.select("#chart-map")
+                                .append("div")
+                                    .attr("class", "row")
+                                    .attr("id", "btn-popup-close")
+                                    .style("visibility", "hidden")
+                                    .append("div")
+                                        .attr("class", "col-md-offset-4 col-md-4")
+                                        .append("button")
+                                            .text("Back")
+                                            .attr("class", "btn btn-primary")
+                                            .attr("onclick", "close_popup()");
                     });
                 });
             });

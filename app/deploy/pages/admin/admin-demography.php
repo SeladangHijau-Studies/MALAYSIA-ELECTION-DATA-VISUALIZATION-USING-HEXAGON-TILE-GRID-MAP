@@ -1,5 +1,5 @@
 <?php
-$demographyFile = file_get_contents('json/demography.json');
+$demographyFile = file_get_contents('../../json/demography.json');
 $decodedData = json_decode($demographyFile, true);
 ?>
 
@@ -8,8 +8,8 @@ $decodedData = json_decode($demographyFile, true);
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
         <title>Admin - Demography</title>
 
-        <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="lib/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../../lib/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../../lib/css/bootstrap-theme.min.css" />
         <style>
         
         </style>
@@ -121,16 +121,16 @@ $decodedData = json_decode($demographyFile, true);
             </div>
         </div>
         
-        <script src="lib/js/jquery-3.3.1.min.js"></script>
-        <script src="lib/js/d3.min.js"></script>
-        <script src="lib/js/d3-hexbin.min.js"></script>
-        <script src="lib/js/bootstrap.min.js"></script>
+        <script src="../../lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../../lib/js/d3.min.js"></script>
+        <script src="../../lib/js/d3-hexbin.min.js"></script>
+        <script src="../../lib/js/bootstrap.min.js"></script>
     </body>
 </html>
 
 <?php
 if(isset($_POST['submit'])) {
-    $jsonFile = file_get_contents('json/demography.json');
+    $jsonFile = file_get_contents('../../json/demography.json');
     $decodedData = json_decode($jsonFile, true);
     
     for($x=0 ; $x<sizeof($decodedData) ; $x++) {
@@ -145,7 +145,7 @@ if(isset($_POST['submit'])) {
     }
     
     $encodedData = json_encode($decodedData);
-    file_put_contents('json/demography.json', $encodedData);
+    file_put_contents('../../json/demography.json', $encodedData);
     
     echo '<meta http-equiv="refresh" content="0">';
 }
