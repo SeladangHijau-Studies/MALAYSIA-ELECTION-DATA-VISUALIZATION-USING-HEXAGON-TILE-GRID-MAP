@@ -47,7 +47,7 @@
 
             .state-label {
                 font-weight: bold;
-                box-shadow: 0 0 0 100px black;
+                color: white;
             }
 
             .title {
@@ -302,6 +302,8 @@
                             .style("visibility", "visible");
                         d3.selectAll(".state-label")
                             .style("visibility", "visible");
+                        selectedState.selectAll(".parliament")
+                            .attr("class", "parliament");
 
                         for(var x=0 ; x<setting.state_id.length ; x++)
                             if(setting.state_id[x] == selectedState.attr("id"))
@@ -347,6 +349,8 @@
                                         .style("opacity", 0);
                                     d3.selectAll(".state-label")
                                         .style("visibility", "hidden");
+                                    d3.select("#" + selectedState.attr("id") + "-label")
+                                        .style("visibility", "visible");
                                     d3.selectAll("g")
                                         .style("opacity", ".2");
                                     d3.select(this)
@@ -435,9 +439,18 @@
                             // initialize label
                             g.enter().append("text")
                                 .attr("class", "state-label")
-                                .attr("id", function(d, i) { return setting.state_id[i]; })
+                                .attr("id", function(d, i) { return setting.state_id[i] + "-label"; })
+                                .style("font-weight", "bold")
+                                .style("fill", "black")
                                 .style("cursor", "default")
                                 .style("pointer-events", "none")
+                                .style("text-shadow", function(d, i) { // initialize lable outline
+                                    return "-1px -1px 0 "
+                                        + setting.colors.states[i] + ", 1px -1px 0 "
+                                        + setting.colors.states[i] + ", -1px 1px 0 "
+                                        + setting.colors.states[i] + ", 1px 1px 0 "
+                                        + setting.colors.states[i];
+                                })
                                 .attr("x", function(d, i) {
                                     var bbox = d3.select("#" + setting.state_id[i]).node().getBBox();
 
