@@ -3,6 +3,14 @@ $demographyFile = file_get_contents('../../json/election.json');
 $parliamentFile = file_get_contents('../../json/parliament.json');
 $decodedData = json_decode($demographyFile, true);
 $decodedParliamentData = json_decode($parliamentFile, true);
+
+$partyList = [ 'BN', 'PH', 'PAS', 'OTH' ];
+$partyNameList = [ 
+    'BARISAN NASIONAL',
+    'PAKATAN HARAPAN',
+    'PARTI ISLAM SE MALAYSIA',
+    'Other parties'
+ ];
 ?>
 
 <html>
@@ -193,12 +201,17 @@ $decodedParliamentData = json_decode($parliamentFile, true);
                                                             <div class="col-md-6">
                                                                 <u>Party Name</u>
                                                                 <div class="form-group">
-                                                                    <input class="form-control"
-                                                                        type="text"
-                                                                        style="text-transform:uppercase"
-                                                                        name="<?= $decodedData[$x]['result'][$y]['parliament_code'] ?>-winner-party"
-                                                                        placeholder="Winning Party Name"
-                                                                        value="<?= $decodedData[$x]['result'][$y]['winner']['party'] ?>" />
+                                                                    <select class="form-control" name="<?= $decodedData[$x]['result'][$y]['parliament_code'] ?>-winner-party">
+                                                                        <option value="">Select a party name</option>
+                                                                        <?php for($a=0 ; $a<4 ; $a++) {
+                                                                            $defaultParty = $decodedData[$x]['result'][$y]['winner']['party'];
+
+                                                                            if($partyList[$a] == $defaultParty)
+                                                                                echo("<option value=\"$partyList[$a]\" selected>$partyNameList[$a] ($partyList[$a])</option>");
+                                                                            else
+                                                                                echo("<option value=\"$partyList[$a]\">$partyNameList[$a] ($partyList[$a])</option>");
+                                                                        } ?>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
