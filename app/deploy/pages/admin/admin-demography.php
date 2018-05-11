@@ -1,6 +1,8 @@
 <?php
 $demographyFile = file_get_contents('../../json/demography.json');
+$parliamentFile = file_get_contents('../../json/parliament.json');
 $decodedData = json_decode($demographyFile, true);
+$decodedParliamentData = json_decode($parliamentFile, true);
 ?>
 
 <html>
@@ -29,7 +31,10 @@ $decodedData = json_decode($demographyFile, true);
                                     <?php for($y=0 ; $y<sizeof($decodedData[$x]['demography']) ; $y++) { ?>
                                         <div class="row collapse collapse-<?= $x ?>">
                                             <div class="col-md-offset-1 col-md-10">
-                                                <h3><b>[<?= $decodedData[$x]['demography'][$y]['parliament_code'] ?>]</b> *parliament name*</h3>
+                                                <h3>
+                                                    <b>[<?= $decodedData[$x]['demography'][$y]['parliament_code'] ?>] </b>
+                                                    <?= $decodedParliamentData[$x]['parliament'][$y]['parliament_name'] ?>
+                                                </h3>
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <u>Malay Percentage (%)</u>

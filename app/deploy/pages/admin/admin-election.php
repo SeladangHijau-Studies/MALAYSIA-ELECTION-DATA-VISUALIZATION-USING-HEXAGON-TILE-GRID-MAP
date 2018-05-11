@@ -1,6 +1,8 @@
 <?php
 $demographyFile = file_get_contents('../../json/election.json');
+$parliamentFile = file_get_contents('../../json/parliament.json');
 $decodedData = json_decode($demographyFile, true);
+$decodedParliamentData = json_decode($parliamentFile, true);
 ?>
 
 <html>
@@ -31,7 +33,7 @@ $decodedData = json_decode($demographyFile, true);
                                             <div class="col-md-offset-1 col-md-10">
                                                 <h3>
                                                     <b>[<?= $decodedData[$x]['result'][$y]['parliament_code'] ?>]</b>
-                                                    *parliament name*
+                                                    <?= $decodedParliamentData[$x]['parliament'][$y]['parliament_name'] ?>
                                                 </h3>
                                                 <div class="row">
                                                     <div class="col-md-12">
