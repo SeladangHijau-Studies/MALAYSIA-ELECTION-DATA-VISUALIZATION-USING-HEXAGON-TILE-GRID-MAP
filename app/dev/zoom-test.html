@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zoom Test</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11">
+                    <div id="chart"></div>
+                </div>
+                <div class="col-md-1">
+                    <button id="reset" onclick="resetView()">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="../lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../lib/js/d3.min.js"></script>
+        <script src="../lib/js/d3-hexbin.min.js"></script>
+        <script src="../lib/js/bootstrap.min.js"></script>
+        <script>
+            var scale = 1.0,
+                zoomScale = 2.0;
+            var zoom = d3.behavior.zoom()
+                .scale(scale)
+                .scaleExtent([1, 5])
+                .on("zoom", zoomed);
+            var svg = d3.select("#chart").append("svg")
+                .attr("width", 500)
+                .attr("height", 500)
+                .style("outline", "medium solid red")
+                .call(zoom);
+            var zoomContainer = svg.append("g")
+                .attr("id", "zoom-container")
+                .attr("transform", "translate(0,0)scale(1,1)");
+            var bbox = zoomContainer.node().getBBox();
+            var vx = bbox.x, // container x co-ordinate
+                vy = bbox.y, // container y co-ordinate
+                vw = bbox.width, // container width
+                vh = bbox.height, // container height
+                defaultView = vx + " " + vy + " " + vw + " " + vh;
+
+            var rectData = [
+                {x: 10, y: 10, width: 50, height: 100, fill: "orange"},
+                {x: 50, y: 50, width: 100, height: 50, fill: "green"}
+            ];
+            var rect = zoomContainer.append("g")
+                .attr("id", "rectangles")
+                .selectAll(".rectangle")
+                .data(rectData)
+                .enter().append("rect")
+                    .attr("x", function(d) { return d.x; })
+                    .attr("y", function(d) { return d.y; })
+                    .attr("width", function(d) { return d.width; })
+                    .attr("height", function(d) { return d.height; })
+                    .attr("fill", function(d) { return d.fill; })
+                    .on("click", zoomIn);
+
+            function resetView() {
+                scale = 1.0;
+                zoomContainer.attr("transform", "translate(0,0)scale(1,1)");
+                zoom.scale(scale)
+                    .translate([0,0]);
+            }
+            function zoomed() {
+                var translateX = d3.event.translate[0];
+                var translateY = d3.event.translate[1];
+                var xScale = d3.event.scale;
+
+                zoomContainer.attr("transform", "translate(" + translateX + "," + translateY + ")scale(" + xScale + ")");
+            }
+            function getTransform(node, xScale) {
+                bbox = node.node().getBBox();
+                var bx = bbox.x;
+                var by = bbox.y;
+                var bw = bbox.width;
+                var bh = bbox.height;
+                var tx = -bx*xScale + vx + vw/2 - bw*xScale/2;
+                var ty = -by*xScale + vy + vh/2 - bh*xScale/2;
+                return {translate: [tx, ty], scale: xScale}
+            }
+            function zoomIn(d, i) {
+                if (d3.event.defaultPrevented)
+                    return; // panning, not clicking
+                
+                var node = d3.select(this);
+                var transform = getTransform(node, zoomScale);
+
+                zoomContainer.transition().duration(1000)
+                    .attr("transform", "translate(" + transform.translate + ")scale(" + transform.scale + ")");
+                zoom.scale(transform.scale)
+                    .translate(transform.translate);
+                scale = transform.scale;
+            }
+        </script>
+    </body>
+</html>
