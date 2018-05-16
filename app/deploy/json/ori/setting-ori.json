@@ -14,14 +14,6 @@
             "PAS": "#00FF00",
             "OTH": "#898989"
         },
-        "race": {
-            "malay": "#FF5555",
-            "chinese": "#FF0000",
-            "indian": "#FF00FF",
-            "sabah": "#0000FF",
-            "sarawak": "#FFFF00",
-            "others": "grey"
-        },
         "states": [
             "#00FFFF",
             "#00FF00",

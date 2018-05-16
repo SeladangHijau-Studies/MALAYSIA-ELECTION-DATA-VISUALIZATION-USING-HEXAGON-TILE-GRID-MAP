@@ -1,0 +1,99 @@
+<style>
+    .title {
+        font-weight: bold;
+    }
+    .title::before {
+        content: '■ ';
+    }
+</style>
+
+<!-- title -->
+<div class="row">
+    <div class="col-md-offset-1 col-md-10">
+        <h3>
+            <b>[<span id="parliament-code"></span>] </b>
+            <u><span id="parliament-name"></span></u>
+        </h3>
+    </div>
+</div>
+
+<!-- election data -->
+<div class="row">
+    <div class="col-md-12">
+        <h4><b>ELECTION RESULT</b></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-5">
+        <div id="chart-election"></div>
+    </div>
+    <div class="col-md-7">
+        <h5><u><b>TOTAL VOTES:</b></u></h5>
+        <ul>
+            <li>
+                <img class="tick" id="winner-BN" src="../img/winner.png" /><b>BN: [<span id="vote-BN"></span> votes]</b><br />
+                <ul><li><u><span id="candidate-BN"></span></u></li></ul>
+            </li>
+            <li>
+                <img class="tick" id="winner-PH" src="../img/winner.png" /><b>PH: [<span id="vote-PH"></span> votes]</b><br />
+                <ul><li><u><span id="candidate-PH"></span></u></li></ul>
+            </li>
+            <li>
+                <img class="tick" id="winner-PAS" src="../img/winner.png" /><b>PAS: [<span id="vote-PAS"></span> votes]</b><br />
+                <ul><li><u><span id="candidate-PAS"></span></u></li></ul>
+            </li>
+            <li>
+                <img class="tick" id="winner-OTH" src="../img/winner.png" /><b>Others: [<span id="vote-OTH"></span> votes]</b><br />
+                <ul><li><u><span id="candidate-OTH"></span></u></li></ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- demographic data -->
+<div class="row">
+    <div class="col-md-12">
+        <h4><b>DEMOGRAPHICS (ETHNIC/RACE)</b></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-5">
+        <div id="chart-demography"></div>
+    </div>
+    <div class="col-md-7">
+        <ul>
+            <li>
+                <span class="title" id="title-malay"></span>
+                MALAY: <span id="race-malay"></span>%
+            </li>
+            <li>
+                <span class="title" id="title-chinese"></span>
+                CHINESE: <span id="race-chinese"></span>%
+            </li>
+            <li>
+                <span class="title" id="title-indian"></span>
+                INDIAN: <span id="race-indian"></span>%
+            </li>
+            <li>
+                <span class="title" id="title-sabah"></span>
+                SABAH: <span id="race-sabah"></span>%
+            </li>
+            <li>
+                <span class="title" id="title-sarawak"></span>
+                SARAWAK: <span id="race-sarawak"></span>%
+            </li>
+            <li>
+                <span class="title" id="title-other"></span>
+                OTHERS: <span id="race-other"></span>%
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row" id="btn-popup-close">
+    <div class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="close_popup()">Back</button>
+        </div>
+    </div>
+</div>

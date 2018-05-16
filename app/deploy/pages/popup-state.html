@@ -1,0 +1,49 @@
+<style>
+    .title {
+        font-weight: bold;
+    }
+    .title::before {
+        content: '■ ';
+    }
+</style>
+
+<!-- title -->
+<div class="row">
+    <div class="col-md-offset-1 col-md-10">
+        <h3>
+            <u><span id="state-name"></span></u>
+        </h3>
+    </div>
+</div>
+
+<!-- demographic data -->
+<div class="row">
+    <div class="col-md-12">
+        <h4><b>DEMOGRAPHICS (GENDER)</b></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-5">
+        <div id="chart-demography"></div>
+    </div>
+    <div class="col-md-7">
+        <ul>
+            <li>
+                <span class="title" id="title-male"></span>
+                Male: <span id="gender-male"></span> peoples
+            </li>
+            <li>
+                <span class="title" id="title-female"></span>
+                Female: <span id="gender-female"></span> peoples
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row" id="btn-popup-close">
+    <div class="col-md-offset-4 col-md-4">
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="close_popup()">Back</button>
+        </div>
+    </div>
+</div>

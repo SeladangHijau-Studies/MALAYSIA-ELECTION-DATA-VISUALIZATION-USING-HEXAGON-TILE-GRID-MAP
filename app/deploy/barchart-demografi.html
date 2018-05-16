@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barchart -Demografi</title>
+    </head>
+
+    <body>
+        <div id="chart"></div>
+
+        <script src="lib/js/d3.min.js"></script>
+        <script>
+            function loadBarChart(id, barChartDiv, data, chartProperties, barProperties, labelProperties) {
+                var svg = barChartDiv.append("svg")
+                    .attr("width", chartProperties.w)
+                    .attr("height", chartProperties.h);
+                    
+                svg.selectAll(".bar")
+                    .data(data)
+                    .enter().append("rect")
+                        .attr("class", "bar")
+                        .attr("width", function(d) { return barProperties.w; })
+                        .attr("height", function(d) { return d.value / barProperties.hr; })
+                        .attr("x", function(d, i) { return barProperties.w * i; })
+                        .attr("y", function(d, i) { return chartProperties.h - (d.value / barProperties.hr); })
+                        .style("fill", function(d) { return d.color; });
+                
+                svg.selectAll(".gender-label")
+                    .data(data)
+                    .enter().append("text")
+                        .text(function(d) { return d.label; })
+                        .attr("class", "gender-label")
+                        .attr("x", function(d, i) { return barProperties.w * i + labelProperties.x; })
+                        .attr("y", function(d, i) { return chartProperties.h + labelProperties.y - (d.value / barProperties.hr); })
+                        .style("fill", "red")
+                        .style("font-weight", "bold");
+            }
+
+            var data = [
+                { "label": "Male", "value": 100450, "color": "green" },
+                { "label": "Female", "value": 3023460 , "color": "blue" }
+            ];
+
+            loadBarChart("barchart-demography",
+                d3.select("#chart"),
+                data,
+                { h: 500, w: 300 },
+                { w: 80, hr: 10000 },
+                { x: 20, y: 20 });
+        </script>
+    </body>
+</html>

@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94544a2e-0af0-4eb6-b17f-47e0417c9240" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/dev/report/color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/hexagon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/nested-json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/plot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dev/report/tooltip.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dev/json/parlimen.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/dev/json/parliament.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dev/json/pilihanraya.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/dev/json/election.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dev/parlimen-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/dev/parlimen-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dev/parlimen-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/dev/parlimen-v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deploy/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/deploy/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/reports/class activity/Proposal" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/reports/class activity/Proposal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/reports/reports/Chapter 4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/reports/reports/Chapter 4.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +21,8 @@
       <file leaf-file-name="plot.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dev/report/plot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4553">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -41,8 +30,8 @@
       <file leaf-file-name="parlimen-v2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/dev/parlimen-v2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+            <state relative-caret-position="173">
+              <caret line="130" column="38" lean-forward="true" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -119,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,11 +214,12 @@
       <workItem from="1523114249497" duration="3405000" />
       <workItem from="1523376229657" duration="4372000" />
       <workItem from="1523423182082" duration="2347000" />
+      <workItem from="1526122757448" duration="702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33713000" />
+    <option name="totallyTimeSpent" value="34415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -272,6 +262,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/dev/report/plot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dev/parlimen-v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/dev/report/hexagon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -450,15 +454,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dev/report/plot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4553">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dev/parlimen-v2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+        <state relative-caret-position="173">
+          <caret line="130" column="38" lean-forward="true" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
         </state>
       </provider>
     </entry>
