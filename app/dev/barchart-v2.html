@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar Chart</title>
+
+        <style>
+            body {
+                background-color: grey;
+            }
+
+            #chart svg {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="chart"></div>
+
+        <script src="../deploy/lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../deploy/lib/js/d3.min.js"></script>
+        <script src="../deploy/lib/js/d3-hexbin.min.js"></script>
+        <script>
+            function loadHorizontalBarChart(id, barChartDiv, data, w, h) {
+                var chartSetting = {
+                    width: w,
+                    height: h,
+                    padding: 10,
+                    labelPad: 60
+                };
+                var svg = barChartDiv.append("svg")
+                    .attr('height', chartSetting.height)
+                    .attr('width', chartSetting.width);
+                
+                var xScale = d3.scale.linear()
+                    .domain([0, d3.max(data, function(d) { return d.value; })])
+                    .range([0, chartSetting.width - chartSetting.padding - chartSetting.labelPad - chartSetting.padding]);
+                var yScale = d3.scale.ordinal()
+                    .domain(data.map(function (d) { return d.value; }))
+                    .rangeRoundBands([0, chartSetting.height - chartSetting.padding], .1);
+
+                // draw bar
+                svg.selectAll('.bar')
+                    .data(data)
+                    .enter().append('rect')
+                        .attr('class', 'bar')
+                        .attr('x', chartSetting.padding + chartSetting.labelPad)
+                        .attr('y', function(d) { return yScale(d.value); })
+                        .attr('width', 0)
+                        .attr('height', yScale.rangeBand())
+                        .attr('fill', function(d) { return d.color; })
+                        .transition().duration(500)
+                            .delay(function(d, i) { return i * 100; })
+                            .attr("width", function (d, i) { return xScale(d.value); });
+                
+                // race label
+                svg.selectAll(".label .label-race")
+                    .data(data)
+                    .enter().append("text")
+                        .attr('class', 'label label-race')
+                        .text(function(d) { return d.label; })
+                        .attr('x', chartSetting.padding + chartSetting.labelPad)
+                        .attr('y', function(d) { return yScale(d.value) + yScale.rangeBand(); })
+                        .style("fill", "white")
+                        .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                        .style("opacity", 0)
+                        .transition().duration(500)
+                            .delay(function(d, i) { return i * 100; })
+                            .attr('x', chartSetting.padding + chartSetting.labelPad + 10)
+                            .style("opacity", 1);
+
+                // value label
+                svg.selectAll(".label .label-value")
+                    .data(data)
+                    .enter().append("text")
+                        .attr('class', 'label label-value')
+                        .text(function(d) { return d.value +"%"; })
+                        .attr('x', 0)
+                        .attr('y', function(d) { return yScale(d.value) + yScale.rangeBand(); })
+                        .style("fill", "white")
+                        .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                        .style("opacity", 0)
+                        .transition().duration(500)
+                            .delay(function(d, i) { return i * 100; })
+                            .attr('x', chartSetting.padding)
+                            .style("opacity", 1);
+            }
+
+            
+            d3.json("../deploy/json/demography.json", function(demography) {
+                var demographicResult = demography[0].demography.parliament[0];
+                var data = [
+                    { "label": "Malay", "value": demographicResult.race.malay, "color": "red" },
+                    { "label": "Chinese", "value": demographicResult.race.chinese, "color": "green" },
+                    { "label": "Indian", "value": demographicResult.race.indian, "color": "blue" },
+                    { "label": "Sabah", "value": demographicResult.race.sabah, "color": "turqiose" },
+                    { "label": "Sarawak", "value": demographicResult.race.sarawak, "color": "yellow" },
+                    { "label": "Others", "value": demographicResult.race.others, "color": "black" }
+                ];
+
+                loadHorizontalBarChart(
+                    "chart", 
+                    d3.select("#chart"),
+                    data,
+                    500, 150);
+            });
+        </script>
+    </body>
+</html>

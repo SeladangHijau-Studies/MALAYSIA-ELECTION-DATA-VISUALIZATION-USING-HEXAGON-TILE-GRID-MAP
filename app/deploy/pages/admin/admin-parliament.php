@@ -112,7 +112,7 @@ if(isset($_POST['submit'])) {
         }
     }
     
-    $encodedData = json_encode($decodedData);
+    $encodedData = json_encode($decodedData, JSON_PRETTY_PRINT);
     file_put_contents('../../json/parliament.json', $encodedData);
     
     echo '<meta http-equiv="refresh" content="0">';

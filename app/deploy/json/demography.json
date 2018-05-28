@@ -1,1 +1,2602 @@
-[{"state_name":"PERLIS","demography":{"state":{"gender":{"male":"125800","female":"126400"}},"parliament":[{"parliament_code":"P001","race":{"malay":50,"chinese":10,"indian":10,"sabah":10,"sarawak":10,"others":10}},{"parliament_code":"P002","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P003","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"KEDAH","demography":{"state":{"gender":{"male":"1090100","female":"1056000"}},"parliament":[{"parliament_code":"P004","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P005","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P006","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P007","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P008","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P009","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P010","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P011","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P012","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P013","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P014","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P015","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P016","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P017","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P018","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"PULAU PINANG","demography":{"state":{"gender":{"male":"878200","female":"769100"}},"parliament":[{"parliament_code":"P041","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P042","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P043","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P044","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P045","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P046","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P047","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P048","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P049","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P050","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P051","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P052","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P053","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"PERAK","demography":{"state":{"gender":{"male":"1265100","female":"1231300"}},"parliament":[{"parliament_code":"P054","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P055","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P056","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P057","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P058","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P059","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P060","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P061","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P062","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P063","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P064","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P065","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P066","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P067","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P068","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P069","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P070","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P071","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P072","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P073","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P074","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P075","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P076","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P077","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"KELANTAN","demography":{"state":{"gender":{"male":"923600","female":"906000"}},"parliament":[{"parliament_code":"P019","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P020","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P021","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P022","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P023","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P024","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P025","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P026","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P027","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P028","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P029","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P030","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P031","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P032","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"SELANGOR","demography":{"state":{"gender":{"male":"3318300","female":"3062500"}},"parliament":[{"parliament_code":"P092","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P093","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P094","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P095","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P096","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P097","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P098","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P099","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P100","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P101","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P102","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P103","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P104","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P105","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P106","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P107","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P108","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P109","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P110","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P111","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P112","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P113","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"PAHANG","demography":{"state":{"gender":{"male":"878200","female":"868100"}},"parliament":[{"parliament_code":"P078","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P079","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P080","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P081","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P082","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P083","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P084","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P085","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P086","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P087","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P088","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P089","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P090","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P091","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"TERENGGANU","demography":{"state":{"gender":{"male":"616300","female":"591400"}},"parliament":[{"parliament_code":"P033","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P034","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P035","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P036","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P037","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P038","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P039","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P040","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"KUALA LUMPUR","demography":{"state":{"gender":{"male":"917400","female":"873900"}},"parliament":[{"parliament_code":"P114","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P115","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P116","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P117","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P118","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P119","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P120","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P121","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P122","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P123","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P124","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"PUTRAJAYA","demography":{"state":{"gender":{"male":"40300","female":"46500"}},"parliament":[{"parliament_code":"P125","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"NEGERI SEMBILAN","demography":{"state":{"gender":{"male":"578900","female":"538200"}},"parliament":[{"parliament_code":"P127","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P128","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P129","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P130","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P131","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P132","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P133","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"MELAKA","demography":{"state":{"gender":{"male":"460300","female":"454400"}},"parliament":[{"parliament_code":"P134","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P135","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P136","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P137","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P138","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P139","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"JOHOR","demography":{"state":{"gender":{"male":"1955100","female":"1745400"}},"parliament":[{"parliament_code":"P140","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P141","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P142","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P143","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P144","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P145","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P146","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P147","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P148","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P149","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P150","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P151","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P152","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P153","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P154","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P155","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P156","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P157","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P158","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P159","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P160","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P161","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P162","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P163","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P164","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P165","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"SABAH","demography":{"state":{"gender":{"male":"2020100","female":"1846700"}},"parliament":[{"parliament_code":"P167","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P168","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P169","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P170","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P171","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P172","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P173","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P174","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P175","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P176","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P177","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P178","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P179","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P180","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P181","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P182","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P183","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P184","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P185","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P186","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P187","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P188","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P189","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P190","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P191","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"SARAWAK","demography":{"state":{"gender":{"male":"1443300","female":"1324300"}},"parliament":[{"parliament_code":"P192","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P193","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P194","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P195","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P196","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P197","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P198","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P199","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P200","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P201","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P202","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P203","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P204","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P205","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P206","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P207","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P208","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P209","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P210","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P211","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P212","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P213","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P214","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P215","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P216","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P217","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P218","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P219","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P220","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P221","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"parliament_code":"P222","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}},{"state_name":"LABUAN","demography":{"state":{"gender":{"male":"49300","female":"48400"}},"parliament":[{"parliament_code":"P166","race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}},{"race":{"malay":0,"chinese":0,"indian":0,"sabah":0,"sarawak":0,"others":0}}]}}]
+[
+    {
+        "state_name": "PERLIS",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "125800",
+                    "female": "126400"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P001",
+                    "race": {
+                        "malay": 86.61,
+                        "chinese": 8.45,
+                        "indian": 0.88,
+                        "sabah": 0.3,
+                        "sarawak": 0.68,
+                        "others": 3.09
+                    }
+                },
+                {
+                    "parliament_code": "P002",
+                    "race": {
+                        "malay": 81.71,
+                        "chinese": 15.23,
+                        "indian": 1.68,
+                        "sabah": 0.07,
+                        "sarawak": 0.09,
+                        "others": 1.22
+                    }
+                },
+                {
+                    "parliament_code": "P003",
+                    "race": {
+                        "malay": 87.66,
+                        "chinese": 7.66,
+                        "indian": 1.65,
+                        "sabah": 0.09,
+                        "sarawak": 0.07,
+                        "others": 2.88
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "KEDAH",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "1090100",
+                    "female": "1056000"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P004",
+                    "race": {
+                        "malay": 90.37,
+                        "chinese": 6.51,
+                        "indian": 2.4,
+                        "sabah": 0.19,
+                        "sarawak": 0.17,
+                        "others": 0.36
+                    }
+                },
+                {
+                    "parliament_code": "P005",
+                    "race": {
+                        "malay": 91.23,
+                        "chinese": 6.89,
+                        "indian": 0.1,
+                        "sabah": 0.03,
+                        "sarawak": 0.02,
+                        "others": 1.73
+                    }
+                },
+                {
+                    "parliament_code": "P006",
+                    "race": {
+                        "malay": 86.49,
+                        "chinese": 8.53,
+                        "indian": 3.46,
+                        "sabah": 0.18,
+                        "sarawak": 0.18,
+                        "others": 1.17
+                    }
+                },
+                {
+                    "parliament_code": "P007",
+                    "race": {
+                        "malay": 92.14,
+                        "chinese": 1.27,
+                        "indian": 0.17,
+                        "sabah": 0.03,
+                        "sarawak": 0.03,
+                        "others": 6.35
+                    }
+                },
+                {
+                    "parliament_code": "P008",
+                    "race": {
+                        "malay": 81.45,
+                        "chinese": 15.45,
+                        "indian": 2.45,
+                        "sabah": 0.06,
+                        "sarawak": 0.12,
+                        "others": 0.46
+                    }
+                },
+                {
+                    "parliament_code": "P009",
+                    "race": {
+                        "malay": 63.58,
+                        "chinese": 31.72,
+                        "indian": 4.21,
+                        "sabah": 0.05,
+                        "sarawak": 0.1,
+                        "others": 0.35
+                    }
+                },
+                {
+                    "parliament_code": "P010",
+                    "race": {
+                        "malay": 78.27,
+                        "chinese": 20.25,
+                        "indian": 1.12,
+                        "sabah": 0.03,
+                        "sarawak": 0.03,
+                        "others": 0.3
+                    }
+                },
+                {
+                    "parliament_code": "P011",
+                    "race": {
+                        "malay": 88.76,
+                        "chinese": 5.07,
+                        "indian": 0.54,
+                        "sabah": 0.03,
+                        "sarawak": 0.03,
+                        "others": 5.58
+                    }
+                },
+                {
+                    "parliament_code": "P012",
+                    "race": {
+                        "malay": 80.19,
+                        "chinese": 13.57,
+                        "indian": 5.91,
+                        "sabah": 0.02,
+                        "sarawak": 0.04,
+                        "others": 0.26
+                    }
+                },
+                {
+                    "parliament_code": "P013",
+                    "race": {
+                        "malay": 92.98,
+                        "chinese": 1.46,
+                        "indian": 0.17,
+                        "sabah": 0.05,
+                        "sarawak": 0.03,
+                        "others": 5.32
+                    }
+                },
+                {
+                    "parliament_code": "P014",
+                    "race": {
+                        "malay": 68.58,
+                        "chinese": 15.06,
+                        "indian": 15.34,
+                        "sabah": 0.16,
+                        "sarawak": 0.39,
+                        "others": 0.47
+                    }
+                },
+                {
+                    "parliament_code": "P015",
+                    "race": {
+                        "malay": 60.71,
+                        "chinese": 26.83,
+                        "indian": 11.95,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.43
+                    }
+                },
+                {
+                    "parliament_code": "P016",
+                    "race": {
+                        "malay": 88.87,
+                        "chinese": 4.38,
+                        "indian": 5.14,
+                        "sabah": 0.05,
+                        "sarawak": 0.04,
+                        "others": 1.52
+                    }
+                },
+                {
+                    "parliament_code": "P017",
+                    "race": {
+                        "malay": 59.05,
+                        "chinese": 19.79,
+                        "indian": 20.74,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 0.33
+                    }
+                },
+                {
+                    "parliament_code": "P018",
+                    "race": {
+                        "malay": 69.18,
+                        "chinese": 17.65,
+                        "indian": 12.87,
+                        "sabah": 0.06,
+                        "sarawak": 0.07,
+                        "others": 0.16
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "PULAU PINANG",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "878200",
+                    "female": "769100"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P041",
+                    "race": {
+                        "malay": 78.56,
+                        "chinese": 17.02,
+                        "indian": 4.17,
+                        "sabah": 0.06,
+                        "sarawak": 0.06,
+                        "others": 0.13
+                    }
+                },
+                {
+                    "parliament_code": "P042",
+                    "race": {
+                        "malay": 78.23,
+                        "chinese": 14.71,
+                        "indian": 6.59,
+                        "sabah": 0.12,
+                        "sarawak": 0.15,
+                        "others": 0.21
+                    }
+                },
+                {
+                    "parliament_code": "P043",
+                    "race": {
+                        "malay": 13.35,
+                        "chinese": 71.27,
+                        "indian": 15.03,
+                        "sabah": 0.05,
+                        "sarawak": 0.03,
+                        "others": 0.28
+                    }
+                },
+                {
+                    "parliament_code": "P044",
+                    "race": {
+                        "malay": 71.94,
+                        "chinese": 21.41,
+                        "indian": 6.16,
+                        "sabah": 0.07,
+                        "sarawak": 0.06,
+                        "others": 0.36
+                    }
+                },
+                {
+                    "parliament_code": "P045",
+                    "race": {
+                        "malay": 19.34,
+                        "chinese": 70.36,
+                        "indian": 9.95,
+                        "sabah": 0.06,
+                        "sarawak": 0.03,
+                        "others": 0.26
+                    }
+                },
+                {
+                    "parliament_code": "P046",
+                    "race": {
+                        "malay": 20.94,
+                        "chinese": 55.87,
+                        "indian": 22.76,
+                        "sabah": 0.08,
+                        "sarawak": 0.06,
+                        "others": 0.3
+                    }
+                },
+                {
+                    "parliament_code": "P047",
+                    "race": {
+                        "malay": 47.7,
+                        "chinese": 35.03,
+                        "indian": 16.95,
+                        "sabah": 0.07,
+                        "sarawak": 0.04,
+                        "others": 0.21
+                    }
+                },
+                {
+                    "parliament_code": "P048",
+                    "race": {
+                        "malay": 14.65,
+                        "chinese": 72.83,
+                        "indian": 11.29,
+                        "sabah": 0.09,
+                        "sarawak": 0.09,
+                        "others": 1.05
+                    }
+                },
+                {
+                    "parliament_code": "P049",
+                    "race": {
+                        "malay": 5.89,
+                        "chinese": 84.17,
+                        "indian": 9.55,
+                        "sabah": 0.04,
+                        "sarawak": 0.03,
+                        "others": 0.31
+                    }
+                },
+                {
+                    "parliament_code": "P050",
+                    "race": {
+                        "malay": 22.62,
+                        "chinese": 65.21,
+                        "indian": 11.67,
+                        "sabah": 0.06,
+                        "sarawak": 0.04,
+                        "others": 0.39
+                    }
+                },
+                {
+                    "parliament_code": "P051",
+                    "race": {
+                        "malay": 14.33,
+                        "chinese": 73.86,
+                        "indian": 11.27,
+                        "sabah": 0.06,
+                        "sarawak": 0.04,
+                        "others": 0.45
+                    }
+                },
+                {
+                    "parliament_code": "P052",
+                    "race": {
+                        "malay": 39.6,
+                        "chinese": 48.51,
+                        "indian": 11.02,
+                        "sabah": 0.19,
+                        "sarawak": 0.18,
+                        "others": 0.49
+                    }
+                },
+                {
+                    "parliament_code": "P053",
+                    "race": {
+                        "malay": 64.9,
+                        "chinese": 30.16,
+                        "indian": 4.43,
+                        "sabah": 0.15,
+                        "sarawak": 0.1,
+                        "others": 0.27
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "PERAK",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "1265100",
+                    "female": "1231300"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P054",
+                    "race": {
+                        "malay": 69.1,
+                        "chinese": 14.05,
+                        "indian": 3.29,
+                        "sabah": 0.55,
+                        "sarawak": 0.84,
+                        "others": 12.16
+                    }
+                },
+                {
+                    "parliament_code": "P055",
+                    "race": {
+                        "malay": 83.46,
+                        "chinese": 12.69,
+                        "indian": 1.44,
+                        "sabah": 0.07,
+                        "sarawak": 0.05,
+                        "others": 2.29
+                    }
+                },
+                {
+                    "parliament_code": "P056",
+                    "race": {
+                        "malay": 89.69,
+                        "chinese": 4.34,
+                        "indian": 5.64,
+                        "sabah": 0.05,
+                        "sarawak": 0.04,
+                        "others": 0.23
+                    }
+                },
+                {
+                    "parliament_code": "P057",
+                    "race": {
+                        "malay": 69.35,
+                        "chinese": 25.7,
+                        "indian": 4.76,
+                        "sabah": 0.05,
+                        "sarawak": 0.02,
+                        "others": 0.13
+                    }
+                },
+                {
+                    "parliament_code": "P058",
+                    "race": {
+                        "malay": 77.89,
+                        "chinese": 12.89,
+                        "indian": 9.01,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 0.14
+                    }
+                },
+                {
+                    "parliament_code": "P059",
+                    "race": {
+                        "malay": 72.39,
+                        "chinese": 18.9,
+                        "indian": 8.41,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.21
+                    }
+                },
+                {
+                    "parliament_code": "P060",
+                    "race": {
+                        "malay": 38.81,
+                        "chinese": 46.41,
+                        "indian": 13.45,
+                        "sabah": 0.23,
+                        "sarawak": 0.62,
+                        "others": 0.47
+                    }
+                },
+                {
+                    "parliament_code": "P061",
+                    "race": {
+                        "malay": 77.75,
+                        "chinese": 15.42,
+                        "indian": 6.65,
+                        "sabah": 0.02,
+                        "sarawak": 0.04,
+                        "others": 0.13
+                    }
+                },
+                {
+                    "parliament_code": "P062",
+                    "race": {
+                        "malay": 34.28,
+                        "chinese": 36.28,
+                        "indian": 20.89,
+                        "sabah": 0.05,
+                        "sarawak": 0.04,
+                        "others": 8.46
+                    }
+                },
+                {
+                    "parliament_code": "P063",
+                    "race": {
+                        "malay": 66.32,
+                        "chinese": 20.22,
+                        "indian": 11.42,
+                        "sabah": 0.18,
+                        "sarawak": 0.33,
+                        "others": 1.53
+                    }
+                },
+                {
+                    "parliament_code": "P064",
+                    "race": {
+                        "malay": 21,
+                        "chinese": 72.01,
+                        "indian": 6.4,
+                        "sabah": 0.08,
+                        "sarawak": 0.09,
+                        "others": 0.41
+                    }
+                },
+                {
+                    "parliament_code": "P065",
+                    "race": {
+                        "malay": 11.83,
+                        "chinese": 63.16,
+                        "indian": 24.42,
+                        "sabah": 0.04,
+                        "sarawak": 0.06,
+                        "others": 0.5
+                    }
+                },
+                {
+                    "parliament_code": "P066",
+                    "race": {
+                        "malay": 9.95,
+                        "chinese": 75,
+                        "indian": 14.61,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.35
+                    }
+                },
+                {
+                    "parliament_code": "P067",
+                    "race": {
+                        "malay": 70.36,
+                        "chinese": 21.6,
+                        "indian": 6.61,
+                        "sabah": 0.07,
+                        "sarawak": 0.06,
+                        "others": 1.3
+                    }
+                },
+                {
+                    "parliament_code": "P068",
+                    "race": {
+                        "malay": 26.33,
+                        "chinese": 59.25,
+                        "indian": 14.06,
+                        "sabah": 0.09,
+                        "sarawak": 0.07,
+                        "others": 0.2
+                    }
+                },
+                {
+                    "parliament_code": "P069",
+                    "race": {
+                        "malay": 93,
+                        "chinese": 2.24,
+                        "indian": 2.54,
+                        "sabah": 0.07,
+                        "sarawak": 0.08,
+                        "others": 2.07
+                    }
+                },
+                {
+                    "parliament_code": "P070",
+                    "race": {
+                        "malay": 33.39,
+                        "chinese": 55.37,
+                        "indian": 9.16,
+                        "sabah": 0.05,
+                        "sarawak": 0.05,
+                        "others": 3.81
+                    }
+                },
+                {
+                    "parliament_code": "P071",
+                    "race": {
+                        "malay": 42.37,
+                        "chinese": 46.01,
+                        "indian": 9.12,
+                        "sabah": 0.07,
+                        "sarawak": 0.07,
+                        "others": 2.35
+                    }
+                },
+                {
+                    "parliament_code": "P072",
+                    "race": {
+                        "malay": 46.24,
+                        "chinese": 25.83,
+                        "indian": 14.29,
+                        "sabah": 0.08,
+                        "sarawak": 0.1,
+                        "others": 13.46
+                    }
+                },
+                {
+                    "parliament_code": "P073",
+                    "race": {
+                        "malay": 80.65,
+                        "chinese": 12.86,
+                        "indian": 3.49,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 2.9
+                    }
+                },
+                {
+                    "parliament_code": "P074",
+                    "race": {
+                        "malay": 72.05,
+                        "chinese": 14.96,
+                        "indian": 11.44,
+                        "sabah": 0.56,
+                        "sarawak": 0.66,
+                        "others": 0.33
+                    }
+                },
+                {
+                    "parliament_code": "P075",
+                    "race": {
+                        "malay": 58.99,
+                        "chinese": 17.72,
+                        "indian": 21.63,
+                        "sabah": 0.36,
+                        "sarawak": 0.15,
+                        "others": 1.16
+                    }
+                },
+                {
+                    "parliament_code": "P076",
+                    "race": {
+                        "malay": 40.67,
+                        "chinese": 40.09,
+                        "indian": 18.64,
+                        "sabah": 0.02,
+                        "sarawak": 0.04,
+                        "others": 0.54
+                    }
+                },
+                {
+                    "parliament_code": "P077",
+                    "race": {
+                        "malay": 55.56,
+                        "chinese": 25.56,
+                        "indian": 13.02,
+                        "sabah": 0.06,
+                        "sarawak": 0.07,
+                        "others": 5.74
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "KELANTAN",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "923600",
+                    "female": "906000"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P019",
+                    "race": {
+                        "malay": 92.92,
+                        "chinese": 3.13,
+                        "indian": 0.15,
+                        "sabah": 0.02,
+                        "sarawak": 0.05,
+                        "others": 3.73
+                    }
+                },
+                {
+                    "parliament_code": "P020",
+                    "race": {
+                        "malay": 97.93,
+                        "chinese": 1.49,
+                        "indian": 0.11,
+                        "sabah": 0.08,
+                        "sarawak": 0.11,
+                        "others": 0.28
+                    }
+                },
+                {
+                    "parliament_code": "P021",
+                    "race": {
+                        "malay": 84.46,
+                        "chinese": 14.21,
+                        "indian": 0.78,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.47
+                    }
+                },
+                {
+                    "parliament_code": "P022",
+                    "race": {
+                        "malay": 97.59,
+                        "chinese": 1.99,
+                        "indian": 0.06,
+                        "sabah": 0.03,
+                        "sarawak": 0.04,
+                        "others": 0.3
+                    }
+                },
+                {
+                    "parliament_code": "P023",
+                    "race": {
+                        "malay": 97,
+                        "chinese": 2.06,
+                        "indian": 0.07,
+                        "sabah": 0.02,
+                        "sarawak": 0.04,
+                        "others": 0.81
+                    }
+                },
+                {
+                    "parliament_code": "P024",
+                    "race": {
+                        "malay": 97.98,
+                        "chinese": 1.68,
+                        "indian": 0.14,
+                        "sabah": 0.03,
+                        "sarawak": 0.04,
+                        "others": 0.12
+                    }
+                },
+                {
+                    "parliament_code": "P025",
+                    "race": {
+                        "malay": 98.46,
+                        "chinese": 1.08,
+                        "indian": 0.04,
+                        "sabah": 0.02,
+                        "sarawak": 0.03,
+                        "others": 0.37
+                    }
+                },
+                {
+                    "parliament_code": "P026",
+                    "race": {
+                        "malay": 96.66,
+                        "chinese": 1.88,
+                        "indian": 0.08,
+                        "sabah": 0.26,
+                        "sarawak": 0.59,
+                        "others": 0.53
+                    }
+                },
+                {
+                    "parliament_code": "P027",
+                    "race": {
+                        "malay": 94.71,
+                        "chinese": 3.92,
+                        "indian": 0.59,
+                        "sabah": 0.04,
+                        "sarawak": 0.06,
+                        "others": 0.68
+                    }
+                },
+                {
+                    "parliament_code": "P028",
+                    "race": {
+                        "malay": 98.17,
+                        "chinese": 0.96,
+                        "indian": 0.05,
+                        "sabah": 0.03,
+                        "sarawak": 0.04,
+                        "others": 0.76
+                    }
+                },
+                {
+                    "parliament_code": "P029",
+                    "race": {
+                        "malay": 96.45,
+                        "chinese": 3.13,
+                        "indian": 0.18,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.14
+                    }
+                },
+                {
+                    "parliament_code": "P030",
+                    "race": {
+                        "malay": 98.23,
+                        "chinese": 0.19,
+                        "indian": 0.11,
+                        "sabah": 0.29,
+                        "sarawak": 0.35,
+                        "others": 0.83
+                    }
+                },
+                {
+                    "parliament_code": "P031",
+                    "race": {
+                        "malay": 94.55,
+                        "chinese": 3.96,
+                        "indian": 1.17,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 0.23
+                    }
+                },
+                {
+                    "parliament_code": "P032",
+                    "race": {
+                        "malay": 82.43,
+                        "chinese": 5.58,
+                        "indian": 0.51,
+                        "sabah": 0.06,
+                        "sarawak": 0.05,
+                        "others": 11.37
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "SELANGOR",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "3318300",
+                    "female": "3062500"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P092",
+                    "race": {
+                        "malay": 83.05,
+                        "chinese": 11.69,
+                        "indian": 4.95,
+                        "sabah": 0.05,
+                        "sarawak": 0.07,
+                        "others": 0.21
+                    }
+                },
+                {
+                    "parliament_code": "P093",
+                    "race": {
+                        "malay": 68.71,
+                        "chinese": 28.77,
+                        "indian": 2.02,
+                        "sabah": 0.11,
+                        "sarawak": 0.05,
+                        "others": 0.34
+                    }
+                },
+                {
+                    "parliament_code": "P094",
+                    "race": {
+                        "malay": 60.39,
+                        "chinese": 20.8,
+                        "indian": 16.22,
+                        "sabah": 0.17,
+                        "sarawak": 0.16,
+                        "others": 2.26
+                    }
+                },
+                {
+                    "parliament_code": "P095",
+                    "race": {
+                        "malay": 74.67,
+                        "chinese": 15.96,
+                        "indian": 8.94,
+                        "sabah": 0.05,
+                        "sarawak": 0.03,
+                        "others": 0.35
+                    }
+                },
+                {
+                    "parliament_code": "P096",
+                    "race": {
+                        "malay": 65.43,
+                        "chinese": 12.92,
+                        "indian": 21.09,
+                        "sabah": 0.1,
+                        "sarawak": 0.08,
+                        "others": 0.38
+                    }
+                },
+                {
+                    "parliament_code": "P097",
+                    "race": {
+                        "malay": 51.79,
+                        "chinese": 28.73,
+                        "indian": 17.7,
+                        "sabah": 0.21,
+                        "sarawak": 0.18,
+                        "others": 1.38
+                    }
+                },
+                {
+                    "parliament_code": "P098",
+                    "race": {
+                        "malay": 75.8,
+                        "chinese": 10.67,
+                        "indian": 10.77,
+                        "sabah": 0.15,
+                        "sarawak": 0.14,
+                        "others": 2.47
+                    }
+                },
+                {
+                    "parliament_code": "P099",
+                    "race": {
+                        "malay": 54.79,
+                        "chinese": 34.66,
+                        "indian": 8.71,
+                        "sabah": 0.2,
+                        "sarawak": 0.13,
+                        "others": 1.51
+                    }
+                },
+                {
+                    "parliament_code": "P100",
+                    "race": {
+                        "malay": 45.58,
+                        "chinese": 45.95,
+                        "indian": 7.12,
+                        "sabah": 0.34,
+                        "sarawak": 0.15,
+                        "others": 0.86
+                    }
+                },
+                {
+                    "parliament_code": "P101",
+                    "race": {
+                        "malay": 64.98,
+                        "chinese": 22.08,
+                        "indian": 10.42,
+                        "sabah": 0.32,
+                        "sarawak": 0.27,
+                        "others": 1.94
+                    }
+                },
+                {
+                    "parliament_code": "P102",
+                    "race": {
+                        "malay": 48.48,
+                        "chinese": 38.95,
+                        "indian": 11.12,
+                        "sabah": 0.28,
+                        "sarawak": 0.22,
+                        "others": 0.94
+                    }
+                },
+                {
+                    "parliament_code": "P103",
+                    "race": {
+                        "malay": 36.86,
+                        "chinese": 51.98,
+                        "indian": 10.03,
+                        "sabah": 0.32,
+                        "sarawak": 0.17,
+                        "others": 0.64
+                    }
+                },
+                {
+                    "parliament_code": "P104",
+                    "race": {
+                        "malay": 26.62,
+                        "chinese": 56.49,
+                        "indian": 15.15,
+                        "sabah": 0.41,
+                        "sarawak": 0.27,
+                        "others": 1.06
+                    }
+                },
+                {
+                    "parliament_code": "P105",
+                    "race": {
+                        "malay": 46.57,
+                        "chinese": 32.03,
+                        "indian": 19.54,
+                        "sabah": 0.31,
+                        "sarawak": 0.22,
+                        "others": 1.33
+                    }
+                },
+                {
+                    "parliament_code": "P106",
+                    "race": {
+                        "malay": 19.67,
+                        "chinese": 69.42,
+                        "indian": 9.42,
+                        "sabah": 0.18,
+                        "sarawak": 0.12,
+                        "others": 1.18
+                    }
+                },
+                {
+                    "parliament_code": "P107",
+                    "race": {
+                        "malay": 65.33,
+                        "chinese": 21.64,
+                        "indian": 10.72,
+                        "sabah": 0.46,
+                        "sarawak": 0.47,
+                        "others": 1.39
+                    }
+                },
+                {
+                    "parliament_code": "P108",
+                    "race": {
+                        "malay": 75.26,
+                        "chinese": 10.83,
+                        "indian": 12.78,
+                        "sabah": 0.3,
+                        "sarawak": 0.23,
+                        "others": 0.6
+                    }
+                },
+                {
+                    "parliament_code": "P109",
+                    "race": {
+                        "malay": 70.72,
+                        "chinese": 14.78,
+                        "indian": 13.55,
+                        "sabah": 0.25,
+                        "sarawak": 0.09,
+                        "others": 0.6
+                    }
+                },
+                {
+                    "parliament_code": "P110",
+                    "race": {
+                        "malay": 26.44,
+                        "chinese": 55.26,
+                        "indian": 17.09,
+                        "sabah": 0.37,
+                        "sarawak": 0.13,
+                        "others": 0.72
+                    }
+                },
+                {
+                    "parliament_code": "P111",
+                    "race": {
+                        "malay": 43.15,
+                        "chinese": 27.66,
+                        "indian": 27.68,
+                        "sabah": 0.59,
+                        "sarawak": 0.15,
+                        "others": 0.77
+                    }
+                },
+                {
+                    "parliament_code": "P112",
+                    "race": {
+                        "malay": 57.17,
+                        "chinese": 24.03,
+                        "indian": 16.26,
+                        "sabah": 0.18,
+                        "sarawak": 0.13,
+                        "others": 1.77
+                    }
+                },
+                {
+                    "parliament_code": "P113",
+                    "race": {
+                        "malay": 62.33,
+                        "chinese": 20.33,
+                        "indian": 14.21,
+                        "sabah": 0.31,
+                        "sarawak": 0.23,
+                        "others": 2.59
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "PAHANG",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "878200",
+                    "female": "868100"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P078",
+                    "race": {
+                        "malay": 33.5,
+                        "chinese": 29.48,
+                        "indian": 14.91,
+                        "sabah": 0.12,
+                        "sarawak": 0.06,
+                        "others": 21.93
+                    }
+                },
+                {
+                    "parliament_code": "P079",
+                    "race": {
+                        "malay": 78.02,
+                        "chinese": 15.64,
+                        "indian": 5.23,
+                        "sabah": 0.05,
+                        "sarawak": 0.07,
+                        "others": 0.99
+                    }
+                },
+                {
+                    "parliament_code": "P080",
+                    "race": {
+                        "malay": 52.07,
+                        "chinese": 38.11,
+                        "indian": 6.15,
+                        "sabah": 0.05,
+                        "sarawak": 0.06,
+                        "others": 3.57
+                    }
+                },
+                {
+                    "parliament_code": "P081",
+                    "race": {
+                        "malay": 81.76,
+                        "chinese": 13.02,
+                        "indian": 2.63,
+                        "sabah": 0.06,
+                        "sarawak": 0.05,
+                        "others": 2.47
+                    }
+                },
+                {
+                    "parliament_code": "P082",
+                    "race": {
+                        "malay": 66.62,
+                        "chinese": 26.89,
+                        "indian": 5.68,
+                        "sabah": 0.27,
+                        "sarawak": 0.16,
+                        "others": 0.37
+                    }
+                },
+                {
+                    "parliament_code": "P083",
+                    "race": {
+                        "malay": 66.39,
+                        "chinese": 29.58,
+                        "indian": 3.34,
+                        "sabah": 0.11,
+                        "sarawak": 0.09,
+                        "others": 0.49
+                    }
+                },
+                {
+                    "parliament_code": "P084",
+                    "race": {
+                        "malay": 83.36,
+                        "chinese": 12.86,
+                        "indian": 1.94,
+                        "sabah": 0.06,
+                        "sarawak": 0.07,
+                        "others": 1.72
+                    }
+                },
+                {
+                    "parliament_code": "P085",
+                    "race": {
+                        "malay": 87.79,
+                        "chinese": 2.01,
+                        "indian": 0.82,
+                        "sabah": 0.23,
+                        "sarawak": 0.48,
+                        "others": 8.67
+                    }
+                },
+                {
+                    "parliament_code": "P086",
+                    "race": {
+                        "malay": 90.16,
+                        "chinese": 6.16,
+                        "indian": 1.45,
+                        "sabah": 0.05,
+                        "sarawak": 0.05,
+                        "others": 1.86
+                    }
+                },
+                {
+                    "parliament_code": "P087",
+                    "race": {
+                        "malay": 89.86,
+                        "chinese": 2.77,
+                        "indian": 2.29,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 4.99
+                    }
+                },
+                {
+                    "parliament_code": "P088",
+                    "race": {
+                        "malay": 66.47,
+                        "chinese": 22.52,
+                        "indian": 8.11,
+                        "sabah": 0.29,
+                        "sarawak": 0.61,
+                        "others": 2
+                    }
+                },
+                {
+                    "parliament_code": "P089",
+                    "race": {
+                        "malay": 46.5,
+                        "chinese": 41.69,
+                        "indian": 9.16,
+                        "sabah": 0.09,
+                        "sarawak": 0.17,
+                        "others": 2.39
+                    }
+                },
+                {
+                    "parliament_code": "P090",
+                    "race": {
+                        "malay": 61.89,
+                        "chinese": 29.17,
+                        "indian": 3.71,
+                        "sabah": 0.2,
+                        "sarawak": 0.17,
+                        "others": 4.97
+                    }
+                },
+                {
+                    "parliament_code": "P091",
+                    "race": {
+                        "malay": 87.71,
+                        "chinese": 2.31,
+                        "indian": 1.03,
+                        "sabah": 0.08,
+                        "sarawak": 0.06,
+                        "others": 8.8
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "TERENGGANU",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "616300",
+                    "female": "591400"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P033",
+                    "race": {
+                        "malay": 98.1,
+                        "chinese": 1.41,
+                        "indian": 0.09,
+                        "sabah": 0.06,
+                        "sarawak": 0.07,
+                        "others": 0.28
+                    }
+                },
+                {
+                    "parliament_code": "P034",
+                    "race": {
+                        "malay": 99.41,
+                        "chinese": 0.33,
+                        "indian": 0.03,
+                        "sabah": 0.05,
+                        "sarawak": 0.03,
+                        "others": 0.14
+                    }
+                },
+                {
+                    "parliament_code": "P035",
+                    "race": {
+                        "malay": 98.7,
+                        "chinese": 0.95,
+                        "indian": 0.08,
+                        "sabah": 0.06,
+                        "sarawak": 0.06,
+                        "others": 0.15
+                    }
+                },
+                {
+                    "parliament_code": "P036",
+                    "race": {
+                        "malay": 90.01,
+                        "chinese": 9.21,
+                        "indian": 0.52,
+                        "sabah": 0.05,
+                        "sarawak": 0.05,
+                        "others": 0.17
+                    }
+                },
+                {
+                    "parliament_code": "P037",
+                    "race": {
+                        "malay": 97.69,
+                        "chinese": 2.01,
+                        "indian": 0.08,
+                        "sabah": 0.04,
+                        "sarawak": 0.05,
+                        "others": 0.13
+                    }
+                },
+                {
+                    "parliament_code": "P038",
+                    "race": {
+                        "malay": 99.08,
+                        "chinese": 0.47,
+                        "indian": 0.04,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 0.34
+                    }
+                },
+                {
+                    "parliament_code": "P039",
+                    "race": {
+                        "malay": 96.01,
+                        "chinese": 3.41,
+                        "indian": 0.18,
+                        "sabah": 0.07,
+                        "sarawak": 0.06,
+                        "others": 0.27
+                    }
+                },
+                {
+                    "parliament_code": "P040",
+                    "race": {
+                        "malay": 93.42,
+                        "chinese": 5.38,
+                        "indian": 0.62,
+                        "sabah": 0.06,
+                        "sarawak": 0.09,
+                        "others": 0.43
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "KUALA LUMPUR",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "917400",
+                    "female": "873900"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P114",
+                    "race": {
+                        "malay": 4.55,
+                        "chinese": 88.76,
+                        "indian": 6.03,
+                        "sabah": 0.3,
+                        "sarawak": 0.05,
+                        "others": 0.32
+                    }
+                },
+                {
+                    "parliament_code": "P115",
+                    "race": {
+                        "malay": 42.52,
+                        "chinese": 38.28,
+                        "indian": 17.46,
+                        "sabah": 0.32,
+                        "sarawak": 0.44,
+                        "others": 0.98
+                    }
+                },
+                {
+                    "parliament_code": "P116",
+                    "race": {
+                        "malay": 59.82,
+                        "chinese": 29.57,
+                        "indian": 8.18,
+                        "sabah": 0.45,
+                        "sarawak": 0.59,
+                        "others": 1.4
+                    }
+                },
+                {
+                    "parliament_code": "P117",
+                    "race": {
+                        "malay": 27.53,
+                        "chinese": 58.93,
+                        "indian": 11.77,
+                        "sabah": 0.14,
+                        "sarawak": 0.12,
+                        "others": 1.51
+                    }
+                },
+                {
+                    "parliament_code": "P118",
+                    "race": {
+                        "malay": 61.09,
+                        "chinese": 25.87,
+                        "indian": 10.38,
+                        "sabah": 0.76,
+                        "sarawak": 1.08,
+                        "others": 0.81
+                    }
+                },
+                {
+                    "parliament_code": "P119",
+                    "race": {
+                        "malay": 70.49,
+                        "chinese": 17.3,
+                        "indian": 9.42,
+                        "sabah": 0.5,
+                        "sarawak": 0.37,
+                        "others": 1.92
+                    }
+                },
+                {
+                    "parliament_code": "P120",
+                    "race": {
+                        "malay": 12.53,
+                        "chinese": 75.12,
+                        "indian": 10.95,
+                        "sabah": 0.37,
+                        "sarawak": 0.28,
+                        "others": 0.75
+                    }
+                },
+                {
+                    "parliament_code": "P121",
+                    "race": {
+                        "malay": 62.12,
+                        "chinese": 18.91,
+                        "indian": 16.24,
+                        "sabah": 0.68,
+                        "sarawak": 0.48,
+                        "others": 1.56
+                    }
+                },
+                {
+                    "parliament_code": "P122",
+                    "race": {
+                        "malay": 9.04,
+                        "chinese": 82.03,
+                        "indian": 7.87,
+                        "sabah": 0.23,
+                        "sarawak": 0.08,
+                        "others": 0.75
+                    }
+                },
+                {
+                    "parliament_code": "P123",
+                    "race": {
+                        "malay": 9.68,
+                        "chinese": 82.93,
+                        "indian": 6.73,
+                        "sabah": 0.22,
+                        "sarawak": 0.06,
+                        "others": 0.39
+                    }
+                },
+                {
+                    "parliament_code": "P124",
+                    "race": {
+                        "malay": 61.08,
+                        "chinese": 29.1,
+                        "indian": 8.27,
+                        "sabah": 0.42,
+                        "sarawak": 0.53,
+                        "others": 0.59
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "PUTRAJAYA",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "40300",
+                    "female": "46500"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P125",
+                    "race": {
+                        "malay": 94.17,
+                        "chinese": 0.89,
+                        "indian": 3.18,
+                        "sabah": 0.85,
+                        "sarawak": 0.42,
+                        "others": 0.51
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "NEGERI SEMBILAN",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "578900",
+                    "female": "538200"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P126",
+                    "race": {
+                        "malay": 65.01,
+                        "chinese": 24.13,
+                        "indian": 5.69,
+                        "sabah": 0.25,
+                        "sarawak": 0.15,
+                        "others": 4.77
+                    }
+                },
+                {
+                    "parliament_code": "P127",
+                    "race": {
+                        "malay": 63.35,
+                        "chinese": 23.24,
+                        "indian": 12.31,
+                        "sabah": 0.06,
+                        "sarawak": 0.05,
+                        "others": 0.98
+                    }
+                },
+                {
+                    "parliament_code": "P128",
+                    "race": {
+                        "malay": 48.39,
+                        "chinese": 36.75,
+                        "indian": 13.25,
+                        "sabah": 0.19,
+                        "sarawak": 0.13,
+                        "others": 1.28
+                    }
+                },
+                {
+                    "parliament_code": "P129",
+                    "race": {
+                        "malay": 77.01,
+                        "chinese": 15.84,
+                        "indian": 4.86,
+                        "sabah": 0.07,
+                        "sarawak": 0.1,
+                        "others": 2.12
+                    }
+                },
+                {
+                    "parliament_code": "P130",
+                    "race": {
+                        "malay": 29.65,
+                        "chinese": 47.79,
+                        "indian": 20.95,
+                        "sabah": 0.18,
+                        "sarawak": 0.21,
+                        "others": 0.49
+                    }
+                },
+                {
+                    "parliament_code": "P131",
+                    "race": {
+                        "malay": 73.32,
+                        "chinese": 10.31,
+                        "indian": 15.4,
+                        "sabah": 0.12,
+                        "sarawak": 0.13,
+                        "others": 0.73
+                    }
+                },
+                {
+                    "parliament_code": "P132",
+                    "race": {
+                        "malay": 42.72,
+                        "chinese": 33.11,
+                        "indian": 21.97,
+                        "sabah": 0.63,
+                        "sarawak": 0.93,
+                        "others": 0.46
+                    }
+                },
+                {
+                    "parliament_code": "P133",
+                    "race": {
+                        "malay": 62.83,
+                        "chinese": 23.55,
+                        "indian": 11.82,
+                        "sabah": 0.38,
+                        "sarawak": 0.99,
+                        "others": 0.43
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "MELAKA",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "460300",
+                    "female": "454400"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P134",
+                    "race": {
+                        "malay": 83.17,
+                        "chinese": 11.96,
+                        "indian": 3.71,
+                        "sabah": 0.09,
+                        "sarawak": 0.12,
+                        "others": 0.95
+                    }
+                },
+                {
+                    "parliament_code": "P135",
+                    "race": {
+                        "malay": 60.84,
+                        "chinese": 25.29,
+                        "indian": 12.87,
+                        "sabah": 0.1,
+                        "sarawak": 0.08,
+                        "others": 0.28
+                    }
+                },
+                {
+                    "parliament_code": "P136",
+                    "race": {
+                        "malay": 70.98,
+                        "chinese": 22.08,
+                        "indian": 3.53,
+                        "sabah": 1.03,
+                        "sarawak": 1.64,
+                        "others": 0.73
+                    }
+                },
+                {
+                    "parliament_code": "P137",
+                    "race": {
+                        "malay": 62.39,
+                        "chinese": 31.11,
+                        "indian": 5.68,
+                        "sabah": 0.17,
+                        "sarawak": 0.13,
+                        "others": 0.52
+                    }
+                },
+                {
+                    "parliament_code": "P138",
+                    "race": {
+                        "malay": 37.41,
+                        "chinese": 57.11,
+                        "indian": 4.01,
+                        "sabah": 0.11,
+                        "sarawak": 0.1,
+                        "others": 1.26
+                    }
+                },
+                {
+                    "parliament_code": "P139",
+                    "race": {
+                        "malay": 73.5,
+                        "chinese": 16.17,
+                        "indian": 9.77,
+                        "sabah": 0.06,
+                        "sarawak": 0.07,
+                        "others": 0.41
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "JOHOR",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "1955100",
+                    "female": "1745400"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P140",
+                    "race": {
+                        "malay": 46.19,
+                        "chinese": 42.77,
+                        "indian": 10.09,
+                        "sabah": 0.3,
+                        "sarawak": 0.32,
+                        "others": 0.24
+                    }
+                },
+                {
+                    "parliament_code": "P141",
+                    "race": {
+                        "malay": 59.24,
+                        "chinese": 36.15,
+                        "indian": 4,
+                        "sabah": 0.03,
+                        "sarawak": 0.05,
+                        "others": 0.53
+                    }
+                },
+                {
+                    "parliament_code": "P142",
+                    "race": {
+                        "malay": 37.98,
+                        "chinese": 44.94,
+                        "indian": 14.68,
+                        "sabah": 0.07,
+                        "sarawak": 0.05,
+                        "others": 2.28
+                    }
+                },
+                {
+                    "parliament_code": "P143",
+                    "race": {
+                        "malay": 65.96,
+                        "chinese": 29.76,
+                        "indian": 3.72,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 0.49
+                    }
+                },
+                {
+                    "parliament_code": "P144",
+                    "race": {
+                        "malay": 55.76,
+                        "chinese": 39.03,
+                        "indian": 4.57,
+                        "sabah": 0.06,
+                        "sarawak": 0.04,
+                        "others": 0.55
+                    }
+                },
+                {
+                    "parliament_code": "P145",
+                    "race": {
+                        "malay": 44.23,
+                        "chinese": 53.14,
+                        "indian": 2.15,
+                        "sabah": 0.08,
+                        "sarawak": 0.07,
+                        "others": 0.32
+                    }
+                },
+                {
+                    "parliament_code": "P146",
+                    "race": {
+                        "malay": 66.72,
+                        "chinese": 31.47,
+                        "indian": 1.33,
+                        "sabah": 0.08,
+                        "sarawak": 0.07,
+                        "others": 0.33
+                    }
+                },
+                {
+                    "parliament_code": "P147",
+                    "race": {
+                        "malay": 78.51,
+                        "chinese": 20.66,
+                        "indian": 0.48,
+                        "sabah": 0.03,
+                        "sarawak": 0.05,
+                        "others": 0.26
+                    }
+                },
+                {
+                    "parliament_code": "P148",
+                    "race": {
+                        "malay": 57.68,
+                        "chinese": 37.97,
+                        "indian": 4.01,
+                        "sabah": 0.02,
+                        "sarawak": 0.04,
+                        "others": 0.26
+                    }
+                },
+                {
+                    "parliament_code": "P149",
+                    "race": {
+                        "malay": 65,
+                        "chinese": 33.17,
+                        "indian": 1.46,
+                        "sabah": 0.07,
+                        "sarawak": 0.04,
+                        "others": 0.27
+                    }
+                },
+                {
+                    "parliament_code": "P150",
+                    "race": {
+                        "malay": 54.64,
+                        "chinese": 43.49,
+                        "indian": 1.29,
+                        "sabah": 0.07,
+                        "sarawak": 0.06,
+                        "others": 0.36
+                    }
+                },
+                {
+                    "parliament_code": "P151",
+                    "race": {
+                        "malay": 59.61,
+                        "chinese": 30.8,
+                        "indian": 8.84,
+                        "sabah": 0.12,
+                        "sarawak": 0.1,
+                        "others": 0.53
+                    }
+                },
+                {
+                    "parliament_code": "P152",
+                    "race": {
+                        "malay": 41.63,
+                        "chinese": 47.49,
+                        "indian": 9.38,
+                        "sabah": 0.3,
+                        "sarawak": 0.69,
+                        "others": 0.51
+                    }
+                },
+                {
+                    "parliament_code": "P153",
+                    "race": {
+                        "malay": 60.44,
+                        "chinese": 29.15,
+                        "indian": 8.66,
+                        "sabah": 0.04,
+                        "sarawak": 0.04,
+                        "others": 1.66
+                    }
+                },
+                {
+                    "parliament_code": "P154",
+                    "race": {
+                        "malay": 81.45,
+                        "chinese": 14.29,
+                        "indian": 1.26,
+                        "sabah": 0.44,
+                        "sarawak": 0.6,
+                        "others": 1.98
+                    }
+                },
+                {
+                    "parliament_code": "P155",
+                    "race": {
+                        "malay": 74.68,
+                        "chinese": 16.13,
+                        "indian": 6.58,
+                        "sabah": 0.4,
+                        "sarawak": 1.13,
+                        "others": 1.08
+                    }
+                },
+                {
+                    "parliament_code": "P156",
+                    "race": {
+                        "malay": 88.36,
+                        "chinese": 9.27,
+                        "indian": 1.85,
+                        "sabah": 0.06,
+                        "sarawak": 0.09,
+                        "others": 0.36
+                    }
+                },
+                {
+                    "parliament_code": "P157",
+                    "race": {
+                        "malay": 89.61,
+                        "chinese": 8.87,
+                        "indian": 0.77,
+                        "sabah": 0.17,
+                        "sarawak": 0.18,
+                        "others": 0.39
+                    }
+                },
+                {
+                    "parliament_code": "P158",
+                    "race": {
+                        "malay": 47.19,
+                        "chinese": 39.36,
+                        "indian": 11.54,
+                        "sabah": 0.27,
+                        "sarawak": 0.67,
+                        "others": 0.96
+                    }
+                },
+                {
+                    "parliament_code": "P159",
+                    "race": {
+                        "malay": 48.89,
+                        "chinese": 37.03,
+                        "indian": 10.45,
+                        "sabah": 1.34,
+                        "sarawak": 1.41,
+                        "others": 0.89
+                    }
+                },
+                {
+                    "parliament_code": "P160",
+                    "race": {
+                        "malay": 52.64,
+                        "chinese": 41.09,
+                        "indian": 5.15,
+                        "sabah": 0.18,
+                        "sarawak": 0.24,
+                        "others": 0.7
+                    }
+                },
+                {
+                    "parliament_code": "P161",
+                    "race": {
+                        "malay": 49.06,
+                        "chinese": 39.2,
+                        "indian": 10.28,
+                        "sabah": 0.3,
+                        "sarawak": 0.36,
+                        "others": 0.81
+                    }
+                },
+                {
+                    "parliament_code": "P162",
+                    "race": {
+                        "malay": 36.65,
+                        "chinese": 49.79,
+                        "indian": 12.46,
+                        "sabah": 0.2,
+                        "sarawak": 0.32,
+                        "others": 0.58
+                    }
+                },
+                {
+                    "parliament_code": "P163",
+                    "race": {
+                        "malay": 34.96,
+                        "chinese": 54.04,
+                        "indian": 10.24,
+                        "sabah": 0.21,
+                        "sarawak": 0.18,
+                        "others": 0.36
+                    }
+                },
+                {
+                    "parliament_code": "P164",
+                    "race": {
+                        "malay": 68.24,
+                        "chinese": 30.1,
+                        "indian": 1.03,
+                        "sabah": 0.05,
+                        "sarawak": 0.06,
+                        "others": 0.53
+                    }
+                },
+                {
+                    "parliament_code": "P165",
+                    "race": {
+                        "malay": 56.8,
+                        "chinese": 41.64,
+                        "indian": 1.01,
+                        "sabah": 0.08,
+                        "sarawak": 0.08,
+                        "others": 0.39
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "SABAH",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "2020100",
+                    "female": "1846700"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P167",
+                    "race": {
+                        "muslim_bumiputera": 56.87,
+                        "non_muslim_bumiputera": 33.59,
+                        "chinese": 9.12,
+                        "others": 0.42
+                    }
+                },
+                {
+                    "parliament_code": "P168",
+                    "race": {
+                        "muslim_bumiputera": 28.5,
+                        "non_muslim_bumiputera": 68.89,
+                        "chinese": 2.22,
+                        "others": 0.39
+                    }
+                },
+                {
+                    "parliament_code": "P169",
+                    "race": {
+                        "muslim_bumiputera": 60.28,
+                        "non_muslim_bumiputera": 38.02,
+                        "chinese": 1.42,
+                        "others": 0.29
+                    }
+                },
+                {
+                    "parliament_code": "P170",
+                    "race": {
+                        "muslim_bumiputera": 47.58,
+                        "non_muslim_bumiputera": 46.53,
+                        "chinese": 5.33,
+                        "others": 0.56
+                    }
+                },
+                {
+                    "parliament_code": "P171",
+                    "race": {
+                        "muslim_bumiputera": 55.25,
+                        "non_muslim_bumiputera": 24.63,
+                        "chinese": 18.98,
+                        "others": 1.14
+                    }
+                },
+                {
+                    "parliament_code": "P172",
+                    "race": {
+                        "muslim_bumiputera": 22.35,
+                        "non_muslim_bumiputera": 13.82,
+                        "chinese": 62.52,
+                        "others": 1.31
+                    }
+                },
+                {
+                    "parliament_code": "P173",
+                    "race": {
+                        "muslim_bumiputera": 69.24,
+                        "non_muslim_bumiputera": 14.35,
+                        "chinese": 15.43,
+                        "others": 0.99
+                    }
+                },
+                {
+                    "parliament_code": "P174",
+                    "race": {
+                        "muslim_bumiputera": 13.95,
+                        "non_muslim_bumiputera": 51.79,
+                        "chinese": 32.56,
+                        "others": 1.71
+                    }
+                },
+                {
+                    "parliament_code": "P175",
+                    "race": {
+                        "muslim_bumiputera": 66.71,
+                        "non_muslim_bumiputera": 25.31,
+                        "chinese": 7.46,
+                        "others": 0.52
+                    }
+                },
+                {
+                    "parliament_code": "P176",
+                    "race": {
+                        "muslim_bumiputera": 66.54,
+                        "non_muslim_bumiputera": 29.93,
+                        "chinese": 3.19,
+                        "others": 0.34
+                    }
+                },
+                {
+                    "parliament_code": "P177",
+                    "race": {
+                        "muslim_bumiputera": 65.98,
+                        "non_muslim_bumiputera": 26.11,
+                        "chinese": 7.46,
+                        "others": 0.45
+                    }
+                },
+                {
+                    "parliament_code": "P178",
+                    "race": {
+                        "muslim_bumiputera": 76.27,
+                        "non_muslim_bumiputera": 19.48,
+                        "chinese": 3.74,
+                        "others": 0.52
+                    }
+                },
+                {
+                    "parliament_code": "P179",
+                    "race": {
+                        "muslim_bumiputera": 40.03,
+                        "non_muslim_bumiputera": 57.22,
+                        "chinese": 1.71,
+                        "others": 1.05
+                    }
+                },
+                {
+                    "parliament_code": "P180",
+                    "race": {
+                        "muslim_bumiputera": 28.03,
+                        "non_muslim_bumiputera": 62.11,
+                        "chinese": 8.67,
+                        "others": 1.2
+                    }
+                },
+                {
+                    "parliament_code": "P181",
+                    "race": {
+                        "muslim_bumiputera": 28.01,
+                        "non_muslim_bumiputera": 61.31,
+                        "chinese": 10.17,
+                        "others": 0.51
+                    }
+                },
+                {
+                    "parliament_code": "P182",
+                    "race": {
+                        "muslim_bumiputera": 24.27,
+                        "non_muslim_bumiputera": 73.93,
+                        "chinese": 1.3,
+                        "others": 0.5
+                    }
+                },
+                {
+                    "parliament_code": "P183",
+                    "race": {
+                        "muslim_bumiputera": 54.05,
+                        "non_muslim_bumiputera": 44.26,
+                        "chinese": 0.84,
+                        "others": 0.85
+                    }
+                },
+                {
+                    "parliament_code": "P184",
+                    "race": {
+                        "muslim_bumiputera": 76.77,
+                        "non_muslim_bumiputera": 6.15,
+                        "chinese": 16.47,
+                        "others": 0.62
+                    }
+                },
+                {
+                    "parliament_code": "P185",
+                    "race": {
+                        "muslim_bumiputera": 65.06,
+                        "non_muslim_bumiputera": 4.09,
+                        "chinese": 30.03,
+                        "others": 0.82
+                    }
+                },
+                {
+                    "parliament_code": "P186",
+                    "race": {
+                        "muslim_bumiputera": 43.9,
+                        "non_muslim_bumiputera": 5.71,
+                        "chinese": 49.29,
+                        "others": 1.09
+                    }
+                },
+                {
+                    "parliament_code": "P187",
+                    "race": {
+                        "muslim_bumiputera": 72.48,
+                        "non_muslim_bumiputera": 26.47,
+                        "chinese": 0.56,
+                        "others": 0.49
+                    }
+                },
+                {
+                    "parliament_code": "P188",
+                    "race": {
+                        "muslim_bumiputera": 79.86,
+                        "non_muslim_bumiputera": 8.98,
+                        "chinese": 10.35,
+                        "others": 0.81
+                    }
+                },
+                {
+                    "parliament_code": "P189",
+                    "race": {
+                        "muslim_bumiputera": 96.43,
+                        "non_muslim_bumiputera": 1.68,
+                        "chinese": 1.58,
+                        "others": 0.32
+                    }
+                },
+                {
+                    "parliament_code": "P190",
+                    "race": {
+                        "muslim_bumiputera": 60.71,
+                        "non_muslim_bumiputera": 4.91,
+                        "chinese": 33.56,
+                        "others": 0.82
+                    }
+                },
+                {
+                    "parliament_code": "P191",
+                    "race": {
+                        "muslim_bumiputera": 84.4,
+                        "non_muslim_bumiputera": 6.18,
+                        "chinese": 8.54,
+                        "others": 0.88
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "SARAWAK",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "1443300",
+                    "female": "1324300"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P192",
+                    "race": {
+                        "malay": 5,
+                        "chinese": 18,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 76,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P193",
+                    "race": {
+                        "malay": 80,
+                        "chinese": 8,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 12,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P194",
+                    "race": {
+                        "malay": 73,
+                        "chinese": 13,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 12,
+                        "others": 2
+                    }
+                },
+                {
+                    "parliament_code": "P195",
+                    "race": {
+                        "malay": 4,
+                        "chinese": 89,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 6,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P196",
+                    "race": {
+                        "malay": 16,
+                        "chinese": 64,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 18,
+                        "others": 2
+                    }
+                },
+                {
+                    "parliament_code": "P197",
+                    "race": {
+                        "malay": 62,
+                        "chinese": 11,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 26,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P198",
+                    "race": {
+                        "malay": 5,
+                        "chinese": 26,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 68,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P199",
+                    "race": {
+                        "malay": 8,
+                        "chinese": 10,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 81,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P200",
+                    "race": {
+                        "malay": 70,
+                        "chinese": 5,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 24,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P201",
+                    "race": {
+                        "malay": 67,
+                        "chinese": 3,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 30,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P202",
+                    "race": {
+                        "malay": 10,
+                        "chinese": 17,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 73,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P203",
+                    "race": {
+                        "malay": 2,
+                        "chinese": 0,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 8,
+                        "others": 90
+                    }
+                },
+                {
+                    "parliament_code": "P204",
+                    "race": {
+                        "malay": 38,
+                        "chinese": 7,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 55,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P205",
+                    "race": {
+                        "malay": 36,
+                        "chinese": 6,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 57,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P206",
+                    "race": {
+                        "malay": 26,
+                        "chinese": 4,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 69,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P207",
+                    "race": {
+                        "malay": 7,
+                        "chinese": 4,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 89,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P208",
+                    "race": {
+                        "malay": 5,
+                        "chinese": 63,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 32,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P209",
+                    "race": {
+                        "malay": 1,
+                        "chinese": 5,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 94,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P210",
+                    "race": {
+                        "malay": 2,
+                        "chinese": 12,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 86,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P211",
+                    "race": {
+                        "malay": 3,
+                        "chinese": 69,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 27,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P212",
+                    "race": {
+                        "malay": 11,
+                        "chinese": 63,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 25,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P213",
+                    "race": {
+                        "malay": 3,
+                        "chinese": 9,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 87,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P214",
+                    "race": {
+                        "malay": 1,
+                        "chinese": 3,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 95,
+                        "others": 1
+                    }
+                },
+                {
+                    "parliament_code": "P215",
+                    "race": {
+                        "malay": 3,
+                        "chinese": 10,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 87,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P216",
+                    "race": {
+                        "malay": 1,
+                        "chinese": 2,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 97,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P217",
+                    "race": {
+                        "malay": 11,
+                        "chinese": 29,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 60,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P218",
+                    "race": {
+                        "malay": 24,
+                        "chinese": 22,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 54,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P219",
+                    "race": {
+                        "malay": 15,
+                        "chinese": 55,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 28,
+                        "others": 2
+                    }
+                },
+                {
+                    "parliament_code": "P220",
+                    "race": {
+                        "malay": 5,
+                        "chinese": 8,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 87,
+                        "others": 0
+                    }
+                },
+                {
+                    "parliament_code": "P221",
+                    "race": {
+                        "malay": 28,
+                        "chinese": 18,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 46,
+                        "others": 8
+                    }
+                },
+                {
+                    "parliament_code": "P222",
+                    "race": {
+                        "malay": 40,
+                        "chinese": 9,
+                        "indian": 0,
+                        "sabah": 0,
+                        "sarawak": 48,
+                        "others": 3
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "state_name": "LABUAN",
+        "demography": {
+            "state": {
+                "gender": {
+                    "male": "49300",
+                    "female": "48400"
+                }
+            },
+            "parliament": [
+                {
+                    "parliament_code": "P166",
+                    "race": {
+                        "malay": 42.07,
+                        "chinese": 20.67,
+                        "indian": 1.36,
+                        "sabah": 31.16,
+                        "sarawak": 1.7,
+                        "others": 3.04
+                    }
+                }
+            ]
+        }
+    }
+]

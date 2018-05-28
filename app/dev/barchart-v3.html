@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://bl.ocks.org/hrecht/raw/f84012ee860cb4da66331f18d588eee3/ -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style id="stndz-style">
+            div[class*="item-container-obpd"],
+            a[data-redirect*="paid.outbrain.com"],
+            a[onmousedown*="paid.outbrain.com"] {
+                display: none !important;
+            }
+            
+            a div[class*="item-container-ad"] {
+                height: 0px !important;
+                overflow: hidden !important;
+                position: absolute !important;
+            }
+            
+            div[data-item-syndicated="true"] {
+                display: none !important;
+            }
+            
+            .grv_is_sponsored { display: none !important; } .zergnet-widget-related { display: none !important; } </style>
+    
+    <title>Simple Bar chart</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="graphic"></div>
+
+    <script src="../deploy/lib/js/jquery-3.3.1.min.js"></script>
+    <script src="../deploy/lib/js/d3.min.js"></script>
+    <script src="../deploy/lib/js/d3-hexbin.min.js"></script>
+    <script>
+        function loadBarChart(id, barChartDiv, data, w, h) {
+            // set up barSVG using margin conventions - we'll need plenty of room on the left for labels
+            var margin = {
+                top: 15,
+                right: 25,
+                bottom: 15,
+                left: 60
+            };
+
+            var width = w - margin.left - margin.right,
+                height = h - margin.top - margin.bottom;
+            var barSVG = barChartDiv.append("svg")
+                .attr("id", id)
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var xScale = d3.scale.linear()
+                .range([0, width])
+                .domain([0, d3.max(data, function (d) { return d.value; })]);
+            var yScale = d3.scale.ordinal()
+                .rangeRoundBands([height, 0], .1)
+                .domain(data.map(function (d) { return d.label; }));
+
+            // make y axis to show bar labels
+            var yAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("left");
+            var gy = barSVG.append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+            var bars = barSVG.selectAll(".bar")
+                .data(data)
+                .enter()
+                .append("g")
+
+            // append rects for bars
+            bars.append("rect")
+                .attr("class", "bar")
+                .attr("x", 0)
+                .attr("y", function (d) { return yScale(d.label); })
+                .attr("height", yScale.rangeBand())
+                .attr("width", 0)
+                .attr("fill", function(d) { return d.color; })
+                .transition().duration(500)
+                    .delay(function(d, i) { return i * 100; })
+                    .attr("width", function (d) { return xScale(d.value); });
+
+            // add a value label to the right of each bar
+            bars.append("text")
+                .attr("class", "label")
+                .text(function (d) { return d.value; })
+                .attr("x", 0)
+                .attr("y", function (d) { return yScale(d.label) + yScale.rangeBand() / 2 + 4; })
+                .transition().duration(500)
+                    .delay(function(d, i) { return i * 100; })
+                    //y position of the label is halfway down the bar
+                    .attr("y", function (d) { return yScale(d.label) + yScale.rangeBand() / 2 + 4; })
+                    //x position is 3 pixels to the right of the bar
+                    .attr("x", function (d) { return xScale(d.value) + 3; })
+        }
+
+        var data = [
+            { "label": "Others", "value": 26, "color": "grey"},
+            { "label": "Sarawak", "value": 16, "color": "yellow"},
+            { "label": "Sabah", "value": 5, "color": "black"},
+            { "label": "Indian", "value": 19, "color": "blue"},
+            { "label": "Chinese", "value": 12, "color": "green"},
+            { "label": "Malay", "value": 20, "color": "red" }
+        ];
+
+        loadBarChart(
+            "chart",
+            d3.select("#graphic"),
+            data,
+            200, 150
+        );
+    </script>
+</body>
+</html>

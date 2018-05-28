@@ -198,7 +198,7 @@ $partyNameList = [
                                                     <div class="col-md-12">
                                                         <h4><b>Election Winner</b></h4>
                                                         <div class="row">
-                                                            <div class="col-md-6">
+                                                            <div class="col-md-12">
                                                                 <u>Party Name</u>
                                                                 <div class="form-group">
                                                                     <select class="form-control" name="<?= $decodedData[$x]['result'][$y]['parliament_code'] ?>-winner-party">
@@ -212,17 +212,6 @@ $partyNameList = [
                                                                                 echo("<option value=\"$partyList[$a]\">$partyNameList[$a] ($partyList[$a])</option>");
                                                                         } ?>
                                                                     </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <u>Candidate Name</u>
-                                                                <div class="form-group">
-                                                                    <input class="form-control"
-                                                                        type="text"
-                                                                        style="text-transform:uppercase"
-                                                                        name="<?= $decodedData[$x]['result'][$y]['parliament_code'] ?>-winner-candidate"
-                                                                        placeholder="Winning Candidate Name"
-                                                                        value="<?= $decodedData[$x]['result'][$y]['winner']['candidate'] ?>" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -278,11 +267,10 @@ if(isset($_POST['submit'])) {
             $decodedData[$x]['result'][$y]['vote']['OTH'] = $_POST[$decodedData[$x]['result'][$y]['parliament_code'] . '-vote-OTH'];
             // winner
             $decodedData[$x]['result'][$y]['winner']['party'] = $_POST[$decodedData[$x]['result'][$y]['parliament_code'] . '-winner-party'];
-            $decodedData[$x]['result'][$y]['winner']['candidate'] = $_POST[$decodedData[$x]['result'][$y]['parliament_code'] . '-winner-candidate'];
         }
     }
     
-    $encodedData = json_encode($decodedData);
+    $encodedData = json_encode($decodedData, JSON_PRETTY_PRINT);
     file_put_contents('../../json/election.json', $encodedData);
     
     echo '<meta http-equiv="refresh" content="0">';

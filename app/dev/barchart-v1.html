@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar Chart</title>
+
+        <style>
+            #chart svg {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="chart"></div>
+
+        <script src="../deploy/lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../deploy/lib/js/d3.min.js"></script>
+        <script src="../deploy/lib/js/d3-hexbin.min.js"></script>
+        <script>
+            var chartSetting = {
+                width: 500,
+                height: 300,
+                padding: 10
+            };
+            var data = [
+                { "label": "Male", "value": 600 },
+                { "label": "Female", "value": 200 }
+            ];
+
+            var barSVG = d3.select('#chart').append("svg")
+                .attr('height', chartSetting.height)
+                .attr('width', chartSetting.width);
+            
+            var yScale = d3.scale.linear()
+                .domain([0, d3.max(data, function(d) { return d.value; })])
+                .range([0, chartSetting.height - chartSetting.padding * 2]);
+            var xScale = d3.scale.ordinal()
+                .domain(data.map(function (d) { return d.value; }))
+                .rangeBands([0, chartSetting.width], 0.1, 0.3);
+
+            barSVG.selectAll('.bar')
+                .data(data)
+                .enter().append('rect')
+                    .attr('class', 'bar')
+                    .attr('x', function(d) { return xScale(d.value); })
+                    .attr('y', function(d) { return chartSetting.height - chartSetting.padding; })
+                    .attr('width', function(d) { return xScale.rangeBand(); })
+                    .attr('height', 0)
+                    .attr('fill', 'red')
+                    .transition().duration(500)
+                        .delay(function(d, i) { return i * 100; })
+                        .attr("y", function (d, i) { return chartSetting.height - yScale(d.value) - chartSetting.padding; })
+                        .attr("height", function (d, i) { return yScale(d.value); });
+
+            // gender label
+            barSVG.selectAll(".label .label-gender")
+                .data(data)
+                .enter().append("text")
+                    .attr('class', 'label label-gender')
+                    .text(function(d) { return d.label; })
+                    .attr('x', function(d) { return xScale(d.value); })
+                    .attr('y', chartSetting.height)
+                    .style("fill", "white")
+                    .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                    .style("opacity", 0)
+                    .transition().duration(500)
+                        .delay(function(d, i) { return i * 100; })
+                        .attr('y', chartSetting.height - 30)
+                        .style("opacity", 1);
+
+            // value label
+            barSVG.selectAll(".label .label-value")
+                .data(data)
+                .enter().append("text")
+                    .attr('class', 'label label-value')
+                    .text(function(d) { return d.value +"%"; })
+                    .attr('x', chartSetting.padding)
+                    .attr('y', function(d) { return yScale(d.value); })
+                    .style("fill", "white")
+                    .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                    .style("opacity", 0)
+                    .transition().duration(500)
+                        .delay(function(d, i) { return i * 100; })
+                        .attr('x', chartSetting.padding)
+                        .style("opacity", 1);
+        </script>
+    </body>
+</html>
