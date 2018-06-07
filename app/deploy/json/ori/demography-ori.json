@@ -1996,276 +1996,226 @@
                 {
                     "parliament_code": "P167",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 56.87,
+                        "non_muslim_bumiputera": 33.59,
+                        "chinese": 9.12,
+                        "others": 0.42
                     }
                 },
                 {
                     "parliament_code": "P168",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 28.5,
+                        "non_muslim_bumiputera": 68.89,
+                        "chinese": 2.22,
+                        "others": 0.39
                     }
                 },
                 {
                     "parliament_code": "P169",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 60.28,
+                        "non_muslim_bumiputera": 38.02,
+                        "chinese": 1.42,
+                        "others": 0.29
                     }
                 },
                 {
                     "parliament_code": "P170",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 47.58,
+                        "non_muslim_bumiputera": 46.53,
+                        "chinese": 5.33,
+                        "others": 0.56
                     }
                 },
                 {
                     "parliament_code": "P171",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 55.25,
+                        "non_muslim_bumiputera": 24.63,
+                        "chinese": 18.98,
+                        "others": 1.14
                     }
                 },
                 {
                     "parliament_code": "P172",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 22.35,
+                        "non_muslim_bumiputera": 13.82,
+                        "chinese": 62.52,
+                        "others": 1.31
                     }
                 },
                 {
                     "parliament_code": "P173",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 69.24,
+                        "non_muslim_bumiputera": 14.35,
+                        "chinese": 15.43,
+                        "others": 0.99
                     }
                 },
                 {
                     "parliament_code": "P174",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 13.95,
+                        "non_muslim_bumiputera": 51.79,
+                        "chinese": 32.56,
+                        "others": 1.71
                     }
                 },
                 {
                     "parliament_code": "P175",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 66.71,
+                        "non_muslim_bumiputera": 25.31,
+                        "chinese": 7.46,
+                        "others": 0.52
                     }
                 },
                 {
                     "parliament_code": "P176",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 66.54,
+                        "non_muslim_bumiputera": 29.93,
+                        "chinese": 3.19,
+                        "others": 0.34
                     }
                 },
                 {
                     "parliament_code": "P177",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 65.98,
+                        "non_muslim_bumiputera": 26.11,
+                        "chinese": 7.46,
+                        "others": 0.45
                     }
                 },
                 {
                     "parliament_code": "P178",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 76.27,
+                        "non_muslim_bumiputera": 19.48,
+                        "chinese": 3.74,
+                        "others": 0.52
                     }
                 },
                 {
                     "parliament_code": "P179",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 40.03,
+                        "non_muslim_bumiputera": 57.22,
+                        "chinese": 1.71,
+                        "others": 1.05
                     }
                 },
                 {
                     "parliament_code": "P180",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 28.03,
+                        "non_muslim_bumiputera": 62.11,
+                        "chinese": 8.67,
+                        "others": 1.2
                     }
                 },
                 {
                     "parliament_code": "P181",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 28.01,
+                        "non_muslim_bumiputera": 61.31,
+                        "chinese": 10.17,
+                        "others": 0.51
                     }
                 },
                 {
                     "parliament_code": "P182",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 24.27,
+                        "non_muslim_bumiputera": 73.93,
+                        "chinese": 1.3,
+                        "others": 0.5
                     }
                 },
                 {
                     "parliament_code": "P183",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 54.05,
+                        "non_muslim_bumiputera": 44.26,
+                        "chinese": 0.84,
+                        "others": 0.85
                     }
                 },
                 {
                     "parliament_code": "P184",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 76.77,
+                        "non_muslim_bumiputera": 6.15,
+                        "chinese": 16.47,
+                        "others": 0.62
                     }
                 },
                 {
                     "parliament_code": "P185",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 65.06,
+                        "non_muslim_bumiputera": 4.09,
+                        "chinese": 30.03,
+                        "others": 0.82
                     }
                 },
                 {
                     "parliament_code": "P186",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 43.9,
+                        "non_muslim_bumiputera": 5.71,
+                        "chinese": 49.29,
+                        "others": 1.09
                     }
                 },
                 {
                     "parliament_code": "P187",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 72.48,
+                        "non_muslim_bumiputera": 26.47,
+                        "chinese": 0.56,
+                        "others": 0.49
                     }
                 },
                 {
                     "parliament_code": "P188",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 79.86,
+                        "non_muslim_bumiputera": 8.98,
+                        "chinese": 10.35,
+                        "others": 0.81
                     }
                 },
                 {
                     "parliament_code": "P189",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 96.43,
+                        "non_muslim_bumiputera": 1.68,
+                        "chinese": 1.58,
+                        "others": 0.32
                     }
                 },
                 {
                     "parliament_code": "P190",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 60.71,
+                        "non_muslim_bumiputera": 4.91,
+                        "chinese": 33.56,
+                        "others": 0.82
                     }
                 },
                 {
                     "parliament_code": "P191",
                     "race": {
-                        "malay": 0,
-                        "chinese": 0,
-                        "indian": 0,
-                        "sabah": 0,
-                        "sarawak": 0,
-                        "others": 0
+                        "muslim_bumiputera": 84.4,
+                        "non_muslim_bumiputera": 6.18,
+                        "chinese": 8.54,
+                        "others": 0.88
                     }
                 }
             ]

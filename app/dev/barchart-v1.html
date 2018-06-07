@@ -44,7 +44,7 @@
                     .attr('class', 'bar')
                     .attr('x', function(d) { return xScale(d.value); })
                     .attr('y', function(d) { return chartSetting.height - chartSetting.padding; })
-                    .attr('width', function(d) { return xScale.rangeBand(); })
+                    .attr('width', xScale.rangeBand())
                     .attr('height', 0)
                     .attr('fill', 'red')
                     .transition().duration(500)

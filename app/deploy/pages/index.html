@@ -52,7 +52,7 @@
             }
 
             #chart-election svg,
-            #chart-demography svg {
+            .chart {
                 border: none;
                 background-color: none;
             }
@@ -166,10 +166,12 @@
                     if(document.getElementById(id) == null)
                         barSVG = barChartDiv.append("svg")
                             .attr("id", id)
+                            .attr("class", "chart")
                             .attr("width", chartSetting.width)
                             .attr("height", chartSetting.height);
                     else
                         barSVG = barChartDiv.select("#" + id)
+                            .attr("class", "chart")
                             .attr("width", chartSetting.width)
                             .attr("height", chartSetting.height);
                                 
@@ -226,11 +228,123 @@
                                 .attr('x', chartSetting.padding)
                                 .style("opacity", 1);
                 }
+                function loadVerticalBarChart(id, barChartDiv, data, w, h) {
+                    var chartSetting = {
+                        width: w,
+                        height: h,
+                        padding: 10
+                    };
+
+                    var barSVG = barChartDiv.append("svg")
+                        .attr("class", "chart")
+                        .attr("width", chartSetting.width)
+                        .attr("height", chartSetting.height);
+                    var xScale = d3.scale.ordinal()
+                        .domain(data.map(function (d) { return d.value; }))
+                        .rangeRoundBands([0, chartSetting.width], 0.1, 0.3);
+                    var yScale = d3.scale.linear()
+                        .domain([0, d3.max(data, function(d) { return d.value; })])
+                        .range([0, chartSetting.height - chartSetting.padding * 2]);
+
+                    // draw bar
+                    barSVG.selectAll('.bar')
+                        .data(data)
+                        .enter().append('rect')
+                            .attr('class', 'bar')
+                            .attr('x', function(d) { return xScale(d.value); })
+                            .attr('y', chartSetting.height)
+                            .attr('width', xScale.rangeBand())
+                            .attr('height', chartSetting.height)
+                            .attr('fill', function(d) { return d.color; })
+                            .transition().duration(500)
+                                .delay(function(d, i) { return i * 100; })
+                                .attr("y", function (d, i) { return chartSetting.height - yScale(d.value); })
+                                .attr("height", function (d, i) { return yScale(d.value); });
+                    
+                    // gender label
+                    barSVG.selectAll('.label .label-gender')
+                        .data(data)
+                        .enter().append('text')
+                            .text(function(d) { return d.label; })
+                            .attr("transform", function(d) {
+                                return "translate("
+                                    + (xScale(d.value) + chartSetting.padding * 2)
+                                    + ","
+                                    + (chartSetting.height + chartSetting.padding * 2)
+                                    + ")rotate(270)";
+                            })
+                            .attr('width', xScale.rangeBand())
+                            .attr('height', chartSetting.height)
+                            .attr('fill', "white")
+                            .style("font-size", "1em")
+                            .style("font-weight", "bold")
+                            .style("opacity", 0)
+                            .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                            .transition().duration(500)
+                                .delay(function(d, i) { return i * 100; })
+                                .attr("transform", function(d) {
+                                    return "translate("
+                                        + (xScale(d.value) + chartSetting.padding * 2)
+                                        + ","
+                                        + (chartSetting.height - chartSetting.padding)
+                                        + ")rotate(270)";
+                                })
+                                .style("opacity", 1);
+
+                    // percentage label
+                    barSVG.selectAll('.label .label-percentage')
+                        .data(data)
+                        .enter().append('text')
+                            .attr('class', 'label label-percentage')
+                            .text(function(d) {
+                                var total = 0,
+                                    percentage = 0,
+                                    current = parseInt(d.value);
+
+                                for(var x=0 ; x<data.length ; x++)
+                                    total += parseInt(data[x].value);
+                                percentage = (current / total) * 100;
+
+                                return percentage.toFixed(2) + "%";
+                            })
+                            .attr('x', function(d) { return xScale(d.value) + chartSetting.padding; })
+                            .attr('y', chartSetting.height)
+                            .attr('width', xScale.rangeBand())
+                            .attr('height', chartSetting.height)
+                            .attr('fill', "white")
+                            .transition().duration(500)
+                                .delay(function(d, i) { return i * 100; })
+                                .attr("y", function (d, i) { return chartSetting.height - chartSetting.padding - yScale(d.value); })
+                                .attr("height", function (d, i) { return yScale(d.value); });
+                        
+                    // event listener
+                    var barChartTooltip = barChartDiv.append("div")
+                        .attr("class", "tooltip tooltip-bar-chart")
+                        .style("z-index", 5);
+
+                    d3.selectAll(".bar").data(data)
+                        .on("mouseover", function(d, i, j) {
+                            barChartTooltip.transition().duration(200)
+                                .text(d.value + " peoples")
+                                .style("opacity", .9)
+                                .style("visibility", "visible");
+                        })
+                        .on("mousemove", function() {
+                            barChartTooltip
+                                .style("top", event.pageY+"px")
+                                .style("left", event.pageX+"px");
+                        })
+                        .on("mouseout", function() {
+                            barChartTooltip.transition().duration(200)		
+                                .style("opacity", 0);
+                        });
+                }
                 function loadPieChart(id, pieChartDiv, data, w, h, outR, inR) {
                     var pieSVG = null;
                     if(document.getElementById(id) == null)
                         pieSVG = pieChartDiv.append("svg")
                             .attr("id", id)
+                            .attr("class", "chart")
                             .attr("width", w)
                             .attr("height", h)
                             .data(data)
@@ -238,6 +352,7 @@
                                 .attr("transform", "translate(" + (w/2) + "," + (h/2) + ")");
                     else
                         pieSVG = pieChartDiv.select("#" + id)
+                            .attr("class", "chart")
                             .attr("width", w)
                             .attr("height", h)
                             .data(data)
@@ -248,6 +363,9 @@
                         .innerRadius(inR)
                         .outerRadius(outR);
                     var pie = d3.layout.pie()
+                        .sort(null)
+                        .startAngle(1.1 * Math.PI)
+                        .endAngle(3.1 * Math.PI)
                         .value(function(d) { return d.value; });
                     var arcs = pieSVG.selectAll(".slice")
                         .data(pie(data))
@@ -255,8 +373,19 @@
                             .attr("class", "slice");
 
                     arcs.append("path")
-                        .attr("fill", function(d, i) { return data[i].color; })
-                        .attr("d", arc);
+                        .style("opacity", 0)
+                        .transition().duration(300)
+                            .delay(function(d, i) { return i * 150; })
+                            .style("opacity", 1)
+                            .attr("fill", function(d, i) { return data[i].color; })
+                                .attrTween("d", function(d) {
+                                    var i = d3.interpolate(d.startAngle + 0.1, d.endAngle);
+                                    
+                                    return function(t) {
+                                        d.endAngle = i(t); 
+                                        return arc(d)
+                                    }
+                                });
 
                     arcs.append("text")
                         .text(function(d, i) {
@@ -272,7 +401,11 @@
                         .attr("text-anchor", "middle")
                         .style("font-weight", "bold")
                         .style("fill", "white")
-                        .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black"); // initialize lable outline
+                        .style("text-shadow", "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black") // initialize lable outline
+                        .style("opacity", "0")
+                        .transition().duration(500)
+                                .delay(function(d, i) { return i * 100; })
+                                .style("opacity", 1);
                 }
 
                 d3.json("../json/parliament.json", function(parliamentList) {
@@ -342,44 +475,95 @@
                                     selectedState = d3.select(this);
                                         
                                     $(document).ready(function() {
-                                        $(".popup-content").load("popup-state.html", function() {
-                                            d3.json("../json/demography.json", function(demography) {
-                                                var parliamentResult = election[j].result[i];
-                                                var demographicResult = demography[i].demography.state;
-                                                var stateName = parliamentList[j].state_name;
+                                        d3.select(".popup")
+                                            .style("opacity", 0)
+                                            .transition().duration(300)
+                                                .style("opacity", 1)
+                                                .call(function() {
+                                                    $(".popup-content").load("popup-state.html", function() {
+                                                        d3.json("../json/demography.json", function(demography) {
+                                                            var parliamentResult = election[j].result[i];
+                                                            var demographicResult = demography[i].demography.state;
+                                                            var stateName = parliamentList[j].state_name;
 
-                                                d3.select("#state-name")
-                                                    .text(stateName)
-                                                    .style("fill", "white");
-                                                
-                                                d3.select("#title-male").style("color", "green");
-                                                d3.select("#title-female").style("color", "blue");
+                                                            d3.select("#state-name")
+                                                                .text(stateName)
+                                                                .style("fill", "white");
+                                                            
+                                                            d3.select("#title-male").style("color", "green");
+                                                            d3.select("#title-female").style("color", "blue");
 
-                                                d3.select("#gender-male").text(demographicResult.gender.male);
-                                                d3.select("#gender-female").text(demographicResult.gender.female);
-                                                
-                                                // initialize pie chart
-                                                var genderData = [
-                                                    { "label": "Male", "value": demographicResult.gender.male, "color": "green" },
-                                                    { "label": "Female", "value": demographicResult.gender.female, "color": "blue" }
-                                                ];
-                                                
-                                                /*
-                                                loadBarChart("state-demography",
-                                                    d3.select("#chart-demography"),
-                                                    genderData,
-                                                    { h: 350, w: 190 },
-                                                    { w: 80, hr: 5000 },
-                                                    { x: 20, y: 20 });
-                                                */
-                                                loadPieChart("state-demography",
-                                                    d3.select("#chart-demography"),
-                                                    genderData,
-                                                    250, 250,
-                                                    120, 50);
+                                                            d3.select("#gender-male").text(demographicResult.gender.male);
+                                                            d3.select("#gender-female").text(demographicResult.gender.female);
+                                                            
+                                                            // initialize bar chart
+                                                            var genderData = [
+                                                                { "label": "Male", "value": demographicResult.gender.male, "color": "green" },
+                                                                { "label": "Female", "value": demographicResult.gender.female, "color": "blue" }
+                                                            ];
 
-                                            });
-                                        });
+                                                            if(stateName == "SABAH") {
+                                                                var totalMuslimBumiputera = 0.0,
+                                                                    totalMuslimNonBumiputera = 0.0,
+                                                                    totalChinese = 0.0,
+                                                                    totalOthers = 0.0;
+
+                                                                for(var x=0 ; x<demography[i].demography.parliament.length ; x++) {
+                                                                    totalMuslimBumiputera += parseFloat(demography[i].demography.parliament[x].race.muslim_bumiputera);
+                                                                    totalMuslimNonBumiputera += parseFloat(demography[i].demography.parliament[x].race.non_muslim_bumiputera);
+                                                                    totalChinese += parseFloat(demography[i].demography.parliament[x].race.chinese);
+                                                                    totalOthers += parseFloat(demography[i].demography.parliament[x].race.others);
+                                                                }
+
+                                                                console.log(totalMuslimBumiputera);
+                                                                
+                                                                var ethnicData = [
+                                                                        { "label": "Muslim Bumiputera", "value": demographicResult.race.muslim_bumiputera, "color": setting.colors.race.sabah },
+                                                                        { "label": "Non-Muslim Bumiputera", "value": demographicResult.race.non_muslim_bumiputera, "color": setting.colors.race.sarawak },
+                                                                        { "label": "Chinese", "value": demographicResult.race.chinese, "color": setting.colors.race.chinese },
+                                                                        { "label": "Others", "value": demographicResult.race.others, "color": setting.colors.race.others }
+                                                                    ];
+                                                            } else {
+                                                                var totalMalay = 0.0,
+                                                                    totalChinese = 0.0,
+                                                                    totalIndian = 0.0,
+                                                                    totalSarawak = 0.0,
+                                                                    totalSabah = 0.0,
+                                                                    totalOthers = 0.0;
+
+                                                                for(var x=0 ; x<demography[i].demography.parliament.length ; x++) {
+                                                                    totalMalay += parseFloat(demography[i].demography.parliament[x].race.malay);
+                                                                    totalChinese += parseFloat(demography[i].demography.parliament[x].race.chinese);
+                                                                    totalIndian += parseFloat(demography[i].demography.parliament[x].race.indian);
+                                                                    totalSarawak += parseFloat(demography[i].demography.parliament[x].race.sarawak);
+                                                                    totalSabah += parseFloat(demography[i].demography.parliament[x].race.sabah);
+                                                                    totalOthers += parseFloat(demography[i].demography.parliament[x].race.others);
+                                                                }
+                                                                
+                                                                var ethnicData = [
+                                                                        { "label": "Malay", "value": totalMalay, "color": setting.colors.race.malay },
+                                                                        { "label": "Chinese", "value": totalChinese, "color": setting.colors.race.chinese },
+                                                                        { "label": "Indian", "value": totalIndian, "color": setting.colors.race.indian },
+                                                                        { "label": "Sarawak", "value": totalSarawak, "color": setting.colors.race.sarawak },
+                                                                        { "label": "Sabah", "value": totalSabah, "color": setting.colors.race.sabah },
+                                                                        { "label": "Others", "value": totalOthers, "color": setting.colors.race.others }
+                                                                    ];
+                                                            }
+                                                            
+                                                            loadVerticalBarChart(
+                                                                "state-demography",
+                                                                d3.select("#chart-demography-gender"),
+                                                                genderData,
+                                                                150, 300);
+                                                            loadPieChart(
+                                                                "ethnic-demography",
+                                                                d3.select("#chart-demography-ethnic"),
+                                                                ethnicData,
+                                                                150, 150,
+                                                                70, 30);
+                                                        });
+                                                    });
+                                                });
                                     });
                                     
                                     zoomContainer = svg;
@@ -471,89 +655,95 @@
                                             var parliamentName = parliamentList[j].parliament[i].parliament_name;
 
                                             $(document).ready(function() {
-                                                $(".popup-content").load("popup-parliament.html", function() {
-                                                    d3.select("#title-malay")
-                                                        .style("color", setting.colors.race.malay);
-                                                    d3.select("#title-chinese")
-                                                        .style("color", setting.colors.race.chinese);
-                                                    d3.select("#title-indian")
-                                                        .style("color", setting.colors.race.indian);
-                                                    d3.select("#title-sabah")
-                                                        .style("color", setting.colors.race.sabah);
-                                                    d3.select("#title-sarawak")
-                                                        .style("color", setting.colors.race.sarawak);
-                                                    d3.select("#title-others")
-                                                        .style("color", setting.colors.race.others);
-                                                        
-                                                    d3.select("#parliament-code").text(parliamentResult.parliament_code);
-                                                    d3.select("#parliament-name").text(parliamentName);
-                                                    d3.select("#vote-BN").text(parliamentResult.vote.BN);
-                                                    d3.select("#vote-PH").text(parliamentResult.vote.PH);
-                                                    d3.select("#vote-PAS").text(parliamentResult.vote.PAS);
-                                                    d3.select("#vote-OTH").text(parliamentResult.vote.OTH);
-                                                    d3.select("#candidate-BN").text(parliamentResult.candidate.BN);
-                                                    d3.select("#candidate-PH").text(parliamentResult.candidate.PH);
-                                                    d3.select("#candidate-PAS").text(parliamentResult.candidate.PAS);
-                                                    d3.select("#candidate-OTH").text(parliamentResult.candidate.OTH);
-                                                    d3.select("#race-malay").text(demographicResult.race.malay);
-                                                    d3.select("#race-chinese").text(demographicResult.race.chinese);
-                                                    d3.select("#race-indian").text(demographicResult.race.indian);
-                                                    d3.select("#race-sabah").text(demographicResult.race.sabah);
-                                                    d3.select("#race-sarawak").text(demographicResult.race.sarawak);
-                                                    d3.select("#race-other").text(demographicResult.race.others);
-                                                    
-                                                    d3.selectAll(".tick").style("visibility", "hidden");
-                                                    switch(parliamentResult.winner.party) {
-                                                        case "BN":
-                                                            d3.select("#winner-BN").style("visibility", "visible");
-                                                            break;
-                                                        case "PH":
-                                                            d3.select("#winner-PH").style("visibility", "visible");
-                                                            break;
-                                                        case "PAS":
-                                                            d3.select("#winner-PAS").style("visibility", "visible");
-                                                            break;
-                                                        case "OTH":
-                                                            d3.select("#winner-OTH").style("visibility", "visible");
-                                                            break;
-                                                    }
+                                                d3.select(".popup-content")
+                                                    .style("opacity", 0)
+                                                    .transition().duration(300)
+                                                        .style("opacity", 1)
+                                                        .call(function() {
+                                                            $(".popup-content").load("popup-parliament.html", function() {
+                                                                d3.select("#title-malay")
+                                                                    .style("color", setting.colors.race.malay);
+                                                                d3.select("#title-chinese")
+                                                                    .style("color", setting.colors.race.chinese);
+                                                                d3.select("#title-indian")
+                                                                    .style("color", setting.colors.race.indian);
+                                                                d3.select("#title-sabah")
+                                                                    .style("color", setting.colors.race.sabah);
+                                                                d3.select("#title-sarawak")
+                                                                    .style("color", setting.colors.race.sarawak);
+                                                                d3.select("#title-others")
+                                                                    .style("color", setting.colors.race.others);
+                                                                    
+                                                                d3.select("#parliament-code").text(parliamentResult.parliament_code);
+                                                                d3.select("#parliament-name").text(parliamentName);
+                                                                d3.select("#vote-BN").text(parliamentResult.vote.BN);
+                                                                d3.select("#vote-PH").text(parliamentResult.vote.PH);
+                                                                d3.select("#vote-PAS").text(parliamentResult.vote.PAS);
+                                                                d3.select("#vote-OTH").text(parliamentResult.vote.OTH);
+                                                                d3.select("#candidate-BN").text(parliamentResult.candidate.BN);
+                                                                d3.select("#candidate-PH").text(parliamentResult.candidate.PH);
+                                                                d3.select("#candidate-PAS").text(parliamentResult.candidate.PAS);
+                                                                d3.select("#candidate-OTH").text(parliamentResult.candidate.OTH);
+                                                                d3.select("#race-malay").text(demographicResult.race.malay);
+                                                                d3.select("#race-chinese").text(demographicResult.race.chinese);
+                                                                d3.select("#race-indian").text(demographicResult.race.indian);
+                                                                d3.select("#race-sabah").text(demographicResult.race.sabah);
+                                                                d3.select("#race-sarawak").text(demographicResult.race.sarawak);
+                                                                d3.select("#race-other").text(demographicResult.race.others);
+                                                                
+                                                                d3.selectAll(".tick").style("visibility", "hidden");
+                                                                switch(parliamentResult.winner.party) {
+                                                                    case "BN":
+                                                                        d3.select("#winner-BN").style("visibility", "visible");
+                                                                        break;
+                                                                    case "PH":
+                                                                        d3.select("#winner-PH").style("visibility", "visible");
+                                                                        break;
+                                                                    case "PAS":
+                                                                        d3.select("#winner-PAS").style("visibility", "visible");
+                                                                        break;
+                                                                    case "OTH":
+                                                                        d3.select("#winner-OTH").style("visibility", "visible");
+                                                                        break;
+                                                                }
 
-                                                    // load pie chart
-                                                    var voteData = [
-                                                        { "label": "BN", "value": parliamentResult.vote.BN, "color": setting.colors.parties.BN },
-                                                        { "label": "PH", "value": parliamentResult.vote.PH, "color": setting.colors.parties.PH },
-                                                        { "label": "PAS", "value": parliamentResult.vote.PAS, "color": setting.colors.parties.PAS },
-                                                        { "label": "OTH", "value": parliamentResult.vote.OTH, "color": setting.colors.parties.OTH },
-                                                    ];
-                                                    if(stateName == "SABAH")
-                                                        var demographyData = [
-                                                            { "label": "Muslim Bumiputera", "value": demographicResult.race.muslim_bumiputera, "color": setting.colors.race.sabah },
-                                                            { "label": "Non-Muslim Bumiputera", "value": demographicResult.race.non_muslim_bumiputera, "color": setting.colors.race.sarawak },
-                                                            { "label": "Chinese", "value": demographicResult.race.chinese, "color": setting.colors.race.chinese },
-                                                            { "label": "Others", "value": demographicResult.race.others, "color": setting.colors.race.others }
-                                                        ];
-                                                    else
-                                                        var demographyData = [
-                                                            { "label": "Malay", "value": demographicResult.race.malay, "color": setting.colors.race.malay },
-                                                            { "label": "Chinese", "value": demographicResult.race.chinese, "color": setting.colors.race.chinese },
-                                                            { "label": "Indian", "value": demographicResult.race.indian, "color": setting.colors.race.indian },
-                                                            { "label": "Sarawak", "value": demographicResult.race.sarawak, "color": setting.colors.race.sarawak },
-                                                            { "label": "Sabah", "value": demographicResult.race.sabah, "color": setting.colors.race.sabah },
-                                                            { "label": "Others", "value": demographicResult.race.others, "color": setting.colors.race.others }
-                                                        ];
+                                                                // load pie chart
+                                                                var voteData = [
+                                                                    { "label": "BN", "value": parliamentResult.vote.BN, "color": setting.colors.parties.BN },
+                                                                    { "label": "PH", "value": parliamentResult.vote.PH, "color": setting.colors.parties.PH },
+                                                                    { "label": "PAS", "value": parliamentResult.vote.PAS, "color": setting.colors.parties.PAS },
+                                                                    { "label": "OTH", "value": parliamentResult.vote.OTH, "color": setting.colors.parties.OTH },
+                                                                ];
+                                                                if(stateName == "SABAH")
+                                                                    var demographyData = [
+                                                                        { "label": "Muslim Bumiputera", "value": demographicResult.race.muslim_bumiputera, "color": setting.colors.race.sabah },
+                                                                        { "label": "Non-Muslim Bumiputera", "value": demographicResult.race.non_muslim_bumiputera, "color": setting.colors.race.sarawak },
+                                                                        { "label": "Chinese", "value": demographicResult.race.chinese, "color": setting.colors.race.chinese },
+                                                                        { "label": "Others", "value": demographicResult.race.others, "color": setting.colors.race.others }
+                                                                    ];
+                                                                else
+                                                                    var demographyData = [
+                                                                        { "label": "Malay", "value": demographicResult.race.malay, "color": setting.colors.race.malay },
+                                                                        { "label": "Chinese", "value": demographicResult.race.chinese, "color": setting.colors.race.chinese },
+                                                                        { "label": "Indian", "value": demographicResult.race.indian, "color": setting.colors.race.indian },
+                                                                        { "label": "Sarawak", "value": demographicResult.race.sarawak, "color": setting.colors.race.sarawak },
+                                                                        { "label": "Sabah", "value": demographicResult.race.sabah, "color": setting.colors.race.sabah },
+                                                                        { "label": "Others", "value": demographicResult.race.others, "color": setting.colors.race.others }
+                                                                    ];
 
-                                                    loadPieChart(
-                                                        "parliament-election",
-                                                        d3.select("#chart-election"),
-                                                        voteData,
-                                                        150, 150,
-                                                        70, 30);
-                                                    loadHorizontalBarChart(
-                                                        "parliament-demography",
-                                                        d3.select("#chart-demography"),
-                                                        demographyData,
-                                                        500, 150);
-                                                });
+                                                                loadPieChart(
+                                                                    "parliament-election",
+                                                                    d3.select("#chart-election"),
+                                                                    voteData,
+                                                                    150, 150,
+                                                                    70, 30);
+                                                                loadHorizontalBarChart(
+                                                                    "parliament-demography",
+                                                                    d3.select("#chart-demography"),
+                                                                    demographyData,
+                                                                    500, 150);
+                                                            });
+                                                        });
                                             });
 
                                             d3.select("#btn-popup-close").style("visibility", "visible");

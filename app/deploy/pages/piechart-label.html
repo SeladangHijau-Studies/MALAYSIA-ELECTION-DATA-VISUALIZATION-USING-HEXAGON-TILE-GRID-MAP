@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+        <title>MALAYSIA ELECTION DATA VISUALIZATION USING HEXAGON TILE-GRID MAP</title>
+
+        <link rel="stylesheet" href="../lib/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../lib/css/bootstrap-theme.min.css" />
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../lib/js/jquery-3.3.1.min.js"></script>
+        <script src="../lib/js/d3.min.js"></script>
+        <script src="../lib/js/d3-hexbin.min.js"></script>
+        <script src="../lib/js/bootstrap.min.js"></script>
+        <script>
+            var width = 300,
+                height = 300,
+                inR = 10,
+                outR = 70;
+            var data = [
+                { "label": "Malay", "value": 20, "color": "red" },
+                { "label": "Chinese", "value": 30, "color": "green" },
+                { "label": "Indian", "value": 10, "color": "blue" },
+                { "label": "Sarawak", "value": 20, "color": "black" },
+                { "label": "Sabah", "value": 10, "color": "yellow" },
+                { "label": "Others", "value": 10, "color": "grey" }
+            ];
+
+            var pieSVG = d3.select("#chart").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .data(data).append("g")
+                    .attr("transform", "translate(" + (width/2) + "," + (height/2) + ")");
+
+            var arc = d3.svg.arc()
+                .innerRadius(inR)
+                .outerRadius(outR);
+            var pie = d3.layout.pie()
+                .sort(null)
+                .startAngle(1.1 * Math.PI)
+                .endAngle(3.1 * Math.PI)
+                .value(function(d) { return d.value; });
+            var arcs = pieSVG.selectAll(".slice")
+                .data(pie(data))
+                .enter().append("g")
+                    .attr("class", "slice");
+
+            arcs.append("path")
+                .style("opacity", 0)
+                .transition().duration(300)
+                    .delay(function(d, i) { return i * 150; })
+                    .style("opacity", 1)
+                    .attr("fill", function(d, i) { return data[i].color; })
+                        .attrTween("d", function(d) {
+                            var i = d3.interpolate(d.startAngle + 0.1, d.endAngle);
+                            
+                            return function(t) {
+                                d.endAngle = i(t); 
+                                return arc(d)
+                            }
+                        });
+        </script>
+    </body>
+</html>
